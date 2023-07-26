@@ -1,6 +1,6 @@
 --- 
-title: "YOUR TITLE HERE"
-author: "YOUR NAME HERE"
+title: "Public Finance"
+author: "Jerome Dumortier"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 ---
