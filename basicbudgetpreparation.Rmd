@@ -1,0 +1,42 @@
+# Basics of Budget Preparation
+There is a YouTube video and slides associated with this chapter:
+
+- Basics of Budget Preparation: [Video](https://youtu.be/3ryVkmq3D-c?si=5t5NsMqsLAxCD3AY) and [Slides](https://github.com/jrfdumortier/slidespublicfinance/blob/main/BasicsBudgetPreparation.pdf)
+- Government Accounting: [Slides](https://github.com/jrfdumortier/slidespublicfinance/blob/main/GovernmentAccounting.pdf)
+
+## Exercises
+
+1. ***FAA Budget*** (\*\*): The following table contains information on the [budget](https://www.faa.gov/about/budget/) of the Federal Aviation Administration (FAA) and the [GDP deflator](https://fred.stlouisfed.org/series/USAGDPDEFAISMEI).
+
+     | Item                                     |   2002 |   2017 |
+     |------------------------------------------|-------:|-------:|
+     | Total Actual (in Billion $)              | 13.818 | 15.734 |
+     | GDP Implicit Price Deflator (2010 = 100) |  84.33 | 112.32 |
+
+     Answer the following questions:
+
+     a. Compute the percentage change in FAA's budget in nominal dollars from 2002 to 2017.
+     b. Compute the annual compound growth rate of the FAA's budget in nominal dollars from 2002 to 2017.
+     c. Compute the percentage change in prices from 2002 to 2017.
+     d. Compute the annual compound growth rate in prices from 2002 to 2017.
+     e. Compute the percentage change in FAA's budget in real 2017 dollars from 2002 to 2017.
+     f. Compute the annual compound growth rate of the FAA's budget in real 2017 dollars from 2002 to 2017.
+
+2. ***Real and Nominal Federal Budget*** (\*\*\*): The U.S. Office of Management and Budget (OMB) publishes [historical budget tables](https://www.whitehouse.gov/omb/budget/historical-tables/). For this exercise, consider the following two tables: 
+
+     - Table 1.1: Summary of Receipts, Outlays, and Surpluses or Deficits
+     - Table 3.1: Outlays by Superfunction and Function 
+     
+     Prepare an analysis in both nominal and real dollars (2018 $) of the following data for 1975-2023: (a) Total federal outlays, (b) total defense spending, and (c) total spending on Medicare and Medicaid
+
+3. ***Agency Budget II*** (\*\*\*): In this exercise, you are assigned an agency of the U.S. federal government. You will determine whether the expenditure (as a share of total federal expenditures) for your agency have increased, decreased, or stayed the same over the time period covered in the data. Ignore the years that are estimated. Also, if you have "on-budget" and "off-budget" for your agency, combine the values. Please use basic Excel functions to make the calculations easy for you. You will prepare a table with the following columns to be include in the exercise submission:
+
+     - `Year`
+     - `GDP Deflator`: Go to webpage [Federal Reserve Economic Data](https://fred.stlouisfed.org) and search for "Gross Domestic Product: Implicit Price Deflator" which will lead you to access data about the GDP Deflator. Note that the default setting is "quarterly"  but that you need annual data. Click on "Edit Graph"  and change the frequency to "Annual." Download the data and paste it into the column.
+     - `Nominal Federal Outlays`: In this column, you paste the expenditure from the federal government.
+     - `Nominal Department Outlays`:
+     - `Real Federal Outlays`: Based on the GDP Deflator, calculate the outlays of the federal government in real terms.
+     - `Real Department Outlays`: Based on the GDP Deflator, calculate the outlays of your department in real terms.
+     - `Annual Growth Rate for Federal Outlays`: Calculate the year-to-year change in expenditure for the federal government.
+     - `Annual Growth Rate for Department Outlays`: Calculate the year-to-year change in expenditure for your department.
+     - `Share of Department Outlays`: Determine whether the outlays (as a share of total outlays) for your assigned department of the U.S. federal government have increased, decreased, or stayed the same over the time period covered in the table

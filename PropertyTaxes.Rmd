@@ -1,0 +1,45 @@
+# Property Taxes
+
+Property Taxes
+What triggers the tax?
+•	Real property: Land, improvements (house)
+•	Exemption for some types of Real property
+o	Public property, burial grounds, places of religious worship
+o	Education institutions, public charities, nonprofit hospitals
+o	Must be owned and used for intended purpose to be exempted
+Tax base:
+•	The base is the market value of the property
+•	Measuring base requires
+o	Identifying ownership of property
+o	Identify use of property
+o	Identifying changes to property
+•	These three can be hard to determine
+o	How to identify ownership and changes (e.g., to buildings)?
+•	Determine Market value:
+o	Generally done at the local level but done at the state level in some states
+o	Not an easy task; value must be legally defensible if subject to appeal
+•	Value is usually based on market value, which assumes 
+o	Non-forced sale between willing buyer and willing seller
+o	Markets have adequate time to function
+o	Full information about parcel of property that is for sale
+•	Generally defensible since there are actual transactions available for comparison
+•	Assessment methods:
+o	Assessment on sale: reassessment takes place when property is sold
+	California, Florida and Michigan
+	Deedless sales to avoid adjustment in tax liability
+o	Comparable sales approach:
+	Residential properties
+	Using large amounts of market transaction data
+o	Cost approach
+	For industrial (and utility) properties: calculate the reproduction or replacement cost
+•	Understand the two different tax relief measures, i.e., homestead exemption and circuit breaker. 
+•	The required readings are:
+o	Chapter 13 The Property Tax.pdf
+
+## Exercises
+
+1. What is the difference between a circuit breaker and a homestead exemption in relationship to property taxes?
+
+2. In an annual budget message, one city's mayor remarked, “I am particularly pleased that due to our sound financial planning and careful budgeting, no property tax increase is needed this year.” Yet a careful examination of the detailed budget submitted by the mayor showed expected property tax revenue in this coming year to be 10 percent greater than in the previous year. How can you explain the apparent contradiction in the mayor's statement and proposed budget?
+
+

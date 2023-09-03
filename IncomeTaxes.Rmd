@@ -1,0 +1,46 @@
+# Income Taxes
+
+Income Taxes
+•	Arguments for income taxation
+o	Equity because it measures ability to pay.
+o	Equity because it can be adjusted to the circumstances of the individual (note that households are taxed and not individuals)
+	Example of purchasing book: The sales tax on the book does not discriminate based on the purchasing power of the buyer. What is the counter argument here? (Richer person may purchase more books). 
+o	Tax yield: More income (higher economic growth) leads to more tax revenue
+•	Arguments against income taxation
+o	Some argue that consumption may be the much measure
+	Individual income tax in complicated and not transparent
+	Little association between taxes paid and work of government.
+o	Economic effects: Discourages savings and investment (think back about the issues that arose from debt financing).
+•	Go over the Haig-Simons definition of income
+•	Components:	
+o	Income: 
+	Wages, salaries, interest, stock dividends, rents, etc.
+o	Adjustments: 
+	Alimony payments, job-related moves, Individual Retirement Account (IRA), retirement contributions, student loan interest deduction, deductions to reduce the private provision of health insurance
+	It is not sensible to assist individuals because of their poverty and then tax away part of that assistance. (this relates to low income)
+	Note that unemployment compensation is fully taxable. 
+	No tax on state and local debt allows governments to tax below market rates. Make the 35% marginal tax rate, 5.2% (non taxable), 8% (taxable)
+	Net proceeds excluded from AGI
+•	Interest received from state and local bonds
+•	Transfer payments such as welfare, social security, food stamps, fringe benefits from employers, income from savings placed on life insurance, gifts, and inheritances
+•	Unrealized capital gains and imputed income
+o	Personal deductions (itemized deductions): Standard or Itemized
+	Three types of spending for itemized personal deduction:
+•	Outside the control of the household  
+o	Medical and dental expenses above a certain percentage of AGI
+o	State, local, and property taxes
+•	Categories where private spending should be encouraged:
+o	Charitable contributions
+o	Interests paid on home mortgages
+•	Other (skip)
+o	Note that if you are in a category with a higher marginal tax rate, you have the incentive to invest more in tax reducing (legal) activities. This reduces the progressivity of the system.
+•	The required readings are:
+o	Mikesell – Income Taxes.pdf
+
+## Exercises
+
+1.	A proposed state income tax would require individuals with income of $15,000 or less to pay no tax, and those with incomes above $15,000 to pay a tax of 10 percent only on the part of their income tax that exceeds $15,000. 
+a.	Could an individual pay an average tax rate of 7.5 percent under this system?
+b.	Could an individual pay an average tax rate of 10 percent under this system?
+c.	What average and marginal tax rates would individuals with these income levels face: $10,000, $20,000, $40,000, and $150,000? (This would not be an exam question but is good practice to understand the difference between marginal and effective tax rate.)
+d.	Explain each of your answers and provide examples to justify your conclusions.

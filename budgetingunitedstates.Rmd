@@ -1,0 +1,34 @@
+# Budgeting in the United States
+There is a YouTube video and slides associated with this chapter:
+
+- Budgeting in the United States: [Video](https://youtu.be/bV7ngmXHi3E?si=UYESGlB54m3YZQEz) and [Slides](https://github.com/jrfdumortier/slidespublicfinance/blob/main/BudgetingUnitedStates.pdf)
+
+## Exercises
+
+1. ***Agency Budget III*** (\*\*): Use the following federal agencies for this exercise: Fish and Wildlife Service, Forest Service, Bureau of Land Management, Bureau of Reclamation, National Oceanic and Atmospheric Administration, U.S. Geological Survey, Army Corps of Engineers, Environmental Protection Agency, and U.S. Coast Guard. You will be able to locate the answers in the Budget of the United States Government, available through the OMB website.
+
+     a. Determine where each agency lies in the administrative structure of the federal government. Is it in an executive department or is it an independent agency?
+     b. Determine which of the appropriation subcommittees has jurisdiction over each agency's budget request.
+     c. Determine where each agency's operations fall in the functional classification of the budget.
+     d. Pick one agency and, for a recent budget year, determine (1) the budget authority and outlays proposed for the agency, and (2) the actual outlays and budget authority for the agency in that year.
+
+2. ***Federal Budget Deficit*** (\*\*\*): Read the August 2018 report from the Congressional Budget Office (CBO) which is titled [The Deficit Reductions Necessary to Meet Various Targets for Federal Debt](https://www.cbo.gov/publication/54181). Note that the table of content indicates a "Summary" which contains most of the answers to the following questions:
+
+     a. What is the difference between constant-share scenarios and growing-share scenarios?
+     b. What are the effects on income per person (Gross National Product or GNP per person in the report) from reducing the deficit under various scenarios?
+     c. Reducing the federal deficit can be accomplished by either increasing taxes or decreasing spending. What do you think are some of the economic, demographic, and political difficulties that arise while deciding which deficit-reducing policy to implement?
+     d. How has the COVID-19 pandemic and its associated change in the economic and fiscal environment changed the projections outlined in the report. 
+
+3. ***Mandatory versus Discretionary Spending*** (\*): Why does only about 30\% of all federal spending go through the annual appropriation process? Has that always been the case or were there periods where more than 30\% of spending needed to go through appropriation? If yes, why has it changed over time?
+
+4. ***State Budgets*** (\*\*): Identify the key elements below of your state's (see sheet \emph{Department and State Assignment} in \texttt{Homework 2.xlsx} on Canvas) budget process and budget. The National Association of State Budget Officers (NASBO) provides much of this information in its publication [Budget Processes in the States](https://www.nasbo.org/reports-data/budget-processes-in-the-states).
+     
+     a. Does your state have an annual or biennial budget?
+     b. Which functions does the budget agency execute in your state? E.g, economic analysis, audits?
+     c. What veto power, if any, does the governor have? How many votes does it take to override the governor's veto?
+     d. Is the state's budget easily accessible on a state run website?
+     e. Access the most recent (proposed) budget document and identify, to the extent possible, what policy priorities are identified in the report.
+
+5. ***Terminology*** (\*): Explain the difference between rescission, sequestration, impoundment, and deferrals?
+
+6. ***Antideficiency Act*** (\*): The Antideficiency Act of 1870 states *"that it shall not be lawful for any department of the government to expend in any one fiscal year any sum in excess of appropriations made by Congress for that fiscal year, or to involve the government in any contract for the future payment of money in excess of such appropriations."* Explain why the federal government can run a budget deficit despite the language in the Antideficieny Act?

@@ -1,2 +1,82 @@
 # Introduction
+This chapter serves as an introduction to budgeting and public finance. There are YouTube videos and slides associated with this chapter:
 
+- Introduction to Public Finance: [Video](https://youtu.be/DJgiLuHViOk) and [Slides](https://github.com/jrfdumortier/slidespublicfinance/blob/main/Introduction.pdf)
+- Monetary Values over Time: [Video](https://youtu.be/t2bxcZF4pq4) and [Slides](https://github.com/jrfdumortier/slidespublicfinance/blob/main/TimeValueMoney.pdf)
+- Role of Government in the Economy: [Video](https://youtu.be/W0R9ZmbHb1I) and [Slides](https://github.com/jrfdumortier/slidespublicfinance/blob/main/RoleGovernment.pdf)
+
+## Course Overview
+The following topics are covered in this book:
+
+- **Introduction to Government Finance and Budgets**: Three topics are covered in this chapter: (1) Size of federal expenditures (outlays) and revenue, (2) role of government in the economy, and (3) data sources. A large emphasize in the chapter is on the purpose of taxation and government intervention in the economy. Topics such as externalities, public goods, and imperfect competition are covered that all justify government's role in the economy.
+
+- **Basics of Budget Preparation**
+
+- **Budgeting in the United States**: This chapter covers aspects of Federal, state, and local budgets specific to the United States. 
+
+- **Budget Methods and Format**
+
+- **Cost Analysis**: To prepare a budget, institutions need to know the cost associated with service provision. This chapter covers cost accounting and estimation as well as cost allocation.
+
+- **Capital Budgeting**: Purchasing assets that are used multiple years (e.g., bridges, public school buildings, infrastructure in general) require assessment of future cost and benefits, which are covered in this section. 
+
+- **Introduction to Government Revenue**: Compared to the previous chapters, which focus on the expenditure side of government activities, this chapter introduce the revenue side. General aspects of taxation such as equity, adequacy of revenue production, collectability, and economic effects are covered. 
+
+- **Income Taxes**: Individual and corporate income taxes
+
+- **Taxes on Goods and Services**: Sales taxes, gasoline and diesel taxes, etc.
+
+- **Property Taxes**: The majority of revenue for local governments to be spent on education or public safety  comes from property taxes.
+
+- **Other Revenue Sources**: There are also other revenue sources such as fees and state lotteries. Fees are for publicly provided services (e.g., driver’s license)
+
+- **Debt Management**
+
+- **Revenue Forecasting and Estimation**
+
+## Role of Government in the Economy
+Public finance is concerned with the role of government in the economy. The field addresses questions such as the following:
+
+- Why do governments intervene in the economy?
+- How do governments intervene in the economy?
+- What are the economic effects of government intervention?
+
+## Exercises
+
+1. ***Government Intervention*** (\*): There are various reasons why governments intervene in the economy. Describe three reasons that justify government's role in the economy. Each reason must include a definition of the concept and a discussion of why the government is required to address the identified problem.
+
+2. ***Businesses and Education*** (\*): Private businesses have a great interest in quality primary and secondary education because today's students are tomorrow's employees. However, private businesses make limited financial contributions to this sector of education (excluding the taxes they pay to public school systems) even to market-oriented programs like vouchers and charter schools.
+
+     a. What kind of good is primary and secondary education?
+     b. Identify the characteristics of the good you identified in part (a) and explain how primary and secondary education satisfies these characteristics.
+     c. Given your response to parts (a) and (b) above, does it surprise you that private firms contribute so little to primary and secondary education? Explain?
+
+3. ***Smoking*** (\*): One rationale for imposing taxes on cigarette consumption is that smokers impose negative externalities on the rest of society for example through secondhand smoking. In the absence of taxation, will people tend to consume too much, too little, or the right amount of cigarettes?
+
+4. ***Public Good*** (\*): A community project (a public good) will cost $2,500 and will benefit the five residents of the community as indicated in the table below. Answer the following question:
+
+     a. Are the benefits of this project bigger than the costs?
+     b. Would the project be approved by a majority at a referendum?
+     c. Does the project meet the Pareto Criterion?
+     d. Does the project meet the Kaldor-Hicks Criterion?
+
+     |  Resident | Individual Benefit | Cost Share |
+     |:---------:|-------------------:|-----------:|
+     |     A     |                800 |        500 |
+     |     B     |                800 |        500 |
+     |     C     |                300 |        500 |
+     |     D     |                350 |        500 |
+     |     E     |                450 |        500 |
+     | **Total** |           **2700** |   **2500** |
+
+5. ***Fishing*** (\*): There are various indications that the fish population in some fisheries is declining (see for example [Are cod 'severely depleted' in the Gulf of Maine? Why fishermen, scientists view ocean depths differently](https://news.northeastern.edu/2023/02/15/atlantic-cod-gulf-of-maine-fishing-stocks/). To stop the depletion, fishing bans have been imposed in various regions globally ([Frank et al., 2005](https://doi.org/10.1126/science.1113075)). Explain the problem associated with fishing in the context of excludability and rivalry in consumption.
+
+6. ***Agency Budget I*** (\*\*\*): This exercise involves learning to read and use information in public budgets. As part of this assignment you will be looking at a budget of an U.S. federal agency. First, pick an agency (do not pick a state) from [A-Z index of U.S. government departments and agencies](https://www.usa.gov/federal-agencies) and make sure that the agency publishes a budget online. Download the budgeting information of the agency. Review the agency's budget and answer the questions below. Note that every budget will not provide sufficient information to answer all of these questions. If the information is not available, you should note this in your answers.
+
+     a. What is the mission of this agency?
+     b. What are the major programs carried out by this agency?
+     c. What is the percent increase in total requested expenditures for the next year over the last year’s budget?
+     d. What object of expenditure category is the largest? Which is growing the fastest?
+     c. Is the number of personnel (full-time equivalent also known as FTE) in the agency growing, and is the growth rate faster or slower than the personnel budget (in dollars)?  What does this tell you about changes in average salaries?
+
+7. ***Real vs. Nominal Income*** (\*): Assume that your income in year 1 is \$200 and that the prices of raspberries and orange juice are \$20 and \$10, respectively. In year 2, the prices of raspberries and orange juice are \$22 and \$11, respectively. Assume that you fully exhausted your income in both years to purchase raspberries and orange juice and that you purchase the same quantities of those items in both years. Did your income increase if you earned $210 in year 2? Distinguish between real and nominal income. How much money do you need to earn in year 2 to have the same real income in both years? 

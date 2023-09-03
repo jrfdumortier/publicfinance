@@ -1,0 +1,17 @@
+# Consumption Taxes
+
+Consumption Taxes
+•	Various consumption taxes	
+o	General sales tax (like in Indiana) and in many states: Tax levied on all consumption items. Certain items are excluded such as food and services. 
+o	Excise tax: Tax on a specific commodity, e.g., tobacco, alcohol, gasoline, diesel. 
+•	Taxes differentiated by stage of production (e.g., resource supply, manufacturers, wholesale, retail
+•	Retail tax (e.g., sales tax) is implemented at the last stage
+•	Value-added tax (VAT) is implemented at each stage and only the value-added is taxes. 
+•	Understand the advantages of the VAT tax
+o	Multiple actors along the stages of production are reporting the tax payment to the government in order to get reimbursed. 
+o	Since the VAT is a self-enforcing tax (due to the reporting at multiple stages), tax rates are significantly higher (15% and above) than under a general sales tax. 
+•	On the exam, there will probably be a question about sales tax and its effect on income distribution similar to the questions 1 and 2 on the last homework. Again, no calculations will be required but the ability to interpret the effects. 
+
+## Exercises
+
+1. Why are value-added tax rates higher in Europe than the sales taxes in the U.S.?
