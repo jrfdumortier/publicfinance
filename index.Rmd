@@ -7,3 +7,5 @@ site: bookdown::bookdown_site
 
 # Preface
 This book serves as an introduction to budgeting and public finance. The end of each chapter has a set of exercises to practice the covered concepts. The last chapter provides case studies which require more in-depth analysis than the exercises. This book is continuously updated which is one of the advantages of publishing on GitHub. Some chapters also include YouTube videos and the channel containing the videos is titled [Economics, Statistics, and Public Finance](https://www.youtube.com/@econstatspublicfinance). Links to specific videos are included in the respective sections as well.
+
+There are also [formatting instructions](https://github.com/jrfdumortier/publicfinance/blob/main/AssignmentFormatting.pdf) regarding the homework assignments and case studies.
