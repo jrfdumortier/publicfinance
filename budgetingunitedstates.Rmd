@@ -2,6 +2,35 @@
 There is a YouTube video and slides associated with this chapter:
 
 - Budgeting in the United States: [Video](https://youtu.be/bV7ngmXHi3E?si=UYESGlB54m3YZQEz) and [Slides](https://github.com/jrfdumortier/slidespublicfinance/blob/main/BudgetingUnitedStates.pdf)
+- [Federal Government Budget Infographic](https://github.com/jrfdumortier/slidespublicfinance/blob/main/FederalBudgetInfographic.pdf)
+
+## Federal Budget Cycle
+In general, the federal budget cycle involves four steps:
+
+1. Executive preparation
+2. Legislative review and approval
+3. Budget implementation
+4. Audit and evaluation
+
+Tasks and functions of agencies and institutions involved in the budget:
+
+- Executive branch agency: Office of Management and Budget
+- Legislative branch agency: Congressional Budget Office
+- House and Senate subcommittees, appropriation bills, etc.
+
+Other concepts to know:
+
+- Mandatory versus discretionary spending
+- Federal deficit: Consequences
+- Political, economic, and demographic factors contributing to the change in spending and the federal budget deficit
+
+## Current Services Baseline
+Current Services Estimate (see CBPP [The Current Services Baseline: A Tool for Understanding Budget Choices](https://www.cbpp.org/research/state-budget-and-tax/the-current-services-baseline-a-tool-for-understanding-budget-choices))
+
+- Baseline or benchmark *"reflecting this year’s enacted policies and programs for each year in the future"*
+- Part of supporting material (e.g., current services budget)
+
+Submission of President's annual budget and supporting materials to Congress
 
 ## Exercises
 

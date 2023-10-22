@@ -1,0 +1,89 @@
+# Cost Accounting and Analysis
+This chapter covers cost accounting and cost analysis. The purpose of cost accounting is to assign costs to services, categories, and mission centers.
+
+- Direct cost: Cost that can be assigned to a specific mission center
+- Indirect cost: Cost that cannot be assigned to a specific mission center
+
+The allocation of cost to mission centers involves several steps:
+
+1. Identify mission centers
+2. Identify units of activity/output for each mission center
+3. Identify expenditure categories
+4. Linking costs to mission centers
+5. Identify allocation factors
+6. Determine how costs vary with output
+7. Develop key rates
+
+## Break-Even Analysis: Municipal Solid Waste (MSW) Collection
+The city department for municipal solid waste (MSW) collection serves about 250,000 households per year who all own one garbage container. 
+
+```{r,echo=FALSE}
+containers          = 0:500
+collectionfee       = 2
+fc_administration   = 35
+fc_equipmentlease   = 85
+vc_landfill         = 1
+vc_operating        = 0.4
+revenue             = data.frame(value=containers*collectionfee,
+                                 containers,item="Revenue")
+cost                = data.frame(value=fc_administration+fc_equipmentlease+
+                                      (vc_landfill+vc_operating)*containers,
+                                 item="Total Cost",containers)
+profit              = data.frame(value=revenue$value-cost$value,item="Profit/Loss",containers)
+msw                 = rbind(revenue,cost,profit)
+ggplot(msw,aes(y=value,x=containers,color=item))+geom_line()+ylab("in 1,000 USD")+
+     theme_bw()+theme(legend.title=element_blank(),legend.position="bottom")+
+     xlab("Number of Containers (in 1,000)")+
+     geom_segment(aes(x=200,y=-120,xend=200,yend=1000),color="black",linetype="dashed")
+```
+
+## Hoosier County Road Department
+Suppose you are the director of the Hoosier County road department. The mission of the department is to maintain the 500 miles of county roads, which are are either paved or gravel. Any new road construction in the county is carried out by the state's Department of Transportation (DOT). Your department's revenue comes from the DOT that will reimburse the county at a fixed rate per mile of road maintained. All employees of your department work full time and on average 225 days per year. All maintenance personnel receives the same salary and fringe benefits, which total $60,000 current employee per year.
+
+The following is a summary of the activity and cost information that was put together for FY 2014.  For simplicity no inflation was assumed in the initial cost analysis for FY 2015.			
+
+Using this information, you have laid out a series of tasks that you need to complete before you can get a handle on the road department budget.
+
+1. Identify the mission centers for the Hoosier County road department and the output measures of those centers.
+2. Determine which costs you can link directly to a mission center and which are indirect.
+3. The next step is to determine how each cost category varies with output by identifying fixed, variable, step, and semi-variable costs.
+4. Using this information calculate appropriate cost rates and develop a unit cost table with each mission center. How large is the deficit compared to the state reimbursement rate?
+5. Assume staff can work up to the maximum productivity rate--by how much does this reduce the deficit?
+6. Do a flexible budget for Heartland County Road Department, assuming that output varies by 20% above and below last year's output level. What happens to unit costs and the deficits? (You can assume that the indirect fixed costs for each mission center remain the same as in part d.)
+7. What would happen to the amount of miles of gravel roads maintained if there was a 20% cut in the budget for gravel roads. (You can assume that the indirect fixed costs for gravel roads remains the same as in part d.)
+8. Determine what would happen to per unit and total deficits if the county dropped maintenance of paved roads. (You can assume that the state department of transportation will take it over.) Does this reduce the deficit per unit and in total?
+9. If a private contractor agreed to take over paving roads for \$7,000 per mile, should the Department accept this contract?
+
+Break even analysis if the county will outsources the cost to a contractor. What is their willingness to pay?
+
+## Personnel Budget
+To illustrate the preparation of a personnel budget for a police department (PD), assume that you are responsible for the budget construction of O'Neill PD. Given the population size of the district, you need nine patrol cars at any given time. Patrols are 24 hours per day and 365 days per year. For safety reasons, each patrol requires two officers per car. Those officers work eight hour shifts per day on five days per week. All officers receive three weeks of vacation and and sick leave (i.e., two weeks of vacation and one week of sick leave). The salary per police officer is \$61,200 with 30\$ fringe benefits. The estimation of the personnel budget requires four steps:
+
+1. **Calculation of personnel hours needed**: 24 hours per day $\times$ 365 days per year $\times$ 2 officers per car $\times$ 9 patrols = 157,680 hours
+2. **Calculation of provided hours per officer**: One officer works 49 weeks (52 minus three weeks) and eight hours per day. Given that the officer works for five days per week, the number provided is 49 weeks $\times$ 5 days per week $\times$ 8 hours per day = 1,960 hours
+3. **Required number of full-time officers**: 157,680 divided by 1,960 = 80.45. Hence, the budget needs to be done of 81 police officers. Given that the service level is required and no overtime is assumed, the number of police officers is rounded up.
+4. **Salary and fringe benefit costs**: Given the salary of \$61,200, the fringe benefits are an additional \$18,360. Hence the total budget is 81 $\times$ \$79,560 = \$6,444,360.
+
+## Exercises
+1. (\*\*\*) The manager of a municipal ice rink is concerned that the flow of patrons may not be sufficient to maintain the long-standing policy of keeping the rink on a self-supporting basis. Revenues come mainly from the hourly rental of ice time which is set by the city and skate rental (i.e., a certain share of patrons rent skates). The manager knows the average ice time per patron over the last 3 years. Salaries, scheduled maintenance, and other overhead expenditures are also know these costs do not vary with the number of patrons. Costs that vary with the number of patrons are estimated in $ per patron hour. The manager would like to know the number of patrons required to break-even, i.e., where total revenues equals to total cost. In your Excel file, you have information about the following:
+
+- Hourly rental rate which is expressed in $ per hour per patron
+•	Skate rental which is expressed in $ per pair
+•	Hours spent at ice rink expressed in hours per patron
+•	Share of patrons renting skates, e.g., 0.25 means that 25% of patrons rent their skates 
+•	Overhead expressed in $ per year
+•	Variable Cost expressed in $ per patron
+•	Average number of patrons per year which is the average number of patrons over the last 5 years
+
+Calculate the following assuming the average number of patrons per year:
+
+1.	Total revenue from patrons using the ice rink
+2.	Total revenue from skate rental
+3.	Total revenue (ice rink use and skate rental)
+4.	Total variable cost
+5.	Total cost (overhead plus variable cost)
+6.	Profit or loss (total revenue-total cost)
+
+What is the number of patrons necessary to break even (i.e., to make neither profit not loss). Should the manager be concerned given the current number of users?
+
+(\*\*\*) Some NPV questions comparing projects

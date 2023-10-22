@@ -1,0 +1,52 @@
+# Case Studies
+
+## Farm-to-Table 4 All
+Farm-to-Table 4 All is a nonprofit 501(c)(3) organization providing healthy food choices in low income neighborhoods. Dena, Eric, and Cullen are its founders and current directors and believe that nutritious food choices are part of a healthy lifestyle. They have three restaurant locations: North, East, and South. At all three locations and every day, those restaurants serve meals including a small appetizer and a dessert. 
+
+They are considering opening a fourth location (West) and need to construct a personnel budget comprised of cooks and servers. The fourth location is projected to serve 300 meals per day. Here is a list of information they have compiled from the other locations
+
+- **Worker Productivity**: One cook can prepare 140 meals per day. One server can handle 105 customers per day.
+- **Work Time**: Each employee works five days a week.
+- **Wage**: Cooks earn \$34 per hour and servers earn \$19 per hour.
+- **Fringe Benefits**: The fringe benefits (i.e., retirement contribution, Social Security, and unemployment insurance) amount to 21.2% of the total salary cost. In addition, the cost for health insurance amounts to \$100 per employee per month.
+- **Weekend Bonus**: Since the restaurant will be open every day, Farm-to-Table 4 All will need to pay a salary bonus of 25% for work during the weekend. 
+- **Vacation Time**: All employees have ten paid vacation days. 
+
+Provide the three founders with a detailed personnel budget to deliver 300 meals a day and given the above parameters. The expenses need to be calculated for a year, i.e., it will be an annual budget. The following components should be included in the budget (separated by cooks and servers):
+
+1. **Workload calculations and personnel needed**: In a first step, calculate the meals served per year, which is straight forward. Next, calculate the work (in days per year) that can be delivered by the cooks and servers. This allows you to calculate the number of cooks and servers you need (round up). 
+2. **Base salary budget**: Calculate the hours per year that cooks and servers are working. This calculation is necessary since the wage is given in \$ per hour. Make sure to include the vacation days as well.    
+3. **Weekend salary budget**: Calculate how many employees you need on weekends and how much you have to pay them just for working on the weekend. 
+4. **Total budget**: In a last step, combine the numbers of the base and weekend salary and add the fringe benefits. This final step should give you the total personnel budget.
+
+The three founders asked you to keep the budget flexible to assess the effects of key parameters on the cost. Specifically, they are interested how the following situations affect the bottom line:
+
+1. Increase in the hourly wage by 15\% for both cooks and servers. This may be necessary to overcome the labor shortage. 
+2. Decrease in the number of meals served to 250 due to higher prices and consumers decreasing their restaurant visits. 
+
+## State Tax Refrom
+You were just elected state governor. The central promise of your election campaign was to reform the state's tax system to make it more progressive. There are ten households in your state and each spends their money on three items: Gasoline, food, and other goods. There are large variations of income and spending patterns across the three categories in your state. Let $M$ represent the income of the household. The prices for gasoline, food, and other goods are $P_{GAS}$, $P_{FOOD}$, $P_{OTHER}$, respectively. The quantity demanded (i.e., Q_{GAS}, Q_{Food}, and Q_{OTHER}) of each households depends on the demand parameters $\alpha_{GAS}$, $\alpha_{FOOD}$, and $\alpha_{OTHER}$. The demand functions can be written as follows.
+$$Q_{GAS}=\frac{\alpha_{GAS}}{\alpha_{GAS}+\alpha_{FOOD}+\alpha_{OTHER}}\cdot \frac{M}{P_{GAS}}$$
+$$Q_{FOOD}=\frac{\alpha_{FOOD}}{\alpha_{GAS}+\alpha_{FOOD}+\alpha_{OTHER}}\cdot \frac{M}{P_{FOOD}}$$
+$$Q_{OTHER}=\frac{\alpha_{OTHER}}{\alpha_{GAS}+\alpha_{FOOD}+\alpha_{OTHER}}\cdot \frac{M}{P_{OTHER}}$$
+Besides the demand functions, the following information characterize your state's tax system:
+
+- State income tax rate measured in % of household income
+- State sales tax rate (in %) added to the price of food and other goods. The sales tax is is not applied to gasoline.
+- Gasoline tax in dollars per unit of quantity demanded. 
+
+You can obtain the retail prices (relevant for the demand equations) by applying the taxes to the wholesale prices. Before considering any options to reform the tax system, you must calculate the current tax expenditures and effective tax rates to obtain a baseline. You are considering various options to reform the tax system to make the overall taxes more regressive:
+
+- Exempting food purchases from the sales tax and uniformly (i.e., for all incomes) raising the income tax
+- Exempting food purchases from the sales tax and increasing the income tax for households above a certain threshold
+- Lowering the gasoline tax and uniformly (i.e., for all incomes) raising the income tax
+
+There are certain constraints associated with all those scenarios. 
+
+- You cannot change the sales tax rate and gasoline tax by household. Those taxes have to be changed for all households.
+- The revenue generated across all three taxes cannot decrease. That is, the state is providing services that are paid for by the tax revenue. 
+
+Since you are a politician and are already thinking about re-election, the case study should include the number of people who are better and worse off under the various regimes. The write-up of the case study should evaluate the baseline and three scenarios in terms of progressiveness of the tax as well as impact on the households compared to the baseline. Evaluate the advantages and disadvantages of all scenarios.
+
+
+

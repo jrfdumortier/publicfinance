@@ -1,62 +1,126 @@
 # Introduction to Government Revenue
 
-Introduction to Government Revenue
-•	Taxes have a significant effect on the private economy
-•	Equity and efficiency effects of different taxes
-•	Do low-income taxpayers bear a disproportionately high burden of a certain tax? 
-•	What impact does a particular tax have on consumer and business decisions?
-•	Federal revenue
-o	Primarily from personal and corporate income taxes and the payroll tax (financing social security).
-o	No federal sales or property taxes.
-o	Most famous excise tax: Gasoline tax
-•	State
-o	Sales and excise taxes
-o	Personal income tax
+Overview
 
-•	Local
-o	Property and general sales tax, user fees, state and federal aids
-•	Overview of the major criteria for evaluating tax policies:
-o	Efficiency
-	Economic efficiency is achieved when there is no way to redistribute the resources of a society in order to increase the welfare of at least one more citizen without making others worse off. Example: sales tax on bread
-	Consumers: Introduction of a sales tax on bread leads to substitution away from bread towards alternatives such as rice and potatoes. Inferior to bread because otherwise consumers would have purchased them before. 
-	Producers: Change in the after-tac price (price received by the producer versus price paid by the consumer) of bread. In addition to the reduction in demand, producers will be worse off as well. 
-	If producers and consumers did not react to a tax, there would not be an efficiency loss. 
-	What economic decisions will this tax change? All modern taxes cause some change in economic behavior.
-	How much will consumers and producers change their behavior in response to this tax?
+- Taxes have a significant effect on the private economy
+- Equity and efficiency effects of different taxes
+- Do low-income taxpayers bear a disproportionately high burden of a certain tax? 
+- What impact does a particular tax have on consumer and business decisions?
+
+Federal revenue
+
+- Primarily from personal and corporate income taxes and the payroll tax (financing social security).
+- No federal sales or property taxes.
+- Most famous excise tax: Gasoline tax
+
+State
+
+- Sales and excise taxes
+- Personal income tax
+
+Local
+
+- Property and general sales tax, user fees, state and federal aids
+
+## Tax Evaluation Criteria
+
+## Efficiency
+
+- Economic efficiency is achieved when there is no way to redistribute the resources of a society in order to increase the welfare of at least one more citizen without making others worse off. 
+
+- Example: sales tax on bread
+
+     - Consumers: Introduction of a sales tax on bread leads to substitution away from bread towards alternatives such as rice and potatoes. Inferior to bread because otherwise consumers would have purchased them before. 
+     - Producers: Change in the after-tac price (price received by the producer versus price paid by the consumer) of bread. In addition to the reduction in demand, producers will be worse off as well. 
+
+- If producers and consumers did not react to a tax, there would not be an efficiency loss. 
+
+Questions to consider:
+
+- What economic decisions will this tax change? All modern taxes cause some change in economic behavior.
+- How much will consumers and producers change their behavior in response to this tax?
+
+     - Which do you think consumers are going to be more responsive to, a tax increase on gasoline or pizza? The answer to the second question thus will depend on whether there are good alternatives or substitutes to the goods which are taxed. The more good substitutes there are, the more the efficiency loss from a tax.
+
+•	Income versus substitution effect: 
+o	Suppose coffee costs \$3/cup, tea costs \$2/cup, and a bagel costs \$2, and that you have \$24 in income. Also assume that you prefer coffee over tea, but you also want to have a bagel every morning.
+o	With these preferences, you buy a coffee and bagel four days of the week, and tea and bagel on one day of the week. So, 4 coffee and 1 tea.
+o	Suppose now that a $1 per unit tax is placed on coffee. Now you have to buy 2 coffee and 3 tea.
+o	There are two forces at work here: The added tax means you have less money to spend on coffee and tea. This is called the income effect. The tax also means that coffee is now relatively more expensive than tea. Before the tax, one coffee cost 1.5 tea. Whereas after the tax, one coffee costs 2 teas. This will cause you to substitute away from coffee toward tea; i.e., substitution effect.
+•	Income effect is similar to a transfer
+o	You lose, but the gov’t gains
+o	So society hasn’t lost anything
+o	Is this true? Suppose gov’t wastes the tax revenue?
+o	Substitution effect is the source of the efficiency cost of taxation
+•	Every tax generally has two types of burden:
+o	Tax burden 
+o	Excess burden
+o	Total tax burden= tax burden + excess burden	
+	Excess burden is another way of saying efficiency cost of taxation.
+	Excess burden also called deadweight loss
+•	Discuss difference between 
+o	accounting relationship; R=t*B
+economic relationship; R=t*B(t)	
+
+Efficiency
+•	Economic efficiency is achieved when there is no way to redistribute the resources of a society in order to increase the welfare of at least one more citizen without making others worse off
+•	Example of a sales tax on bread
+o	Consumers: Introduction of a sales tax on bread leads to substitution away from bread towards alternatives such as rice and potatoes. Inferior to bread because otherwise consumers would have purchased them before. 
+o	Producers: Change in the after-tac price (price received by the producer versus price paid by the consumer) of bread. In addition to the reduction in demand, producers will be worse off as well. 
+•	If producers and consumers did not react to a tax, there would not be an efficiency loss. 
+•	Questions to consider:
+o	What economic decisions will this tax change? All modern taxes cause some change in economic behavior.
+o	How much will consumers and producers change their behavior in response to this tax?
 	Which do you think consumers are going to be more responsive to, a tax increase on gasoline or pizza? The answer to the second question thus will depend on whether there are good alternatives or substitutes to the goods which are taxed. The more good substitutes there are, the more the efficiency loss from a tax.
-o	Equity
-	Benefits principle
-•	An equitable tax system is one in which each taxpayer contributes in line with the amount of benefits they receive from the service provided.
-•	Example 1: Fuel taxes
-•	Example 2: Family with two children should be a higher property tax (which is in part used for education) than a family with one child. 
-•	Advantage: Conservation of public resources
-•	Disadvantage: 
+
+
+### Equity
+Benefits principle
+An equitable tax system is one in which each taxpayer contributes in line with the amount of benefits they receive from the service provided.
+Example 1: Fuel taxes
+Example 2: Family with two children should be a higher property tax (which is in part used for education) than a family with one child. 
+Advantage: Conservation of public resources
+Disadvantage: 
 o	General tax such as income cannot be linked to specific service
 o	Does not redistribute income and would probably encourage governments to collect revenue in the form of user fees for many basic services
-•	Benefits principle has been used as a justification for local user fees for services such as water, sewer, garbage, etc.
-	Ability-to-pay principle
-•	Horizontal equity: Same ability to pay should pay equally
+Benefits principle has been used as a justification for local user fees for services such as water, sewer, garbage, etc.
+Ability-to-pay principle
+Horizontal equity: Same ability to pay should pay equally
 o	Income as an easy measure for ability to pay but other factors that might influence “ability to pay” include wealth, number of children, medical expenses (from varying health conditions), and lifetime earning potential, among others.
-•	Vertical equity: Different abilities to pay should pay differently
+Vertical equity: Different abilities to pay should pay differently
 o	Effective tax rate
 o	Effective tax rates by income class can be plotted to determine if a tax is progressive. A progressive tax is one where the effective tax rate goes up as income increases. A proportional tax is where the ETR stays the same. And for a regressive tax, the ETR goes down as income increases.
 o	Determining vertical equity  involves asking two questions:
-	Who pays the tax? (Tax Incidence) (see below)
-	How does the tax affect income distribution? (see below)
-	Determining the tax incidence:
-•	In economics you will examine the concept of tax incidence using supply and demand curves. In this class, we will focus on intuitive explanations of this concept. Let us say that bread costs $1.00 per loaf and the sales tax rate is 10 cents per loaf. Producers of bread will have to pay 10 cents to the government for every loaf of bread they sell. Of course, producers will attempt to pass on this tax increase in the form of higher prices, raising bread prices initially to $1.10 per loaf. If consumers have poor substitutes for bread, they may react little to this tax, and instead absorb the price increase. In this case, consumers will “bear the full burden” of the tax in the form of higher prices and have less income to spend on other commodities. However, we would expect that at least some consumers will react by substituting other grain products for bread. By reducing their consumption of bread, they are causing a glut in the bread market – bread remains unsold at present prices. What happens when there is a glut? Producers begin to lower their price. Assume that bread producers have to lower the price to $1.06 per loaf to sell all the bread. Since they also have to pay a tax of $0.10 per loaf to the government, the price they receive after tax is now $0.96. So the price they receive has dropped by 4 cents. In this case the 10 cent/loaf tax is paid 60% by consumers in the form of higher prices and 40% by producers in the form of lower “after-tax” prices they receive.
-	Determining the effects on income distribution
-•	Which income groups are affected by the tax?
-•	E.g. tax on bread: Bread as a necessity and thus, likely high share of income is spent on bread by low-income consumers. Other example, think about fuel taxes, income, and fuel efficiency. We would expect that producers or stockholders in bread companies are likely to be middle to upper income. This would imply that the portion of the bread tax paid by producers is likely to be progressive.
-o	Adequacy 
-	Refers to how much revenue can be generated at reasonable tax rates. Generally, it is desirable to find taxes with a broad base, such as the income, sales or property taxes, since a lot of revenue can be generated from the tax at reasonable rates when the tax base is broad. The interest in reasonable tax rates arises for two reasons:
-	It is politically unpopular and horizontally inequitable to tax one segment of the economy much higher than other segments. Using our bread tax as an example, if the state of New York tried to raise most of its revenue from a bread tax, this would unduly burden consumers and producers of bread; and
-	Raising tax rates may actually lead to the case where total tax revenue goes down as tax rate increases cause more and more people to make choices that allow them to avoid the tax.
-o	Stability
-	Since it is difficult for governments to make dramatic changes in their expenditure programs, public officials ideally would like revenue sources that are stable.
-	Example: Sales tax on gasoline
-	Definition: stability is measured as the change in tax revenue in a given year over the tax revenue of the previous year.
-	For example, public officials would be alarmed if the property tax revenue fluctuated by 20% every year. It would be very difficult to come up with firm budgets, and the government may be forced to borrow or cut back on services if there was a significant drop in revenue.
-	As you may have guessed there may be a tradeoff between the stability of tax and its elasticity. An elastic tax is one which is responsive to changes in its tax base. However, this implies that tax revenue will not only go up with the tax base, it will go down when the tax base shrinks. In other words, an elastic tax may also be an unstable tax. Ideally, you want to find a tax which grows with its base (elastic) and where the tax base itself experiences stable growth.
+Who pays the tax? (Tax Incidence) (see below)
+How does the tax affect income distribution? (see below)
+Determining the tax incidence:
+In economics you will examine the concept of tax incidence using supply and demand curves. In this class, we will focus on intuitive explanations of this concept. Let us say that bread costs $1.00 per loaf and the sales tax rate is 10 cents per loaf. Producers of bread will have to pay 10 cents to the government for every loaf of bread they sell. Of course, producers will attempt to pass on this tax increase in the form of higher prices, raising bread prices initially to $1.10 per loaf. If consumers have poor substitutes for bread, they may react little to this tax, and instead absorb the price increase. In this case, consumers will “bear the full burden” of the tax in the form of higher prices and have less income to spend on other commodities. However, we would expect that at least some consumers will react by substituting other grain products for bread. By reducing their consumption of bread, they are causing a glut in the bread market – bread remains unsold at present prices. What happens when there is a glut? Producers begin to lower their price. Assume that bread producers have to lower the price to $1.06 per loaf to sell all the bread. Since they also have to pay a tax of $0.10 per loaf to the government, the price they receive after tax is now $0.96. So the price they receive has dropped by 4 cents. In this case the 10 cent/loaf tax is paid 60% by consumers in the form of higher prices and 40% by producers in the form of lower “after-tax” prices they receive.
+Determining the effects on income distribution
+Which income groups are affected by the tax?
+E.g. tax on bread: Bread as a necessity and thus, likely high share of income is spent on bread by low-income consumers. Other example, think about fuel taxes, income, and fuel efficiency. We would expect that producers or stockholders in bread companies are likely to be middle to upper income. This would imply that the portion of the bread tax paid by producers is likely to be progressive.
 
+### Adequacy 
+Refers to how much revenue can be generated at reasonable tax rates. Generally, it is desirable to find taxes with a broad base, such as the income, sales or property taxes, since a lot of revenue can be generated from the tax at reasonable rates when the tax base is broad. The interest in reasonable tax rates arises for two reasons:
 
+1. It is politically unpopular and horizontally inequitable to tax one segment of the economy much higher than other segments. Using our bread tax as an example, if the state of New York tried to raise most of its revenue from a bread tax, this would unduly burden consumers and producers of bread; and
+2. Raising tax rates may actually lead to the case where total tax revenue goes down as tax rate increases cause more and more people to make choices that allow them to avoid the tax.
+
+### Stability
+Since it is difficult for governments to make dramatic changes in their expenditure programs, public officials ideally would like revenue sources that are stable.
+
+Example: Sales tax on gasoline
+
+Definition: stability is measured as the change in tax revenue in a given year over the tax revenue of the previous year.
+
+For example, public officials would be alarmed if the property tax revenue fluctuated by 20% every year. It would be very difficult to come up with firm budgets, and the government may be forced to borrow or cut back on services if there was a significant drop in revenue. As you may have guessed there may be a tradeoff between the stability of tax and its elasticity. An elastic tax is one which is responsive to changes in its tax base. However, this implies that tax revenue will not only go up with the tax base, it will go down when the tax base shrinks. In other words, an elastic tax may also be an unstable tax. Ideally, you want to find a tax which grows with its base (elastic) and where the tax base itself experiences stable growth.
+
+## Exercises
+
+(***) In the Homework 4 folder on Canvas, you find the following files :
+1.	State Tax Collection.xlsx which contains the tax revenue by state and year for various taxes. Note that for the questions below, only use the columns that start with a T such as T01, T09, etc. The columns starting with a C are aggregate revenues based on the columns starting with a T. For example, the sum of T10, T11, T12, T13, T14, T15, T16, and T19 is equal to C109.  
+2.	State Tax Collection.pdf which contains explanatory notes on the Excel file. Note that the Excel file is relatively self-explanatory and you should consult the file just in case of any issues. 
+
+Please answer the following questions:
+1.	What are the three major tax revenue sources used by your assigned state government in the most recent year? Hint: For each tax, calculate tax revenue as a share of total tax revenue. Select the three taxes with the largest shares.
+2.	Use the three major tax revenue sources you identified in part 1 above to answer the following questions
+3.	How rapidly have these taxes grown between 1994 and the most recent year? What may explain the trends you observe? Hint: Calculate the simple year-to-year growth rate for each. Plot a graph of the growth rates against time between 1994 and the most recent year.

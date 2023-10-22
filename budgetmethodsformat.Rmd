@@ -1,0 +1,89 @@
+# Budget Methods and Format
+There is a YouTube video and slides associated with this chapter:
+
+- Budgeting in the United States: [Video]() and [Slides](https://github.com/jrfdumortier/slidespublicfinance/blob/main/BudgetMethodsFormat.pdf)
+
+## Budget Philosophy
+Budgets can be centered around (1) inputs, (2) outputs, or (3) outcomes.
+
+## Line Item Budget
+Characteristics
+
+- Expenditure by commodity or resource purchased
+- General cost categories are personnel services, operating expenditures, and capital outlays
+- Control and accountability are main foci
+- Input orientation and no input substitution (related this to economics and the production function). 
+- No information about activities and functions
+
+Primary organization feature
+
+- Resources purchased
+
+Orientation
+
+- Control
+
+## Program Budget
+Characteristics
+
+- Expenditure by activities serving a common public purpose
+- Not limited to single government organization
+- Common areas include: Public safety, public works (infrastructure, roads), human resources, general government
+- Organize budget format and execution around service provision
+- Programs with similar objectives are grouped together
+- Disadvantage: 
+
+     - Requires crosswalk
+     - How to determine the programs (multiple competing objectives)
+
+Primary organization feature
+
+- Achievements, final product, outcome, or consumer output
+
+Orientation:
+
+- Planning
+
+Below is an example of a possible program structure for a city. The example is taken from [Alan W. Steiss's lecture notes on program budgeting](https://www-personal.umich.edu/~steiss/page24.html) at the University of Michigan:
+
+1. **Public Safety**: (a) Law Enforcement, (b) Traffic Safety, (c) Fire Safety, (d) Maintenance of Public Order, (e) Prevention & Control of Other Hazards, and (f) Administration & Support
+
+2. **Housing & Community Development**: (a) Housing Standards & Code Enforcement, (b) Community Improvement, and (c) Administration & Support
+
+3. **Transportation**: (a) Traffic Control & Accessibility, (b) Street Development & Maintenance, (c) Mass Transportation, and (d) Administration & Support
+
+4. **Environmental Enhancement & Protection**: (a) Environmental Health, (b) Water Services, (c) Sewer Services, (d) Sanitation Services, (e) Environmental Code Enforcement, and (f) Administration & Support
+
+5. **Human Resources**: (a) Conservation of Health, (b) Personnel, Payroll & Benefits, (c) Vocational Rehabilitation, (d) Public Health Services, (e) Ambulance & Rescue Squad Services
+
+6. **Education**: (a) Public Schools, (b) Adult &Vocations Education, (c) Community College Services, and (d) Higher Education Opportunities
+
+7. **Recreation & Culture**: (a) Recreation & Parks, (b) Youth Opportunities, (c) Cultural Enrichment (inc. Libraries), and (d) Administration & Support
+
+8. **Economic Development**: (a) Industrial Development & Promotion, (b) Job Opportunity Development, (c) Consumer Protection & Regulation, and (d) Administration & Support
+
+9. **Finance & Revenue**: (a) Financial Operations (inc. Purchasing), (b) Assessment & Tax Collections, (c) Internal Audit & Records, (d) Recorder of Deeds, and (c) Administration & Support
+
+10. **Executive Director & General Support**: (a) City Council, (b) Executive Management, (c) Budget and Control, (d) City Planning, (e) Human Relations & Affirmative Action, (f) Voter Registration & Elections, (g) Community Relations, (h) General Service Administration Support
+
+## Performance Budget
+Characteristics
+
+- Expenditure by workload or activity
+- Presentation of unit cost by activity
+
+Primary organization feature
+
+- Tasks, activities, or direct output performed
+
+Orientation
+
+- Management
+
+## Exercises
+
+1. How has the composition of federal, state, and local government spending changed over the past 40 years? What social and economic factors might have contributed to this change in how governments spend their funds?
+2. In class, we have looked at four problems that can arise from the federal budget deficit: (1) Lower long-term economic growth, (2) payments to foreign investors, (3) reduced ability to respond to important issues, and (4) debt monetization. Explain each of those four issues in two sentences.
+3. Explain the difference ``means-tested'' and ``non-means tested'' with regard to mandatory spending such as Medicaid and Medicare.
+4. What are the various components of a budget?
+5. Describe the advantages and disadvantages associated with a (1) line item budget, (2) performance budget, and (3) program budget.

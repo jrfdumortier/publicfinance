@@ -1,4 +1,7 @@
 # Introduction
+```{r,echo=FALSE,results=FALSE,warning=FALSE,message=FALSE}
+library(ggplot2)
+```
 This chapter serves as an introduction to budgeting and public finance. There are YouTube videos and slides associated with this chapter:
 
 - Introduction to Public Finance: [Video](https://youtu.be/DJgiLuHViOk) and [Slides](https://github.com/jrfdumortier/slidespublicfinance/blob/main/Introduction.pdf)
@@ -77,6 +80,8 @@ Public finance is concerned with the role of government in the economy. The fiel
      b. What are the major programs carried out by this agency?
      c. What is the percent increase in total requested expenditures for the next year over the last year’s budget?
      d. What object of expenditure category is the largest? Which is growing the fastest?
-     c. Is the number of personnel (full-time equivalent also known as FTE) in the agency growing, and is the growth rate faster or slower than the personnel budget (in dollars)?  What does this tell you about changes in average salaries?
+     e. Is the number of personnel (full-time equivalent also known as FTE) in the agency growing, and is the growth rate faster or slower than the personnel budget (in dollars)?  What does this tell you about changes in average salaries?
+     f. What information does this budget give you on the productivity and performance of this agency? 
+     g. What information would you like to have to be able to assess the ‘efficiency’ and ‘effectiveness’ of this agency?
 
 7. ***Real vs. Nominal Income*** (\*): Assume that your income in year 1 is \$200 and that the prices of raspberries and orange juice are \$20 and \$10, respectively. In year 2, the prices of raspberries and orange juice are \$22 and \$11, respectively. Assume that you fully exhausted your income in both years to purchase raspberries and orange juice and that you purchase the same quantities of those items in both years. Did your income increase if you earned $210 in year 2? Distinguish between real and nominal income. How much money do you need to earn in year 2 to have the same real income in both years? 

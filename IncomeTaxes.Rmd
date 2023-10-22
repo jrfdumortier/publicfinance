@@ -1,17 +1,24 @@
 # Income Taxes
+This chapter covers income as a tax base. There is a YouTube video and slides associated with this chapter:
 
-Income Taxes
-•	Arguments for income taxation
-o	Equity because it measures ability to pay.
-o	Equity because it can be adjusted to the circumstances of the individual (note that households are taxed and not individuals)
+- [Income Taxes - Video](https://youtu.be/DJgiLuHViOk)
+- [Income Taxes - Slides](https://github.com/jrfdumortier/slidespublicfinance/blob/main/IncomeTaxes.pdf) 
+
+## Overview
+There are three prominent tax bases: Income, consumption, and property. Whereas this chapter presents income taxation, the subsequent chapters cover consumption and property taxes. Note that those taxes are levied mostly at the state and local level since there is neither a sales nor a property tax at the federal level. Keep in mind that with respect to income taxes in the United States, households are taxed and not individuals.  
+
+Let us first cover some arguments in favor of and income taxation. On one hand, the income taxation fulfills the tax evaluation criteria of equity since it measures ability to pay. The tax can also be adjusted to the circumstances of the individual household. In addition, the income tax is also adequate with regard to tax yield. That is, if households have increasing incomes (i.e., due to economic growth), government revenue increases as well. On the other hand, income taxation has some adverse economic effects since it discourages savings and investment of households since those returns are taxed. Some argue that there is also little association between income taxation and the good and services provided by the government. There is also the argument that the individual income tax is complicated and not very transparent. 
+
+## Haig-Simons Definition
+The Haig-Simons definition of income that it is equal to the value of consumption plus the change in net wealth during the year. This is similar to the economic definition of income as the sum of consumption and savings. Sometimes savings are referred to as net savings because the term can also be negative (i.e., representing a decrease in savings). 
+
+
+
 	Example of purchasing book: The sales tax on the book does not discriminate based on the purchasing power of the buyer. What is the counter argument here? (Richer person may purchase more books). 
-o	Tax yield: More income (higher economic growth) leads to more tax revenue
-•	Arguments against income taxation
+
 o	Some argue that consumption may be the much measure
-	Individual income tax in complicated and not transparent
-	Little association between taxes paid and work of government.
-o	Economic effects: Discourages savings and investment (think back about the issues that arose from debt financing).
-•	Go over the Haig-Simons definition of income
+
+## Components of 
 •	Components:	
 o	Income: 
 	Wages, salaries, interest, stock dividends, rents, etc.
@@ -38,9 +45,53 @@ o	Note that if you are in a category with a higher marginal tax rate, you have t
 o	Mikesell – Income Taxes.pdf
 
 ## Exercises
+1. ***Federal Income Tax Calculation*** (\*\*\*): Consider the following marginal tax table for a married couple
 
-1.	A proposed state income tax would require individuals with income of $15,000 or less to pay no tax, and those with incomes above $15,000 to pay a tax of 10 percent only on the part of their income tax that exceeds $15,000. 
+     |     Over |   Below | Tax Rate |
+     |---------:|--------:|---------:|
+     |        0 |  19,050 |      10% |
+     |   19,051 |  77,400 |      12% |
+     |   77,401 | 165,000 |      22% |
+     |  165,001 | 315,000 |      24% |
+     |  315,001 | 400,000 |      32% |
+     |  400,001 | 600,000 |      35% |
+     |  600,001 |         |      37% |
+
+
+1. (\*\*\*) A proposed state income tax would require individuals with income of \$15,000 or less to pay no tax and those with incomes above \$15,000 to pay a tax of 10 percent only on the part of their income tax that exceeds $15,000. 
 a.	Could an individual pay an average tax rate of 7.5 percent under this system?
 b.	Could an individual pay an average tax rate of 10 percent under this system?
-c.	What average and marginal tax rates would individuals with these income levels face: $10,000, $20,000, $40,000, and $150,000? (This would not be an exam question but is good practice to understand the difference between marginal and effective tax rate.)
+c.	What average and marginal tax rates would individuals with these income levels face: $10,000, $20,000, $40,000, and $150,000?
 d.	Explain each of your answers and provide examples to justify your conclusions.
+
+2. (\*\*) Dena is in the 10% federal income tax bracket and wants to invest $8,000 in interest-earning assets. Cullen is in the 35% bracket and wants to invest $15,000. The current rate on a typical high-quality tax-exempt municipal bond is 5% and on a similar quality corporate bond is 6.5%.
+You are the financial adviser to both. Which investment would you recommend to each individual?
+
+3. (***)
+| Category                         |   Value |
+|----------------------------------|--------:|
+| Salaries                         | 65,000  |
+| Interest income, corporate bonds |  1,000  |
+| Interest income, municipal bonds |  1,500  |
+| State and local income taxes     |    800  |
+| Real estate taxes                |    750  |
+| General sales taxes              |    750  |
+| Home mortgage interest           |  3,350  |
+| Credit card interest             |    500  |
+| Cash contributions to charities  |    250  |
+| Interest on education loans      |    500  |
+| Hospital and doctor expenses     |  1,500  | 
+
+In class, we have seen that the personal exemptions are suspended until 2025. What I want you to do in this exercise is to compare the situation pre- and post- the new tax legislation. Do not worry about inflation for this exercise.
+•	In 2017, the standard deduction was $12,700. The personal exemption was $4,050 per person.
+•	In 2018, the standard deduction was $24,000. Personal exemptions were $0.
+
+For both years, find the respective tax brackets for joint filings and compute the following:
+1.	Adjusted gross income
+2.	Taxable income
+3.	Average tax rate
+4.	Effective tax rate
+5.	Marginal tax rate
+
+In which year is the family better off? Please support your answers with numbers. 
+
