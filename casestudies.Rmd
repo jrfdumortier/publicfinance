@@ -35,7 +35,7 @@ Besides the demand functions, the following information characterize your state'
 - State sales tax rate (in %) added to the price of food and other goods. The sales tax is is not applied to gasoline.
 - Gasoline tax in dollars per unit of quantity demanded. 
 
-You can obtain the retail prices (relevant for the demand equations) by applying the taxes to the wholesale prices. Before considering any options to reform the tax system, you must calculate the current tax expenditures and effective tax rates to obtain a baseline. You are considering various options to reform the tax system to make the overall taxes more regressive:
+You can obtain the retail prices (relevant for the demand equations) by applying the taxes to the wholesale prices. Before considering any options to reform the tax system, you must calculate the current tax expenditures and effective tax rates to obtain a baseline. You are considering various options to reform the tax system to make the overall taxes more progressive:
 
 - Exempting food purchases from the sales tax and uniformly (i.e., for all incomes) raising the income tax
 - Exempting food purchases from the sales tax and increasing the income tax for households above a certain threshold
