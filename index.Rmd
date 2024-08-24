@@ -2,6 +2,7 @@
 title: "Public Finance"
 author: "Jerome Dumortier"
 date: "`r format(Sys.time(),'%d %B %Y')`"
+output: pdf_document
 site: bookdown::bookdown_site
 ---
 

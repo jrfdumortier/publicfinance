@@ -38,8 +38,32 @@ o	Chapter 13 The Property Tax.pdf
 
 ## Exercises
 
-1. What is the difference between a circuit breaker and a homestead exemption in relationship to property taxes?
+1. ***Mayor's Statement*** (\*\*\*): In their annual budget message, a mayor announces that they are *"pleased that due to sound financial planning and careful budgeting, property tax rates will not increase."* Yet, the city's revenue from property taxes is expected to increase by more than 10% according to the budget. Assuming the statement of the mayor to be correct, explain the discrepancy between the statement and the budget.
 
-2. In an annual budget message, one city's mayor remarked, “I am particularly pleased that due to our sound financial planning and careful budgeting, no property tax increase is needed this year.” Yet a careful examination of the detailed budget submitted by the mayor showed expected property tax revenue in this coming year to be 10 percent greater than in the previous year. How can you explain the apparent contradiction in the mayor's statement and proposed budget?
+2. ***Property Tax Equity Characteristics*** (\*\*\*): Property taxes are based on the *benefits principle* and measure *ability-to-pay* based on home value. Explain how the property tax is related to both principles. In addition, for each of the two principles (i.e., benefits principle and ability-to-pay), provide one scenario in which the property tax fails to satisfy the principle.
 
+3. ***Homestead Exemption versus Circuit Breaker*** (\*\*\*): There are two families with different income and different home values. The current property tax rate is 1%. The mayor of the town has asked you to evaluate two proposals: (1) Homestead exemption and (2) a circuit breaker. The homestead exemption amounts to \$10,000 on the assessed value of owner-occupied residential property. The circuit breaker credit ($CB$) is equal to $CB=PT–b \cdot I$. The variables $PT$, $I$, and $b$ are the property tax payment, income, and share of income considered to be a high, respectively. When the property tax payment exceeds the acceptable property tax burden, i.e., $b \cdot I$, the difference is the income tax credit. If $b \cdot I>PT$, then the credit is set equal to zero. Complete the table below based on the information given. Evaluate all three tax systems (i.e., current, homestead exemption, and circuit breaker) in terms of vertical equity (based on income).
 
+     | Information                                       | Family A  | Family B  |
+     |:--------------------------------------------------|----------:|----------:|
+     | Total Income                                      | $40,000   | $80,000   |
+     | Assessed Value                                    | $110,000  | $160,000  |
+     | Property tax rate                                 | 1%        | 1%        |
+     | Homestead exemption                               | $10,000   | $10,000   |
+     | Property tax burden parameter                     | 1%        | 5%        |
+     | ***Existing Tax System***                         |           |           |
+     | Property tax amount                               |           |           |
+     | ETR (income)                                      |           |           |
+     | ***Homestead exemption***                         |           |           |
+     | New tax base after applying homestead exemption   |           |           |
+     | Property tax amount                               |           |           |
+     | ETR (income)                                      |           |           |
+     | ***Circuit breaker***                             |           |           |
+     | New tax base after applying circuit breaker       |           |           |
+     | Property tax amount                               |           |           |
+     | Acceptable property tax burden                    |           |           |
+     | Circuit breaker tax credit                        |           |           |
+     | Property taxes minus credit                       |           |           |
+     | ETR (income)                                      |           |           |
+
+4. ***Property Taxes and Public Services*** (\*\*\*): 

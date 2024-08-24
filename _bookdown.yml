@@ -3,8 +3,7 @@ output_dir: docs
 delete_merged_file: true
 edit: https://github.com/jrfdumortier/publicfinance/edit/main/%s
 view: https://github.com/jrfdumortier/publicfinance/blob/main/%s
-rmd_files: ["index.rmd","introduction.rmd","basicbudgetpreparation.rmd","budgetingunitedstates.rmd",
-"budgetmethodsformat.rmd","casestudies.rmd"]
+rmd_files: ["index.rmd","introduction.rmd"]
 language:
   ui:
     chapter_name: ""
