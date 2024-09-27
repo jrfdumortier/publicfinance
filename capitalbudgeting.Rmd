@@ -1,14 +1,157 @@
 # Capital Budgeting
 
-## Steps in Capital Budgeting
+Capital budgeting is the planning process for the acquisition of large capital assets. In this chapter, we are going to cover the following topics:
 
-## Capital Assets in the Federal Budget Process
-A-11 gives rules for budgeting for federal capital assets, A-94 gives rules for discounting future returns.
+1. Capital assets and expenditures
+2. Capital budgeting process
+3. Capital asset financing options
+4. Net present value
+5. Cost benefit analysis
 
-Analytical Perspectives section of budget reports federal investment spending by category:  physical capital investment, research and development, and education and training.
-Show federal example
-2016 copy: Pages 303-314
+There are also a YouTube [video](https://youtu.be/aC51T8UI-Cw?si=9UMkqwM6DmwmJRQA) and [slides](https://github.com/jrfdumortier/slidespublicfinance/blob/main/CapitalBudgeting.pdf) associated with this chapter
 
-National Income and Product Accounts track the cost of federal capital assets as they are consumed (estimated depreciation)
+## Capital Assets and Expenditures
+From an economic viewpoint, capital assets have a useful life of more than one year whereas from an accounting perspective, capital assets have a purchase price above a certain dollar amount. Capital assets are inputs in the production process of private goods (e.g., manufacturing facility) and public goods (e.g., schools, hospitals, fire stations, infrastructure). 
 
-But capital expenditures are controlled by the annual appropriations, not special budget process.
+Capital expenditures are outlays to purchase capital assets and have implications beyond a single financial period and high initial cost on large tangible projects. Those expenditures are non-recurring except for operation and maintenance covered by recurrent budgets. Since a large infrastructure investment has a lifetime beyond one year, borrowing of capital to support capital expenditures is appropriate due to service provision over multiple years. This ensures that current tax payers are not responsible to cover the entire capital expenditure and that future residents pay their appropriate share.
+
+## Capital Budgeting Process
+There are multiple reasons for a capital budgeting process, which is distinct from the process for recurrent budgets. First, there are long-term (permanent) consequences of acquiring a capital asset. Capital projects often provide services over many years or decades, with taxpayers bearing the costs over the asset's lifespan (inter-generational equity). The process separates capital expenditures from the recurrent budget and accounts for the time gap between initial outlays and future benefits. Second, technical risks (e.g., operating electric buses for the first time in a public transportation network) stemming from the one-time nature of many projects, and financial risks related to the future burden of debt financing need to be assessed prior to investment. Third, a long-term perspective on infrastructure stabilizes tax rates because expenditures are spread out over time, which reduces the immediate tax burden. The key steps in the capital budgeting process can be summarized as follows:
+
+1. Identification of current capital asset inventory and future needs
+2. Project evaluation and selection
+3. Planning of financing and long-term financial analysis
+4. Implementation of the capital budget and project management
+5. Post-implementation activities such as operations, maintenance, and asset management
+
+Note that due to the size of the federal government, there is no formal federal capital budgeting process since no single project would limit spending in other areas.
+
+### Inventory of Capital Assets and Future Needs
+The current inventory of facilities involves evaluating factors such as the age, condition, usage, capacity, and replacement cost. This assessment may also include estimates for renovation, replacement, expansion, or retirement of facilities, with the possibility of incorporating some of those expenditures into the recurrent budget.
+
+In terms of service characteristics, it is important to consider the current and future cost per unit of service provided by these facilities. The ideal situation would involve having an asset management plan that details the list of capital assets, associated maintenance costs, and other relevant information. Such a plan would serve as the foundation for decisions regarding the expansion of facilities and the planning of capital maintenance projects.
+
+A vision regarding the future direction for the (local) economy, land-use, and development often precedes a plan to acquire capital assets. Such a vision (or plan) forecasts the need for future facilities (e.g., roads, sewage, libraries) given community growth and economic development. It estimates demand for services such as parks, transportation, offices, and residential needs. Here are some example for such plans:
+
+- [Strategic Asset Managment Plan for Berkeley, California](https://github.com/jrfdumortier/publicfinance/blob/main/AMPBerkeley.pdf)
+- [Indianapolis Parks and Recreation](https://github.com/jrfdumortier/publicfinance/blob/main/AMPIndyParks.pdf)
+- [Carmel Comprehensive Plan 2022](https://github.com/jrfdumortier/publicfinance/blob/main/CarmelComprehensivePlan2022.pdf)
+
+You can also find some additional information at [Government Finance Officers Association (GFOA): Master Plans and Capital Improvement Planning](https://www.gfoa.org/materials/master-plans-and-capital-improvement-planning)
+
+Let us have a closer look at the [Saint Paul for All 2040 Comprehensive Plan](https://www.stpaul.gov/departments/planning-and-economic-development/planning/citywide-plans/2040-comprehensive-plan). Major trends informing the comprehensive plan policy are climate change, aging housing stock and infrastructure, constrained financial resources to pay for city services and facilities, and changing demographics. The plan identifies challenges and opportunities for the future including (1) equity, (2) growth and density, (3) economic development and opportunity sites, (4) climate change mitigation, adaptation, and resiliency, (5) designing a city for all ages and abilities, (6) fostering the next generation, and (7) new technologies and their impact on development patterns.
+
+### Project Evaluation and Selection
+The cost of a project includes various components such as research and development, legal and other associated fees, as well as the construction cost itself. Beyond the initial outlay, life-cycle expenses must also be considered, including the costs of ongoing operation and maintenance, as well as major repairs throughout the project's lifespan.
+
+When evaluating a project, its overall effectiveness should be compared against the option of renovating existing facilities. This comparison should take into account both the project cost and the associated life-cycle expenses. Additionally, the appropriateness of the project should be assessed based on its alignment with the priorities outlined in the master plan.
+
+A Capital Improvement Plan (CIP) is a multi-year strategic plan that provides detailed information, documentation, and justification for various capital projects, including the construction of new facilities as well as the renovation and replacement of existing ones. It outlines the financial and timing aspects of these projects, specifying cost and financing details, and ensuring the proper sequencing of work, such as installing sewer lines and utility cables before repaving roads.
+
+The CIP is typically updated on an annual basis to reflect new priorities and emerging needs. It offers several advantages, such as providing a multi-year perspective for long-range policy development, aligning community goals with financial capacity, and fostering public consensus through a dynamic planning process. Additionally, the CIP serves as a critical financial management tool, assisting with credit ratings and acting as a comprehensive reporting document.
+
+The CIP development process is guided by executive directions that establish project priorities. Cost estimates are provided by various agencies based on their needs, and the process may also include input from citizens to ensure that the plan reflects the community's concerns and expectations.
+
+### Financing Plan and Long-Term Financial Analysis
+After the selection of projects has been made, long-term financial projections and a financing plan is developed. This includes projecting tax revenue and baseline expenditures over time. There are two financing options for capital projects and acquisitions: Pay-as-you-go and pay-as-you-use.
+
+"Pay-as-you-go" financing refers to funding capital projects using current revenue sources rather than incurring debt. For example, infrastructure investments may be financed through motor fuel taxes or other non-debt sources such as grants from state or federal governments, as well as accumulated reserves.
+
+This approach offers several advantages. First, it eliminates the need for interest payments, reducing the overall cost of the project. It also preserves the option to borrow for other projects in the future, providing financial flexibility. 
+
+However, pay-as-you-go financing also has disadvantages. It may necessitate increases in taxes or fees to generate the necessary revenue, which can be unpopular or politically challenging. There may also be a misalignment between the timing of payments and the benefits of the capital asset, as current taxpayers bear the full cost of an asset that will provide benefits over many years. Additionally, reliance on this method can result in underinvestment in capital assets if sufficient revenue is not available to fund all necessary projects.
+
+"Pay-as-you-use" financing involves funding capital projects through debt, such as bonds or other debt instruments issued by the government. The repayment of this debt is spread over the lifetime of the asset, ensuring that future users contribute to its cost. Leasing is another form of this approach, where the use of assets is paid for over time.
+
+The main advantages of pay-as-you-use financing include the avoidance of immediate tax increases and a better alignment between the timing of payments and the benefits provided by the capital asset. This ensures that future generations, who will also benefit from the asset, share in its costs.
+
+However, the approach comes with disadvantages. Debt service can place significant constraints on the operating budget, as funds are allocated toward repaying the debt rather than other needs. Additionally, relying on debt financing can lead to a high debt burden, potentially affecting the government's credit rating and financial stability in the long term.
+
+Possibility of combination between pay-as-you-go and pay-as-you-use financing
+
+### Financial Analysis over Capital Asset Lifetime
+A comprehensive financial analysis over the lifetime of a capital asset considers several factors that impact the project's revenue capacity, borrowing potential, and long-term financial viability.
+
+The revenue capacity refers to the ability to generate own-source revenue and the proportion of that revenue available for capital investments. The approach taken—whether pay-as-you-go or pay-as-you-use—can significantly influence the amount of capital available. Pay-as-you-go relies on current revenue sources, while pay-as-you-use spreads the cost over time through debt financing.
+
+The borrowing capacity of an entity is determined by the total debt relative to its size, interest rates, and debt service obligations. Credit ratings also play a crucial role, as they affect the terms and availability of future borrowing. Higher debt burdens can limit future borrowing options and increase financial risk.
+
+Some capital assets generate revenue directly through user charges or fees. The financial analysis must project these revenues and determine what share, if any, will be dedicated to capital investment or debt service, helping offset costs over time.
+
+External contributions, such as federal and state aid or partnerships with private entities (public-private partnerships), can supplement financing. These external sources reduce the direct burden on the entity and diversify the financing mix for capital projects.
+
+A critical factor in financial analysis is the ongoing impact of the capital asset on the operating budget. Annual operating and maintenance costs, as well as debt service obligations, must be assessed. Debt service as a percentage of budget revenues will determine how much room remains for other operational needs.
+
+Other revenue sources that may contribute to capital financing include one-time development impact fees, special assessments, or the sale of existing assets. These can provide immediate capital injections but are typically non-recurring, meaning they are limited in scope and availability. 
+
+This financial analysis framework helps ensure a balanced, long-term approach to capital investments, minimizing risks and aligning financial strategies with organizational goals.
+
+## Capital Asset Financing Options
+Municipal bonds
+
+- Exclusion of interest payments from taxable income (for bondholder) resulting in lower interest rates (lower cost of borrowing) for issuer
+- Types of municipal bonds
+
+     - General obligation bonds: Backed by the taxing authority of the government (strongest security pledge with low interest rates) and possibly subject to voter approval
+     - Revenue bonds: Backed by the revenue generation of the capital asset and therefor resulting in higher interest rates due to risk of inadequte revenue generation
+
+Other options
+
+- Leasing: Useful for specialized equipment likely becoming obsolete after leasing period
+- Loans: Direct borrowing on capital markets
+
+## Net Present Value
+An important method to evaluate large investments in the public and private sector is called Net Present Value (NPV) analysis. Before presenting the method, we need to introduce compounding and discounting interest. 
+
+The concept of compounding interest illustrates how an initial deposit grows over time due to interest being calculated on both the initial principal and the accumulated interest. Consider an example with an initial deposit of \$100 and a 5\% interest rate compounded annually over three years. At the start of year 1, the initial balance is \$100. With an interest rate of 5\%, the interest earned during the first year is \$5 ($100 \cdot 0.05$), resulting in an ending balance of \$105. In year 2, interest is calculated on the new balance of \$105, earning \$5.25 ($105 \cdot 0.05$), bringing the ending balance to \$110.25. By year 3, the balance of \$110.25 earns \$5.51 in interest ($110.25 \cdot 0.05$), resulting in a final balance of \$115.76. The general formula for compounding interest can be written as follows: 
+$$FV = PV \cdot (1+r)^t$$
+where $r$ is the interest rate, $t$ is the number of time periods (years), and $PV$ and $FV$ are present and future value, respectively. 
+
+Discounting interest is the opposite operation in which we determine the present value (PV) given a flow of money to be received in the future. The interest rate used to determine the present value is called the discount rate $r$. This concept reflects the idea that money received in the future is worth less than money received today due to factors like inflation or opportunity cost (e.g., investments). For example, if you receive \$100 every year for the next three years and the discount rate is 6\%, the present value of each \$100 payment decreases over time. In the first year, the present value of \$100 is calculated as follows:
+$$\frac{100}{(1+0.06)}= 94.34$$ 
+In the second year, the present value of \$100 is calculated as:
+$$\frac{100}{(1+0.06)^2}=89.00$$
+In the third year, it is
+$$\frac{100}{(1+0.06)^3}=83.96$$
+By discounting the future payments, the total present value of receiving \$100 each year for three years is the sum of these discounted amounts, which is less than the nominal \$300 but represents the equivalent value in today's terms, i.e., \$267.30. Put differently, if you put \$267.30 in a bank account today at 6\% interest rate then you can withdraw exactly \$100 at the end of each of the following three years. The general formula is written as follows:
+$$PV_t=\frac{FV_t}{(1+r)^t}$$
+Consider the following setup for a Net Present Value calculation. Suppose you receive a cash flow of \$100,000 in each of the next ten years at an interest rate of 6\%. The NPV formula is generally written as follows:
+$$NPV=\sum_{t=1}^T \frac{X_t}{(1+r)^t}$$
+In the example given, this translates into the following equation:
+$$NPV=\sum_{t=1}^T \frac{100,000}{(1.06)^t}=736,008.71$$
+Next, consider the example of renovating a football field with two options for the turf. The first option is artificial turf with initial cost is \$500,000 but does not require any maintenance for 10 years. The second option is natural turf, which requires spending \$200,000 initially but annual maintenance is required. Those maintenance cost vary from year to year due to re-seeding and fertilization requirements. Assuming a discount rate of 5%, the cost, discount factors (DF), and present values (PV) are summarized for the natural turf below. The NPV of the natural turf is \$506,986.05 making it more expensive than the artificial turf. Note though that the NPV is very sensitive to the discount rate chosen. For example, in the case of the football field, a discount rate of 6\% makes the artificial turf the cheaper option.
+
+```{r,echo=FALSE}
+discountrate   = 0.06
+football       = data.frame(Year=c(0:10),Cost=c(200,30,50,30,50,30,50,30,50,30,50))
+football$DF    = (1+discountrate)^football$Year
+football$PV    = football$Cost/football$DF
+npvnt          = sum(football$PV)
+knitr::kable(football)
+```
+
+Due to the sensitivity of the NPV with regard to the discount rate, the internal rate of return (IRR) may calculated as an alternative. The IRR calculates the discount rate that would cause the present value of benefits (returns) to equal the present value of costs. In the case of the NPV, the IRR is calculated such that $NPV=0$. In the case of the football field, the IRR calculation yields to a discount rate which makes the natural turf identical to the artificial turf. The IRR (numerically) calculates $r$ such that:
+$$C_0=\frac{N_1}{1+r}+\frac{N_2}{(1+r)^2}+\cdots+\frac{N_t}{(1+r)^t}$$
+where $C_0$ is the initial cost and $N_t$ is the return in time period $t$. Note that you need a computer to calculate the IRR. In Excel, it is the function `IRR`. In the case of the football field, the discount rate of 5.47\% makes the two investment options equal.
+
+To annualize capital cost, i.e., spreading the capital cost over the project life, we much calculate and use the annualization factor. 
+$$AF=\frac{r}{(1+r)^n-1}+r$$
+The annualization factor allows to distribute an initial lump sum over $n$ years of life. The amount per period is such that when discounted, you get the initial capital costs
+
+## Cost Benefit Analysis
+Cost benefit analysis (CBA) is a systematic method to measure costs and benefits associated with a project. For private sector projects, private costs and benefits (i.e., those impacting the firms profitability) are considered whereas in the public sector, social costs and benefits (i.e., those impacting society) are incorporated. Non-monetary costs and benefits are often excluded in private CBA. The steps to conduct a CBA are the following: (1) Identification of objective and options, (2) identification of inputs and outputs, (3) valuation of inputs and outputs, and (4) calculation of net present value (NPV).
+
+For the first step, consider a city wanting to make commuting easier for its residents. The main objective may be to cut travel time but other potential objectives could be a reduction in air pollution and traffic congestion. The options for the city may be a commuter rail, expanded bus service, or expanded highways.  
+    
+Next, the inputs (cost) and outputs (benefits) need to be identified and expressed in physical quantities to ensure non-monetary items are not excluded from the analysis. In the previous sections on net present value, we did not explicitly present non-monetary objectives, inputs, and outputs but those almost always exists in the public sector.
+
+The valuation of monetary inputs and outputs is straightforward but is more difficult for non-monetary items. The valuation of non-monetary items can be done by calculating shadow prices, which represent the value of these inputs and outputs to the economy. For inputs, the shadow price is based on the marginal opportunity cost (i.e., the value of the input in its next best alternative use). For outputs, it is determined by the marginal willingness-to-pay (WTP), which reflects the value people place on receiving one additional unit of output. 
+
+Lastly, the net present value is calculated and a project is rejected if the $NPV<0$ and accepted if the $NPV>0$. In the case of mutually exclusive projects, the project with the highest NPV is chosen. Other criteria are a benefit-to-cost-ratio (BCR), which needs to be above 1 or a internal rate of return (IRR) that is higher than the interest rate.
+
+## Exercises
+1. ***Data Center Cloud Storage*** (\*\*\*): A company is considering investing in new cloud storage equipment for their on-premises data center. The initial investment is $500,000 and the revenue from selling the cloud-based storage is expected to generate the following cash flows over the next four years: \$150,000 (year 1), \$200,000 (year 2), \$250,000 (year 3), and \$300,000 (year 4). The interest rate is 8\%. However, there is a potential regulatory change that could increase the cost of capital to 10% starting in year 3. To account for this uncertainty, you are required to calculate the NPV under two scenarios: (1) The interest rate remains constant at 8% throughout the project's life and (2) the interest rate changes to 10% starting in year 3 (i.e., 8% for year 1 and 2, 10% for year 3 and 4). Show your work in a way that demonstrates your understanding of the NPV formula and the effect of changing discount rates on cash flow projections. Based on your calculations, recommend whether the company should proceed with the project under each scenario.
+
+2. ***Community Development Project*** (\*\*\*): A non-profit organization is considering a community development project that requires an upfront investment of \$300,000. The project is expected to generate the following cash flows over the next five years: \$50,000 (year 1), \$70,000 (year 2), \$90,000 (year 3), \$100,000 (year 4), and \$120,000 (year 5). However, due to the project's nature, there are significant uncertainties around the timing and size of the cash flows. If the project is delayed, each cash flow will be received a year later, and the amount for each year might decrease by 10%. Given those uncertainties, you are asked to calculate the Internal Rate of Return (IRR) under two scenarios: (1) The cash flows are received as listed without delay and (2) the project is delayed by one year, and each cash flow decreases by 10\%. Compare the IRRs of both scenarios and recommend whether the non-profit should proceed with the project under either condition. Discuss why the IRR may be a useful decision-making tool in this context, considering the project's uncertainties.
+
+3. ***Municipal Road Maintenance Investment*** (\*\*\*): A municipality is evaluating two alternative projects for road maintenance, each with different initial costs and lifespans. Project A requires an initial investment of \$1,200,000 and has a lifespan of 8 years. Project B requires an initial investment of \$800,000 and has a lifespan of 5 years. Both projects are expected to provide equivalent service levels, but the municipality has a limited budget and needs to determine which project offers the better value over time. The discount rate for both projects is 6\%. You are helping the municipality by calculating the annualization factor (AF) for each project in order to compare their costs on an annualized basis. In a first step, calculate the AF for both projects. Next, use the AF to calculate the equivalent annual cost for each project. Now, suppose that unforeseen circumstances lead to project A's lifespan being extended by 2 years (making it 10 years) without an additional initial investment, and project B's lifespan being shortened by 1 year (making it 4 years). Recalculate the AF and EAC under these new conditions, and explain the implications of these changes for the municipality’s decision-making process. Show all steps in calculating the annualization factor, including how you derived it using the present value of annuities formula. Clearly outline your reasoning for determining the EAC, and describe how changes in the lifespan of a project affect its annualized cost, making specific reference to the trade-offs between lifespan and upfront investment.

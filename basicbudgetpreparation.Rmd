@@ -4,6 +4,104 @@ There is a YouTube video and slides associated with this chapter:
 - Basics of Budget Preparation: [Video](https://youtu.be/3ryVkmq3D-c?si=5t5NsMqsLAxCD3AY) and [Slides](https://github.com/jrfdumortier/slidespublicfinance/blob/main/BasicsBudgetPreparation.pdf)
 - Government Accounting: [Slides](https://github.com/jrfdumortier/slidespublicfinance/blob/main/GovernmentAccounting.pdf)
 
+This chapter covers the basics of budgets such as the budget function, budget purpose, and budget preparation. It also introduces governmental funds and governmental accounting. For now, the focus is on so-called recurrent budgets as opposed to capital budgets. Recurrent budgets finance current expenditures with current revenues. Capital budgets---which are covered in a later chapter---finance large expenditures with a multi-year lifespan with future tax revenues (e.g., debt financing) due to fairness issues. 
+
+Before we start introducing budget basics, consider your personnel budget, which may help think about the budget aspects of the government. You may have a planned allocation of money to various categories such as housing, food, apparel, or health care. You also have various (competing) considerations regarding allocation based on your martial status, number of children, expected income, and so on. You may also have rainy day funds available and you make a distinction between routine expenditures (e.g., food) and long-term investments (e.g., car). In any case, your personnel financial situation is likely improved due to presence of budget. Note though that the spending activity of a government results in different economic outcomes, which are covered in later sections, than your personnel budget.
+
+Budgeting is the process of developing, implementing, and evaluating a budget. The political scientist Aaron Wildavsky (1930-1993) stated the following:
+
+> *The budget is the lifeblood of the government, the financial reflection of what the government does or intends to do.*
+
+> *The crucial aspect of budgeting is whose preferences are to prevail in disputes about which activities are to be carried on and to what degree, in the light of limited resources.*
+
+A budget is a plan to allocate public resources and there is no policy without a budget. It serves as a decision guide for the provision of governmental goods and services. The spending in various categories and the revenue collection also reflect policy choices made by the government. There are many budget aspects to consider such as the types and extent of goods and services provided, the size of the government relative to the private sector, the relative size of departments and agencies within the government, or the methods to raise revenue. On a historical side note, the focus of initial budgets was theft prevention.
+
+Budgets drive public policy with multiple and often conflicting objectives (e.g., empty reservoir for flood control versus full reservoir for recreation). There is also no standard measure of objectives. For example measuring a reduction in traffic fatalities is much simpler than gains from cleaner rivers. Consider two examples that fullfil multiple objectives:
+
+1. Subsidizing school lunches both feed children and creates income support.
+2. Needle exchanges for drug users reduce the public health risk of HIV infections as well as [lifetime treatment cost, which is estimated to be around $379,668.](https://www.cdc.gov/hiv/programresources/guidance/costeffectiveness/index.html)).
+
+**Place-based** versus **people-based** resource allocation
+
+- *Simple treatments of abandoned buildings and vacant lots returned conservative estimates of between \$5.00 and \$26.00 in net benefits to taxpayers and between \$79.00 and \$333.00 to society at large, for every dollar invested* (Source: [New Yorker "The other side of broken windows"](https://www.newyorker.com/books/page-turner/the-other-side-of-broken-windows))
+
+Implications for the budgeting process
+
+- Participatory
+- Confrontational
+- Compromising
+
+Forecasts are the basis for budget development even if those forecasts change over the lifetime of the budget. For example, it is important to know the effect of economic growth on tax revenue and expenditures in terms of transfer payments for unemployment insurance. Another example would be a snowfall forecast and plan (with the necessary budget) by the Department of Transportation. Different response plans and/or policies based on identical forecasts lead to different budgets.  
+
+It is also important to differentiate budgets and political rhetoric. Consider the following sentence:
+
+> For education, I maintain our commitment from last year and note that my budget includes direct educational grants to cities and towns of \$2,026,000,000.
+
+Although the sentence is factually correct, inflation and/or additional students my potentially decrease the level of services.
+
+## Budget Function and Purpose
+There are four budget functions, which we are going to cover in this section:
+ 
+1. Financial plan: Financial resource allocation to government programs, projects, and services
+2. Operations guide: Specification of activities to achieve policy goals and measures of performance
+3. Policy document: Setting of policy priorities by allocating more resources to areas that are considered higher-priority
+4. Communication device: Budget as a tool for transparency and accountability to taxpayers
+
+First, the budget  outlines the financial implications of governance given the anticipated operating environment. It specifies how revenues will be raised and how those resources will be distributed across various functions (e.g., government programs, projects, and services). The budget projects expected revenues and expenditures over the budget period and limits expenditures to the resources available to ensure solvency. In case that a difference between revenues and expenditures occurs, it outlines steps for remediation. Additionally, the budget reinforces fiscal discipline by controlling expenditures and assigning responsibility for resources to ensure funds are used for their intended purposes. This increases transparency and prevents corruption, which is one of the main reasons for the creation of budgets in the first place. It also provides legal authorization for the government to spend money on specific programs.
+
+Second, as an operations guide, it outlines how public services will be delivered efficiently and cost-effectively. It provides a detailed description of the activities, services, and functions performed by different organizational units, specifying personnel requirements and performance goals for agencies, units, and programs. Importantly, it ensures that all government activities align with legislative intent and conform to legal restrictions regarding the raising and expenditure of funds. This operational function of the budget also serves as a mechanism for ensuring transparency in fiscal operations.
+
+Third, a budget sets priorities through the allocation of resources and thus, acts as a policy document. It articulates long-term, non-financial goals and objectives, presents and evaluates alternatives to achieve these objectives, and identifies long-term financial challenges. The budget allows policymakers to specify priorities by directing more resources toward higher-priority areas, thus reflecting the government's policy agenda. Finally, the budget serves as a communication device, facilitating discussions among policymakers, informing stakeholders of priorities and policy directions, and ensuring transparency for citizens. This communicative role fosters accountability by keeping taxpayers informed about government activities and the rationale behind financial decisions, making it an essential tool for transparent governance.
+
+Given the function as a communication device with stakeholders, it is important to systematically structure the information provided in a budget. The budget can be structured around administrative units (e.g., agencies) who provide services such as fire department, schools, or police. An alternative way of presenting the information is around economic items (i.e., types of expenditure) such as wages, salaries, or utility charges. And lastly, budgets can be structured functionally around the purpose of expenditure (e.g., education, health, defense). 
+
+Recall that at the beginning of this section, we talked about your personnel budget. Similar to your personnel, it is recommend to be prudent in budgeting and account for unexpected events such as economic downturn. Thus, there should be a budget stabilization fund (also known as a rainy day fund) and it is recommended to under-estimate revenues and over-estimate expenditures.
+
+## Budget Preparation       
+A latter section covers the Federal budget preparation and cycle and here, we are going to focus on a generic government budget preparation. The public budget cycle usually involves four steps, which form a recurring and overlapping process between legislative and executive branches:
+
+1. Executive preparation 
+2. Legislative review and approval 
+3. Budget implementation
+4. Audit and evaluation 
+
+**Executive Preparation:** The executive preparation starts with forecasting the economic climate and projecting revenue and expenditure. It guides decisions and outlines responses to those decisions. For example, the Department of Transportation uses snowfall forecasts and sets priorities which roads to clear first. This process includes a budget call to agencies and departments which outlines executive priorities, limits on the expenditure growth based on revenue forecasts, and detailed instructions for budget preparation. Agencies prepare and submit their budgets in response to public service demands, and the executive budget ultimately serves as a message of policy direction.
+
+**Legislative Review and Approval:** The legislative review and approval process involves aligning legislative priorities and constituency interests within appropriation limits. This includes making recommendations, conducting hearings, and reconciling any differences through modifications before adopting the final appropriation bills. Following this, the executive may veto the budget, to which the legislature can respond with further actions to address the veto.
+
+**Budget Implementation and Audit and Evaluation:** Budget implementation involves the execution of public programs by agencies using appropriated funds, ensuring legal spending in accordance with the budget while avoiding deficit spending. This phase focuses on the practical delivery of services. After the fiscal year ends, audits and evaluations are conducted, including financial audits to verify legal spending, management audits to assess agency performance, and program audits to evaluate the effectiveness of the programs. An external review of budget execution is conducted, with findings reported to both the legislature and the public.
+
+### Budget Document
+Budget documents include the following components:
+
+- Budget year: Budget plan for current year
+- Out years: Budget plan beyond the current year
+- Progress report year: Tracking and comparison of actual expenditures and revenue to budget
+- Final report year: Previous year's budget and outcome
+
+The budget message at the beginning of the budget document outlines the goals, objectives, key challenges, and constraints. Given the mention of constraints, it should also contain strategies to address those challenges. The budget message also highlights initiatives to promote goals and objectives. The budget document also includes information about the economic climate, policy priorities, circumstances, constraints, and key changes compared to previous years. Summary tables should include revenue and expenditure trends (by function and object) and workforce trends as well as explain major budget drivers.
+
+### Detailed Departmental Budgets
+Break-down of budget by unit
+
+- Organization chart
+- Mission, objectives, achievements
+- Budget summary
+- Detailed line item budget
+- Personnel detail
+- Program/sub-unit specific budgets
+
+### Budget Examples
+Example of biennial budget
+
+- [Indiana budget](https://www.in.gov/sba/budget-information/budget-data/)
+- Current budget: [2023--2025 Budget](https://www.in.gov/sba/budget-information/budget-data/2023-2025-budget/)
+
+Example of an annual budget 
+
+- [Indianapolis](https://www.indy.gov/activity/city-and-county-budget)
+- [Federal Aviation Administration](https://www.faa.gov/about/budget/)
+
 ## Exercises
 
 1. ***FAA Budget*** (\*\*): The following table contains information on the [budget](https://www.faa.gov/about/budget/) of the Federal Aviation Administration (FAA) and the [GDP deflator](https://fred.stlouisfed.org/series/USAGDPDEFAISMEI).

@@ -1,48 +1,86 @@
 # Budget Methods and Format
-There is a YouTube video and slides associated with this chapter:
+The three topics covered in the chapter are (1) budget philosophy, (2) budget classification, and (3) budget formats. A YouTube video and slides associated with this chapter can be found at the links below:
 
-- Budgeting in the United States: [Video]() and [Slides](https://github.com/jrfdumortier/slidespublicfinance/blob/main/BudgetMethodsFormat.pdf)
+- Budget Methods and Format: [Video](https://youtu.be/-RjBA0MDG_w?si=u0QBRk-HGG-ne4PW) and [Slides](https://github.com/jrfdumortier/slidespublicfinance/blob/main/BudgetMethodsFormat.pdf)
+
+A brief overview of various budget types can be found on the webpage of the [Georgia Municipal Association](https://www.gacities.com/Resources/GMA-Handbooks-Publications/A-Budget-Guide-for-Georgias-Municipalities/Budget-Types-(1).aspx)).
+
+Current Services Estimate (see CBPP [The Current Services Baseline: A Tool for Understanding Budget Choices](https://www.cbpp.org/research/state-budget-and-tax/the-current-services-baseline-a-tool-for-understanding-budget-choices))
+
+- Baseline or benchmark *"reflecting this year’s enacted policies and programs for each year in the future"*
+- Part of supporting material (e.g., current services budget)
 
 ## Budget Philosophy
+Budgets serve as a mechanism to protect, allocate, and control public resources. One fundamental requirement is efficiency, meaning that allocating \$1 to program A should provide the same level of benefit as allocating \$1 to program B. However, it can be difficult to value government goods and services due to several challenges.
+
+First, governments often have multiple objectives, some of which may conflict with each other. Additionally, there is no common mechanism to measure and compare the returns of different programs, making it hard to assess which investments are most beneficial. Another challenge is the variation in beneficiaries across programs, as well as differences between those who benefit from programs and those who pay for them. These factors complicate the process of evaluating budgetary allocations and ensuring that resources are distributed efficiently and fairly.
+
+## Budget Classification
 Budgets can be centered around (1) inputs, (2) outputs, or (3) outcomes.
 
-## Line Item Budget
-Characteristics
+Budgets can be classified according to inputs, outputs, and outcomes, which reflect different stages of an organization's activities and impact.
 
-- Expenditure by commodity or resource purchased
-- General cost categories are personnel services, operating expenditures, and capital outlays
-- Control and accountability are main foci
-- Input orientation and no input substitution (related this to economics and the production function). 
-- No information about activities and functions
+**Inputs** refer to the purchases made by the organization, such as supplies, equipment, labor, consumption goods, and capital assets. These inputs are relatively easy to measure and control because they represent tangible expenditures and resources used by the organization.
 
-Primary organization feature
+**Outputs** are the direct products or activities produced by the organization. These include measurable actions such as classes taught, miles of roads maintained, tons of solid waste managed, arrests made, and children vaccinated. Outputs represent the immediate results of the organization's operations.
 
-- Resources purchased
+**Outcomes**, on the other hand, are the accomplishments of the organization, reflecting the broader impact of its activities. Examples include the safety of people and property, the educational attainment of the population, and the successful placement of program participants. Outcomes are often the most difficult to measure because they are influenced by external factors beyond the organization's control.
 
-Orientation
+Ultimately, organizations exist to achieve results, and understanding inputs, outputs, and outcomes helps clarify how resources contribute to achieving these goals.
 
-- Control
+## Budget Types
+There are several types of budgets, each with a different focus:
 
-## Program Budget
-Characteristics
+1. **Traditional line-item budget**: Focuses on expenditures and inputs, detailing specific costs like salaries and supplies.
+   
+2. **Program budget**: Organized around functions and programs, emphasizing the goals and purposes of government activities.
 
-- Expenditure by activities serving a common public purpose
-- Not limited to single government organization
-- Common areas include: Public safety, public works (infrastructure, roads), human resources, general government
-- Organize budget format and execution around service provision
-- Programs with similar objectives are grouped together
-- Disadvantage: 
+3. **Performance budget**: Centers on activities and outputs. The traditional performance budget emphasizes activities, while the new performance budget shifts focus to measurable outputs.
 
-     - Requires crosswalk
-     - How to determine the programs (multiple competing objectives)
+4. **Zero-based budget**: Requires justification for all expenses, starting from a "zero base" each period, ensuring that each activity is necessary and cost-effective.
 
-Primary organization feature
+### Line Item Budget
+A traditional line-item budget focuses on listing expenditures by item, ensuring control and accountability over the purchase and use of inputs. It is input-oriented and classifies costs into general categories such as personal services, operating expenses, or capital outlays. The main focus is on resources purchased. Given how the line item budget is constructed, it does not allow for input substitution given, for examples, changes in input prices. We know from economics that when input prices change, there occurs a shift along the so-called isoquant. That is, producing the same output with a different combinations of inputs. We will see that the line item budget does not provide any information on activities or functions. Remember that (public) organizations exist to achieve goals.  
 
-- Achievements, final product, outcome, or consumer output
+Consider the budget of a municipal library below. The budget listing the operating income can be constructed as follows:
 
-Orientation:
+| Operating Income        | Last Fiscal Year | Current Budget | Next Fiscal Year |
+|-------------------------|------------------|----------------|------------------|
+| Municipality            | \$41,640         | \$39,050       | \$47,190         |
+| County                  | \$26,400         | \$23,980       | \$28,600         |
+| State                   | \$1,800          | \$1,925        | \$2,730          |
+| Donations               | \$600            | \$550          | \$650            |
+| Fines and Other Income  | \$1,560          | \$2,310        | \$2,730          |
+| **Total**               | **\$72,000**     | **\$67,815**   | **\$81,900**     |
 
-- Planning
+For the operating expenditures, we can have the following:
+
+| Operating Expenditures           | Last Fiscal Year | Current Budget  | Next Fiscal Year |
+|----------------------------------|------------------|-----------------|------------------|
+| Salaries and Wages               | \$28,980         | \$27,170        | \$33,345         |
+| Employee Benefits                | \$20,100         | \$18,700        | \$21,255         |
+| Books and Periodicals            | \$11,520         | \$11,000        | \$13,650         |
+| Staff Education                  | \$2,280          | \$2,145         | \$2,730          |
+| Telecommunications               | \$1,710          | \$1,650         | \$2,048          |
+| Utilities                        | \$4,560          | \$4,400         | \$5,460          |
+| Equipment Repair                 | \$1,140          | \$1,100         | \$1,365          |
+| Supplies                         | \$1,710          | \$1,650         | \$2,048          |
+| **Total**                        | **\$72,000**     | **\$67,815**    | **\$81,900**     |
+
+The budget under consideration offers several advantages that facilitate financial management. It is easy to construct, making budgetary planning straightforward and manageable. Additionally, it is effective for maintaining cost control and fiscal discipline, ensuring that expenditures stay within allocated limits. The transparency of this budgeting method also enhances accountability, making it easier to track and justify expenditures.
+
+However, there are notable disadvantages. The budget primarily focuses on inputs rather than the outputs or outcomes, which does not provide a clear indication of the effectiveness or efficiency of spending. It also lacks insight into the broader purposes of expenditures, such as improvements in service programs, which can be crucial for strategic decision-making. Furthermore, its short-term, single-year focus does not support long-term planning and sustainability. Lastly, the rigidity of this budgeting method offers no flexibility for input substitution, restricting adaptability to changing needs or conditions.
+
+**Question:** Are there any data on books checked out or reading score improvements for children?
+
+### Program Budget
+Program budgets shift the focus of resource allocation from traditional line-items to major program areas with a goal-oriented framework, i.e., serving a common public purpose. Expenditures are listed by activities. This method prioritizes the expected results of services and activities, organizing budget allocations around a common purpose or function rather than rigid departmental structures. It typically adopts a multi-year perspective, offering greater flexibility in execution and necessitating a "crosswalk" to align program budgets with traditional line-item formats. Common program areas often include public safety, public works (e.g., infrastructure, roads), and human resources, which are aligned with the organization's overarching goals and often span multiple departments.
+
+The features of program budgets include identifying products and services by their program structure, emphasizing outcomes over inputs. Programs with similar objectives are grouped together. This structure helps connect financial resources with program objectives through the use of crosswalks, enhancing the alignment between spending and strategic goals. Budgets are organized to group programs with similar objectives, such as fire and police departments under public safety, facilitating a unified approach to service provision. Moreover, by identifying cost and benefit data, program budgets enable the reallocation of resources to enhance program effectiveness and efficiency, supporting thorough reviews and adjustments of programs and subprograms.
+
+The advantages of program budgets are manifold. They foster competition among alternative approaches to achieving public purposes, unbound by traditional organizational units. This budgeting method focuses on the government's provision of goods and services to society, rather than mere purchases, supporting a longer horizon for planning and decision-making. 
+
+However, program budgets are not without challenges. They require the use of crosswalks to bridge the gap with other budget classifications, often necessary for accountability purposes. This approach can also disrupt legislative and administrative traditions, which typically focus on line-item appropriations, and the classification of expenditures into functions or programs can be complex, requiring significant effort to define clear goals and objectives. Additionally, the potential for overlapping structures among programs can complicate the budgeting process, presenting hurdles in clear accountability and execution.  How to determine the programs (multiple competing objectives)
 
 Below is an example of a possible program structure for a city. The example is taken from [Alan W. Steiss's lecture notes on program budgeting](https://www-personal.umich.edu/~steiss/page24.html) at the University of Michigan:
 
@@ -66,19 +104,142 @@ Below is an example of a possible program structure for a city. The example is t
 
 10. **Executive Director & General Support**: (a) City Council, (b) Executive Management, (c) Budget and Control, (d) City Planning, (e) Human Relations & Affirmative Action, (f) Voter Registration & Elections, (g) Community Relations, (h) General Service Administration Support
 
-## Performance Budget
-Characteristics
+### Performance Budget
+Performance budgets fundamentally reorient budgeting approaches by focusing on the effectiveness of expenditures in achieving desired outcomes. This methodology is built upon several key elements. First, it identifies the level of service an organization aims to achieve through the use of performance measures. Resources are then allocated across various programs based on these predefined service levels, providing a structured outline for budget construction. The emphasis is on cost control and the enhancement of internal management within programs, constantly assessing whether the funds allocated—such as $X to activity A—are delivering the intended outcomes. This leads to critical evaluations of financial commitments, asking if the objectives are met and if adjustments are necessary.
 
-- Expenditure by workload or activity
-- Presentation of unit cost by activity
+This shift in budgeting paradigm moves away from traditional input-output models to a more dynamic output-outcome focus. Instead of merely tracking financial inputs and basic outputs, performance budgets concentrate on the results, overall performance, and the tangible outcomes of government expenditures. This shift aims to ensure that budgeted funds are not just spent, but spent effectively, creating impactful results that justify the investments made.
 
-Primary organization feature
+Let us consider the example of the [Sunnyvale (CA) City Budget](https://www.sunnyvale.ca.gov/your-government/governance/city-budget). We are going to focus on the public safety progamrs by the Department of Public Safety:
 
-- Tasks, activities, or direct output performed
+- Police Services
+- Fire Services
+- Community Safety Services
+- Personnel and Training
+- Investigation Services
+- Communication Services
+- Public Safety Administrative Services
+- Records Management and Property Services
+- Fire Prevention and Hazardous Material Services
+- Community Preservation Services
 
-Orientation
+The budget document provides the following workload and performance indicators: 
 
-- Management
+- Workload indicators: 
+
+     - Number of traffic enforcement stops.
+     - Number of parking and traffic citations issued.
+     - Number of traffic complaints addressed by enforcement
+efforts
+     - Number of police responses to emergency events
+
+- Performance Indicators
+
+     - Average police response time to emergency events.
+     - Average police response time to urgent events
+
+Next, we will discuss the differences between a traditional and new performance budgets:
+
+**Traditional Performance Budget:** The features of a traditional performance budget is focusing on the relationship between inputs and outputs/outcomes. It integrates the budgeting with (long-term) planning and management. Activity cost (i.e., unit cost) within organizational units as well as workload factors are defined. Consider the following examples of performance indicators found at [GA Municipal Association Budget Types](https://www.gacities.com/Resources/GMA-Handbooks-Publications/A-Budget-Guide-for-Georgias-Municipalities/Budget-Types-(1).aspx)):
+
+- Workload: Number customers served, miles of streets maintained, businesses inspected, etc.
+- Efficiency: Cost per unit
+- Effectiveness: Levels of satisfaction, % of targets met, etc.
+
+The advantages of 
+Advantages
+
+- Information for internal management and cost containment (technical efficiency)
+- Higher levels of accountability, i.e., demonstration of activities and service level
+- Tool for management responsibility and accountability due to assessment of quantity, quality, and productivity of the budget
+
+Disadvantages
+   
+- Cost of budget preparation
+- Exposition of operating details
+- Quality of performance measures
+
+New Performance Budget: Principles
+Principles
+
+1. Strategic plan with stated objectives
+2. Development of outcome performance measures
+3. Flexibility in appropriation and execution
+     
+     - Agencies' flexibility in spending appropriations in order to achieve stated objectives (not input controlled but responsibility for outcomes)
+
+4. Reporting and audits focus on outcomes, i.e., meeting of objectives
+
+New Performance Budget: Outcome Measures I
+Outcome measures
+
+- Specific policy goals or objectives
+- Used as mechanism to allocate resources for activities, inputs, and projects to achieve goals and objectives
+- Measures should link directly to mission statement
+- Limited importance and weight given to objectives in case of large number of objectives 
+
+New Performance Budget: Outcome Measures II
+More specifics about outcome measures
+
+- Clear and unambiguous, not necessarily quantitative
+- Relevant and appropriate to the objective, not just available
+- Economic, i.e., objective measured at reasonable cost
+- Adequate: Providing acceptable basis for assessing performance
+- Observable and measurable 
+
+Conditions for effectiveness of outcome orientation
+
+- Consensus on measures among operating agencies, finance departments, administration, and citizens
+- Means for unbiased collection of measures
+- Meaningful measures
+- Training on interpretation and use of measures
+- Transparent and understandable process
+
+New Performance Budget: Challenges
+Comparing agency performance
+
+- Measures not comparable across agencies
+- Difficulty deciding how to allocate resources between agencies
+
+Cost allocation
+
+- Difficulty allocating overhead expenses to various agencies
+
+Micro-management
+
+- Political agendas in selection of measures, collection of data, or use of measures in preparing budgets or making appropriations
+
+Audit
+
+- Focus on achieved goals and not spent money
+
+Performance Budgets versus Program Budgets
+Difference in focus
+  
+- Performance budget emphasizes management efficiency
+- Program budget emphasizes benefits to the governmental unit from the expenditures
+
+Both use indicators to measure financial and operational performance
+
+## Zero-Based Budget
+Basic elements
+
+- Defend entire budget annually
+- No automatic base to start from
+- Focus on entire budget, not just increase
+        
+## Advantages and Disadvantages
+Advantages
+
+- Lots of operating data
+- Consideration of alternative delivery devices
+- Formal consideration of priorities
+- Focus on agency and department objectives
+
+Disadvantages
+
+- Significant effort in budget construction
+- Not all programs can be zeroed out
+- Implicit path dependency
 
 ## Exercises
 

@@ -1,48 +1,245 @@
 # Introduction
 ```{r,echo=FALSE,results=FALSE,warning=FALSE,message=FALSE}
 library(ggplot2)
+library(reshape2)
+load("D:/Teaching/Public Finance/PFGitHub/PublicFinanceData.RData")
 ```
-This chapter serves as an introduction to budgeting and public finance. There are YouTube videos and slides associated with this chapter:
+
+This chapter serves as an introduction to budgeting and public finance. We quantify the size of the U.S. government relative to its economy as well as give an international perspective. We show receipt and expenditure trends in the U.S. by bearing in mind that those numbers change every year and can be impacted by major events such as the COVID-19 pandemic. There are YouTube videos and slides associated with this chapter:
 
 - Introduction to Public Finance: [Video](https://youtu.be/DJgiLuHViOk) and [Slides](https://github.com/jrfdumortier/slidespublicfinance/blob/main/Introduction.pdf)
 - Monetary Values over Time: [Video](https://youtu.be/t2bxcZF4pq4) and [Slides](https://github.com/jrfdumortier/slidespublicfinance/blob/main/TimeValueMoney.pdf)
 - Role of Government in the Economy: [Video](https://youtu.be/W0R9ZmbHb1I) and [Slides](https://github.com/jrfdumortier/slidespublicfinance/blob/main/RoleGovernment.pdf)
 
-## Course Overview
-The following topics are covered in this book:
+## Federal Government
+A term that is used often throughout the book is Gross Domestic Product (GDP). The Bureau of Economic Analysis (BEA) [defines GDP](https://www.bea.gov/resources/learning-center/what-to-know-gdp) as follows:
 
-- **Introduction to Government Finance and Budgets**: Three topics are covered in this chapter: (1) Size of federal expenditures (outlays) and revenue, (2) role of government in the economy, and (3) data sources. A large emphasize in the chapter is on the purpose of taxation and government intervention in the economy. Topics such as externalities, public goods, and imperfect competition are covered that all justify government's role in the economy.
+> The value of the goods and services produced in the United States is the gross domestic product.
 
-- **Basics of Budget Preparation**
+Economic growth is measured by changes in the GDP and is an important macroeconomic indicator. GDP growth (or lack thereof) serves as an important indicator for recession dating besides employment levels. The National Bureau of Economic Research (NBER) announced the following by its [Business Cycle Dating Committee on January 7, 2008](https://www.nber.org/cycles/jan08bcdc_memo.html):
 
-- **Budgeting in the United States**: This chapter covers aspects of Federal, state, and local budgets specific to the United States. 
+> We view real GDP as the single best measure of aggregate economic activity. In determining whether a recession has occurred and in identifying the approximate dates of the peak and the trough, we therefore place considerable weight on the estimates of real GDP issued by the Bureau of Economic Analysis (BEA) of the U.S. Department of Commerce.
 
-- **Budget Methods and Format**
+Let us next present some broad numbers illustrating the size of the U.S. government in terms of expenditures (also called outlays) and revenue. Those numbers are taken from the CBO's [Federal Budget 2022](https://www.cbo.gov/publication/58888). There are two broad categories of outlays. Discretionary outlays (e.g., defense) go through the annual appropriation process. As opposed to the discretionary outlays, mandatory outlays (e.g., Social Security, Medicare, Medicaid) do not go through the appropriation process. The total government revenue in 2022 was \$4.9 trillion from the following, broad sources:
 
-- **Cost Analysis**: To prepare a budget, institutions need to know the cost associated with service provision. This chapter covers cost accounting and estimation as well as cost allocation.
+- Individual income taxes (\$2.6 trillion)
+- Payroll taxes such as Social Security (\$1.5 trillion)
+- Corporate income taxes (\$425 billion)
+- Other revenues such as excise taxes, estate and gift taxes, customs duties	
 
-- **Capital Budgeting**: Purchasing assets that are used multiple years (e.g., bridges, public school buildings, infrastructure in general) require assessment of future cost and benefits, which are covered in this section. 
+Government expenditures (outlays) amounted to \$6.3 trillion in the following categories:
 
-- **Introduction to Government Revenue**: Compared to the previous chapters, which focus on the expenditure side of government activities, this chapter introduce the revenue side. General aspects of taxation such as equity, adequacy of revenue production, collectability, and economic effects are covered. 
+- Mandatory spending (\$4.1 trillion)
+- Discretionary spending (\$1.7 trillion)
+- Net interest (\$475 billion)
 
-- **Income Taxes**: Individual and corporate income taxes
+Note the difference (deficit) between the expenditures and revenue of about $1.4 trillion. Below are the federal [net outlays](https://fred.stlouisfed.org/series/FYONET) and [receipts](https://fred.stlouisfed.org/series/FYFR) in real terms, that is, adjusted for inflation. 
 
-- **Taxes on Goods and Services**: Sales taxes, gasoline and diesel taxes, etc.
+```{r,echo=FALSE,fig.align="center"}
+ggplot(subset(federalbudget,fredid %in% c("FYFR","FYONET")),aes(x=year,y=value,color=item))+
+     ylim(0,8000)+geom_line()+theme_bw()+ylab("in Billion Dollars")+
+     theme(axis.title.x=element_blank(),legend.position="bottom",legend.title=element_blank())
+```
 
-- **Property Taxes**: The majority of revenue for local governments to be spent on education or public safety  comes from property taxes.
+Although the previous graph suggested a significant increase in outlays and revenue, the size of the U.S. government as a percentage of GDP has been relatively stable over time given the [Federal Receipts as Percent of Gross Domestic Product](https://fred.stlouisfed.org/series/FYFRGDA188S), [Federal Net Outlays as Percent of Gross Domestic Product ](https://fred.stlouisfed.org/series/FYONGDA188S), and [Federal Surplus or Deficit as Percent of Gross Domestic Product](https://fred.stlouisfed.org/series/FYFSGDA188S).
 
-- **Other Revenue Sources**: There are also other revenue sources such as fees and state lotteries. Fees are for publicly provided services (e.g., driver’s license)
+```{r,echo=FALSE,fig.align="center"}
+df = subset(federalbudget,fredid %in% c("FYFRGDA188S","FYONGDA188S","FYFSGDA188S"))
+df$item[which(df$item=="Federal Receipts as Percent of GDP")]              = "Receipts"
+df$item[which(df$item=="Federal Net Outlays as Percent of GDP")]           = "Outlays"
+df$item[which(df$item=="Federal Surplus or Deficit as Percent of GDP")]    = "Surplus/Deficit"
+ggplot(df,aes(x=year,y=value,color=item))+
+     geom_line()+theme_bw()+ylab("in % of GDP")+
+     theme(axis.title.x=element_blank(),legend.position="bottom",legend.title=element_blank())
+```
 
-- **Debt Management**
+Given the deficit and associated debt, which needs to be financed, there is often a discussion regarding which countries hold how much U.S. debt. For January 2023, the [Major Foreign Holders of Treasury Securities](https://ticdata.treasury.gov/Publish/mfh.txt) (in billion USD) were the following countries:
 
-- **Revenue Forecasting and Estimation**
+| Top 10 Countries | Jan-23   | GDP      | Ratio  |
+|------------------|---------:|---------:|-------:|
+| Japan            | \$1,104  |  \$4,231 |  26.1% |
+| China            |   \$859  | \$17,963 |   4.8% |
+| UK               |   \$668  |  \$3,071 |  21.8% |
+| Belgium          |   \$331  |    \$579 |  57.2% |
+| Luxembourg       |   \$318  |     \$82 | 387.8% |
+| Switzerland      |   \$291  |   \$ 808 |  36.0% |
+| Cayman Islands   |   \$285  |          |        |
+| Canada           |   \$254  |  \$2,140 | 11.9%  |
+| Ireland          |   \$253  |    \$529 | 47.8%  |
+| Taiwan           |   \$235  |          |        |
+
+## State and Local Government
+Besides the federal government, there is a large number of local governments in the United States. According to the [U.S. Census Bureau 2017 Census of Governments Organization](https://www.census.gov/data/tables/2017/econ/gus/2017-governments.html): 
+
+- 50 State governments
+- 19,495 Municipal governments
+- 16,253 Town or township governments
+- 3,031 County governments
+- 12,754 Independent school districts
+- 38,542 Special district governments
+
+Those numbers are relatively stable over time. Some taxes only exist at certain levels of government while other can exist at multiple levels. For example, there are fuel taxes at the federal and state-level and sometimes even at the local level. Below is an example of the real tax revenue for Indiana. 
+
+```{r,echo=FALSE,fig.align="center"}
+df = subset(stc,state=="IN" & base=="Real" & year>=1980)
+df$stcname[which(df$stcgroup %in% c("General Sales Taxes","Selective Sales Taxes"))] = "Sales"
+df$stcname[which(df$stcname %in% c("Individual Income Taxes"))]                      = "Income"
+df$stcname[which(df$stcname %in% c("Corporation Net Income Taxes"))]                 = "Corporate"
+df = subset(df,stcname %in% c("Sales","Income","Corporate"))
+df = aggregate(df$value,FUN=sum,by=list(df$year,df$stcname))
+colnames(df) = c("year","stcname","value")
+ggplot(df,aes(x=year,y=value/1000,color=stcname))+
+     ylim(0,20)+geom_line()+theme_bw()+ylab("in Billion Dollars")+
+     theme(axis.title.x=element_blank(),legend.position="bottom",legend.title=element_blank())
+```
+
+## International Perspective
+
+```{r,echo=FALSE,fig.align="center"}
+df             = subset(wdidata,year==2021,select=c("country","GC.TAX.TOTL.GD.ZS","GC.DOD.TOTL.GD.ZS"))
+colnames(df)   = c("country","taxrevenue","debt")
+df             = na.omit(df)
+coi            = c("Australia","Brazil","Canada","France","Greece","Mexico","New Zealand","Peru",
+                   "Russian Federation","Singapore","Spain","Sweden","Switzerland","Thailand","Turkiye",
+                   "United Kingdom","United States")
+df             = subset(df,country %in% coi)
+df             = melt(df,id=c("country"))
+df$variable    = as.character(df$variable)
+df$variable[df$variable=="taxrevenue"]  = "Tax Revenue"
+df$variable[df$variable=="debt"]        = "Central Government Debt"
+ggplot(subset(df,variable=="Tax Revenue"),aes(x=country,y=value,fill=variable))+ylab("in % of GDP")+
+     geom_bar(stat="identity",color="black",position=position_dodge())+theme_bw()+
+     theme(axis.title.x=element_blank(),legend.title=element_blank(),legend.position="none",
+           axis.text.x=element_text(angle=45,hjust=1))+scale_fill_brewer(palette="Blues")+
+     ggtitle("Tax Revenue as a Percentage of GDP")
+```
+
+```{r,echo=FALSE,fig.align="center"}
+df             = subset(wdidata,year==2021,select=c("country","GC.TAX.TOTL.GD.ZS","GC.DOD.TOTL.GD.ZS"))
+colnames(df)   = c("country","taxrevenue","debt")
+df             = na.omit(df)
+coi            = c("Australia","Brazil","Canada","France","Greece","Mexico","New Zealand","Peru",
+                   "Russian Federation","Singapore","Spain","Sweden","Switzerland","Thailand","Turkiye",
+                   "United Kingdom","United States")
+df             = subset(df,country %in% coi)
+df             = melt(df,id=c("country"))
+df$variable    = as.character(df$variable)
+df$variable[df$variable=="taxrevenue"]  = "Tax Revenue"
+df$variable[df$variable=="debt"]        = "Central Government Debt"
+ggplot(subset(df,variable=="Central Government Debt"),aes(x=country,y=value,fill=variable))+ylab("in % of GDP")+
+     geom_bar(stat="identity",color="black",position=position_dodge())+theme_bw()+
+     theme(axis.title.x=element_blank(),legend.title=element_blank(),legend.position="none",
+           axis.text.x=element_text(angle=45,hjust=1))+scale_fill_brewer(palette="Blues")+
+     ggtitle("Central Government Debt as a Percentage of GDP")
+```
+
+## Efficiency
+The term "efficiency" is often used in economics and public finance. In economics, it refers to the allocation of resources such that overall welfare to society is maximized. In the context of public finance, let us focus for now on Pareto or Kaldor-Hicks efficiency. Pareto efficiency is achieved when no person can be made better off without another person being made worse off. Since this is very restrictive, the Kaldor-Hicks efficiency offers a less stringent alternative. Under Kaldor-Hicks efficiency improvement, there is a positive net benefit to society such that winners could---at least theoretical---compensate the losers after a policy change. Although Kaldor-Hick efficiency is usually the basis for a cost-benefit analysis, the drawback is that the compensation is potential and may never be realized. Consider the table with the individual benefits and costs associated with a single project.
+
+| Individual Resident | Individual Benefit | Cost Share | Individual Gain |
+|:-------------------:|-------------------:|-----------:|----------------:|
+|          A          |            \$3,500 |    \$2,000 |         \$1,500 |
+|          B          |            \$1,000 |    \$2,000 |       (\$1,000) |
+|          C          |            \$1,500 |    \$2,000 |         (\$500) |
+|          D          |            \$4,500 |    \$2,000 |         \$2,500 |
+|          E          |            \$1,500 |    \$2,000 |         (\$500) |
+|    Total Benefit    |           \$12,000 |   \$10,000 |         \$2,000 |
+
+The project is Kaldor-Hicks efficient because the total benefit (\$12,000) exceeds the total cost ($10,000). However, the project is not Pareto efficient because the costs exceed the benefits for some people. This project would also not pass a majority vote. 
 
 ## Role of Government in the Economy
 Public finance is concerned with the role of government in the economy. The field addresses questions such as the following:
 
-- Why do governments intervene in the economy?
-- How do governments intervene in the economy?
+- Why and how do governments intervene in the economy?
 - What are the economic effects of government intervention?
+
+Before the next sections cover the answers to those question, we cover the difference between positive and normative economics. Positive economics is the objective analysis of economic outcomes (e.g., the effect of increasing interest rates on the number of mortgage applications). Normative economics includes value judgements of what should be done (e.g., evaluation of various policies to increase education spending to make society better off). Positive economics can inform normative economics. Of course, the boundaries between both concepts are not always clear cut because even positive economics may include some value judgement given the assumptions made. In public finance and public management economics, we often need to make value judgements in an attempt to make society better off.
+
+Below, we are covering three reasons why governments intervene in the economy:
+
+1. Market failures
+2. Economic stabilization
+3. Redistribution
+
+### Market Failures
+The First Theorem of Welfare Economics can be considered the theoretical basis for the intervention of government in the economy:
+
+> If (1) households and firms act perfectly competitively, taking prices as given, (2) there is a full set of markets, and (3) there is perfect information, then a competitive equilibrium is efficient.
+
+The implications of the First Welfare Theorem are that Pareto efficiency can be achieved in a competitive market. A competitive market is usually the benchmark to judge actual market outcomes. The First Welfare Theorem requires the absence of market imperfections such as (1) public goods, (2) externalities, (3) imperfect competition, and (4) asymmetric information. Note that the term "public" refers to a characteristic of a good and not the provider. 
+
+Some characteristics of a perfectly competitive market are that (1) there are many producers and many consumers, (2) free entry and exit into the market exists, and (3) market participants are engaging in price-taking behavior. The price-taking behavior is a direct result of many producers and many consumers. That is, each market participant is aware that no matter what quantity of the product they supply or demand at the individual level, the price does not change. Market imperfections and failures exist and lead to an inefficient allocation of societal resources. 
+
+**Public Goods**: As mentioned before, "public" is a reference to characteristics and not the provider of the good. The distinction between various types of goods (e.g., public good versus private good) can be conducted along two dimensions:
+
+- *Rivalry*: Overall consumption of the good is affected by individual consumption.
+- *Excludability*: Ability (or lack thereof) to exclude people from consuming the good.
+
+Consider the following table to distinguish four types of goods along those two dimensions. 
+
+|                    |     Rival    |  Non-Rival  |
+|--------------------|:------------:|:-----------:|
+| **Excludable**     | Private good |  Club good  |
+| **Non-Excludable** |  Common good | Public good |
+
+Here are some examples of the various types of goods
+
+- *Private goods*: Sandwiches, laptops, etc.
+- *Club goods* (also known as *toll goods*): Movies in theaters, toll roads, concerts, etc. 
+- *Common goods* (also known as *common pool resources*): Aquifers, fishing grounds, petroleum reserves, etc.
+- *Public goods*: National defense, mosquito abatement, pollution control, disease control, lighthouses, GPS, etc.
+
+Club goods and public goods are under-produced and common goods are over-consumed. The marginal (additional) cost to provide a public good to one more person is zero.
+
+**Externalities**: An externality is a positive or negative effect resulting from a person's (or entity's) action without them receiving any compensation or incurring any cost. The distinction is made between a positive and negative externality:
+
+- *Positive externality*: Production of uncompensated benefits received by others (e.g., landscaping, beekeeping, university, research and development). Goods that generate a positive externality are under-produced.
+- *Negative externality*: Production of uncompensated cost borne by others (e.g., Gulf of Mexico Hypoxic Zone, cigarettes). Goods that generate a negative externality are over-produced.
+
+We can examine the history of firefighting to see how a negative externality led to the development of public fire services. A century back, homes purchased (or not) fire insurance from companies. The house was then marked with a mark showing the insurance company. If a house was on fire, the fire services sent had to match the insurance company. That is, if your uninsured neighbor's house was burning, fire services would not arrive for them. 
+
+There are also pecuniary externalities, which are the result of actions by market participants having an effect on market prices. For example, a sudden increase in home purchases increases the market price making it more expensive for other consumers. But it is also more profitable for homeowners selling and under complete markets, there is a net zero effect. Hence, pecuniary externalities are not considered (from an economic perspective) problematic. 
+
+**Imperfect Competition**: The requirements of the First Welfare Theorem regarding perfect competition are many producers and many consumers, free entry and exit into the market, and price-taking behavior. Market structures for which those conditions are violated suffer from an efficiency loss. Those market structures are either a monopoly (one producer) or oligopoly (small number of producers). Market inefficiencies also exist when the number of consumers is small or singular. In that case, the terms oligopsony and monopsony are used. Underproduction of goods occurs in the context of imperfect competition. 
+ 
+**Other Market Failures**: Two other types of market failures are asymmetric information and adverse selection. Asymmetric information refers to a situation in which one party in an interaction (e.g., contract, transaction) has more or better information than the other party. The most common example is the purchase of a used car. In this case, the seller has more information than the buyer. The buyer having more information of the seller can also occur for example in the case of obtaining health insurance. Adverse selection leads to market participation based on asymmetric information (e.g., skydivers purchasing more insurance, bad drivers choosing a lower deductible).
+
+Moral hazard refers to a change in risk engagement due to presence of insurance. For example, the presence of (subsidized) flood insurance may decrease the hesitation to move to a flood prone area. The premium for federal flood insurance is about 38\% of what it should be in a competitive market. 
+
+Two following motivations of governments to intervene in the economy are covered in the next sections:
+
+- **Economic stabilization:** Insuring economic growth as well as preventing high unemployment and inflation
+- **Redistribution:** Transfer payments to ensure a minimum standard of living for all members of society
+
+### Economic Stabilization
+A critical function of the government is to stabilize the economy and ensure a low and stable inflation rate as well as low unemployment rate. There are two types of interventions:
+
+- *Monetary policy*: Monetary policy such as setting the interest rate is conducted by the central bank.
+- *Fiscal policy*: Fiscal policy---which is one aspect of this book---includes determining taxes and expenditures. It includes the redistribution of income through transfer payments from one entity to another, such as social security or unemployment benefits. Fiscal policy also involves levying taxes on income, corporate profits, and specific items like tobacco and alcohol. These so-called "sin" taxes are designed to alter consumption patterns and reduce the consumption of products resulting in negative externalities.
+
+No matter what policy intervention is chosen, there is usually a time lag between implementation and policy effects.
+
+### Redistribution
+The General Social Survey (GSS) in 2022 asked the following question: 
+
+> We are faced with many problems in this country, none of which can be solved easily or inexpensively. I'm going to name some of these problems, and for each one I'd like you to name some of these problems, and for each one I'd like you to tell me whether you think we're spending too much money on it, too little money, or about the right amount. Are we spending too much, too little, or about the right amount on welfare?
+
+Respondent were split on the question with answers of "too little" (34.2\%), "about right" (34.7\%), and "too much" (31.1\%). However the range of answers indicate that some redistribution is desired. 
+
+In a market economy, income is distributed to individuals based on their ownership of valuable resources, such as property, skills, and land. However, this distribution is often unequal, as not everyone has equal access to these resources. This creates a motivation for redistribution, driven by both social conscience and the fear of social disorder. Societies may feel a moral obligation to support those with fewer resources, and there is also a practical concern that extreme inequality could lead to instability.
+
+To address these issues, governments implement income redistribution policies to improve the standard of living for low-income individuals and households. This is typically achieved through progressive taxes, where those with higher incomes pay a larger percentage of their earnings, and through transfer programs that provide financial assistance to those in need. These measures aim to create a more equitable society by reducing the disparities in income and wealth.
+
+## Methods of Government Intervention
+As mentioned before, monetary and fiscal policy are the broad categories of how governments can intervene in the economy. Governments also play a significant role in the provision and production of goods and services, particularly through infrastructure investments that require funding from taxes. These projects are essential for public welfare but often necessitate substantial financial resources, leading to the collection of taxes to support government initiatives. Government influence extends to private production as well. This influence is exerted through regulation, as well as through subsidization or taxation of private production to guide economic behavior. Additionally, governments purchase goods and services from the private sector, further impacting the market.
+
+We are going to differentiate between provision and production of goods and services. Provision refers to the responsibility of ensuring that a service is available to the public, often involving funding or regulation by the government. Production refers to the actual creation or delivery of that service, which can be done by either the government itself or by private entities.
+
+The production and provision of goods and services is undertaken by three main sectors: private, public, and nonprofit. A central question arises regarding who will provide certain goods and services, particularly those whose societal benefits exceed the costs of production but might not be provided by the market. This leads to considerations about whether these goods and services should be produced by the public or private sector.
+
+Public provision and public production are seen in entities such as local school districts, state police departments, the Federal Emergency Management Administration (FEMA), and the Bureau of Motor Vehicles. These services are funded and operated by government agencies to meet public needs. In some cases, there is private provision but public production. For example, private entities may provide services like police control at rock concerts, commercial satellites launched by NASA, and fee-based services at state parks. Here, private organizations offer the service, but the government handles the production aspect. Conversely, there is public provision but private production, such as with private prisons, charter and voucher schools, private military contractors, and most weapon systems. In these scenarios, the government funds or mandates the service, but private companies are responsible for production. Finally, there is private provision and private production, exemplified by private schools and the Indiana Toll Road. In these cases, both the provision and production of goods and services are handled entirely by the private sector, often driven by market demand rather than public funding or government mandates. Examples in this category are Indiana toll roads.
+
+An important question relates to the economic effects of government intervention. Economic theory shows that efficiency can be (re-)established after correcting market failures. An example would be a Pigouvian tax for a negative externality or a price ceiling for a monopoly. There is also the question of equity versus efficiency, i.e., protection of certain groups may outweigh efficiency from a political perspective. Of course, there is always the issue of interaction between policies. For example, there is a federal subsidy on electric vehicles but state registration fees on electric vehicles.
 
 ## Exercises
 
@@ -84,4 +281,4 @@ Public finance is concerned with the role of government in the economy. The fiel
      f. What information does this budget give you on the productivity and performance of this agency? 
      g. What information would you like to have to be able to assess the ‘efficiency’ and ‘effectiveness’ of this agency?
 
-7. ***Real vs. Nominal Income*** (\*): Assume that your income in year 1 is \$200 and that the prices of raspberries and orange juice are \$20 and \$10, respectively. In year 2, the prices of raspberries and orange juice are \$22 and \$11, respectively. Assume that you fully exhausted your income in both years to purchase raspberries and orange juice and that you purchase the same quantities of those items in both years. Did your income increase if you earned $210 in year 2? Distinguish between real and nominal income. How much money do you need to earn in year 2 to have the same real income in both years? 
+7. ***Real vs. Nominal Income*** (\*): Assume that your income in year 1 is \$200 and that the prices of raspberries and orange juice are \$20 and \$10, respectively. In year 2, the prices of raspberries and orange juice are \$22 and \$11, respectively. Assume that you fully exhausted your income in both years to purchase raspberries and orange juice and that you purchase the same quantities of those items in both years. Did your income increase if you earned $210 in year 2? Distinguish between real and nominal income. How much money do you need to earn in year 2 to have the same real income in both years?

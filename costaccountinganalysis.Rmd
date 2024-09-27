@@ -1,23 +1,114 @@
 # Cost Accounting and Analysis
-This chapter covers cost accounting and cost analysis. The purpose of cost accounting is to assign costs to services, categories, and mission centers.
+Cost accounting refers to the classification of financial information from a budget or financial reports into cost categories based on the agency's cost structure analysis regarding the relationship of resources spent and major services provided. The [Oregon Accounting Manual 2010](http://www.oregon.gov/das/Financial/Acctng/Documents/65.00.00.pdf) of the Department of Administrative Services defines cost accounting as follows.
 
-- Direct cost: Cost that can be assigned to a specific mission center
-- Indirect cost: Cost that cannot be assigned to a specific mission center
+> A method of accounting which provides for assembling and recording all elements of cost incurred to accomplish a purpose, to carry on an activity or operation, or to complete a unit of work or specific job.
 
-The allocation of cost to mission centers involves several steps:
+Cost analysis is the use of cost data to analyze the determinants of costs and evaluate changes in agency operation. It is the basis for setting user fees for public services and is a decision tool for service contraction or expansion. This chapter covers aspects of cost accounting and analysis. There are [slides](https://github.com/jrfdumortier/slidespublicfinance/blob/main/CostAccountingAnalysis.pdf) as well as three YouTube videos associated with this chapter:
 
-1. Identify mission centers
-2. Identify units of activity/output for each mission center
-3. Identify expenditure categories
-4. Linking costs to mission centers
-5. Identify allocation factors
-6. Determine how costs vary with output
-7. Develop key rates
+- General concepts are outlined in the video [Cost Accounting Concepts](https://youtu.be/Oozd-qZhOP4?si=2tIEOOAMtlZ3xvLF)
+- The [Hoosier County Road Department video](https://youtu.be/zWtrF5ZAddU) is an example of a non-personnel cost analysis.
+- The [Hoosier Police Department video](https://youtu.be/jSfDmlUY-ok) is an example of a personnel cost analysis.
 
-## Break-Even Analysis: Municipal Solid Waste (MSW) Collection
-The city department for municipal solid waste (MSW) collection serves about 250,000 households per year who all own one garbage container. 
+Note that the latter two videos are linked again in the respective sections below. We also cover break-even analysis using garbage collection as an example. 
 
-```{r,echo=FALSE}
+Before diving into the topics, let us define some terminology first:
+
+- **Obligation**: An obligation is the responsibility to meet the terms of a contract. For example, road salt purchases in June for delivery in October
+- **Outlay**: Outlays are the physical outflow of cash. For example, the payment for road salt in September.
+- **Cost**: Actual use and consumption of the resource. For example, road salt consumption in December and January as cost in two different calendar years
+
+Usually, there are small dollar amount differences between obligations, outlays, and cost.
+
+## Cost Accounting
+Cost accounting aims to assign costs to services and categories in a manner that supports effective cost analysis. This process relies on various data sources, including past budgets, operational reports, and contracts or billing statements. A key aspect of cost accounting is the determination of mission or service centers, which involves categorizing the primary services provided to the public. For example, in a Department of Transportation, road maintenance could be identified as a key service center. This categorization helps to accurately track and analyz costs associated with specific functions or services.
+
+In cost accounting, direct costs refer to expenses that can be directly and accurately assigned to a specific service or project. For example, the cost of asphalt used to repave Meridian Street in Indianapolis is a direct cost because it is clearly linked to that specific project. On the other hand, indirect costs are those that cannot be precisely assigned to a specific service due to the lack of a direct causal link between the expense and the service provided. An example of an indirect cost would be the salary of a manager overseeing road maintenance in Indianapolis, as their work supports multiple projects rather than a single, specific service. One of the goals of cost accounting is to convert as many indirect costs as possible into direct costs by creating more precise links between costs and the services provided, improving the accuracy of cost allocation.
+
+Cost concepts in accounting help distinguish how expenses behave in relation to the level of output or services provided:
+
+- **Fixed cost:** This type of cost remains constant and does not vary with the level of output. An example is office space rent, which remains the same regardless of how much work or service is being performed.
+  
+- **Variable cost:** These costs fluctuate based on the level of goods or services provided. For instance, the cost of paving roads using asphalt increases as more roads are paved.
+  
+- **Semi-variable cost:** These costs contain both fixed and variable components. An example is a copy machine, where there is a fixed rental fee but additional costs accrue based on the number of copies made.
+  
+- **Step cost**: These costs change with output but in discrete jumps rather than continuously. For example, a school may need to hire one additional teacher for every 20 students, resulting in a step-like increase in costs as student numbers grow.
+
+Other key cost concepts include the full (total) cost which includes all resources utilized to produce a service. The unit cost is the total cost divided by total quantity. In economics, this is called the average total cost. For a government agency (but also for industry and nonprofits) it is important to know the average total cost. If the price per unit sold (or service provided) is below the average total cost, the service provision is not sustainable in the long run. Finally, we have marginal cost which is the change in total cost if one more unit of service is provided or one more unit of output is produced.
+
+## Cost Accounting Steps
+The cost accounting involves the following steps to assign costs to specific services or mission centers:
+
+1. Identification of mission centers
+2. Identification of activity and output units
+3. Identification of expenditure categories
+4. Identification of allocation factors
+5. Linking cost to mission centers
+
+In the following, we are going to describe each of those steps in detail. 
+
+**Identification of Mission Centers:** This first step involves categorizing the parts, i.e., mission centers, of the organization that provide direct services to the public. These mission centers represent separate services for which unit costs need to be developed. For example, a water department may have the mission centers "water distribution" and "water treatment." Other examples would be "fire suppression" and "fire prevention" for a fire department or "garbage collection" and "garbage disposal" for a sanitation Department. By identifying these mission centers, organizations can better assess the cost of providing each service and appropriately allocate resources or set rates for users.
+   
+**Identification of Activity and Output Units:** This entails defining measurable units of service or output (e.g., miles of road maintained, number of public safety incidents handled) to calculate per-unit cost of services. Each mission center needs to have clearly defined, measurable units of activity or output to allow for accurate cost analysis. These units should directly reflect the service provided by the mission center. Identifying these measurable activity or output units allows organizations to allocate costs effectively and calculate the cost per unit of service provided. For example:
+
+- In a nursing home, the output unit might be the number of resident days.
+- For garbage collection, it could be the number of tons of waste collected or the number of pickups.
+- In a water department, the unit might be the volume of water treated or distributed, measured in gallons or liters.
+- For a police department, the unit could be the number of incidents responded to or cases handled.
+
+**Identification of Expenditure Categories:** Costs are categorized into groups such as labor, materials, or overhead to facilitate better tracking and analysis. Usually, we differentiate between personnel and non-personnel expenditures. Personnel expenditures are usually composed of salaries and fringe benefits (e.g., health insurance, Social Security). Non-personnel expenditures include items such supplies, equipment, utilities, or facilities
+
+**Identification of Allocation Factors:** Allocation factors are determined to fairly distribute indirect costs (like administrative expenses) across different mission centers based on relevant drivers, such as hours worked or resources used. Requirement of using allocation factors to link indirect cost to mission centers
+
+| Indirect Cost       | Allocation Factor               |
+|---------------------|---------------------------------|
+| Facilities          | Square footage                  |
+| Overhead            | Direct personnel or direct cost |
+| Liability insurance | Direct personnel or output      |
+| Computer usage      | Direct personnel or output      |
+| Printing services   | Output                          |
+
+**Linking Costs to Mission Centers:** In a fifth step, costs are linked to the mission centers based on direct and allocated expenses, providing a clear picture of how resources are consumed by each service or function. In the previous section, we differentiated between direct cost (i.e., expenses that are directly assigned to a specific mission center) and indirect costs (i.e., expenses that cannot be directly assigned to a specific mission center). There is also overhead which refers to costs associated with providing administrative services to all mission centers. This includes the salaries of management, as well as insurance, utilities, and facilities costs, particularly when usage cannot be directly linked to a specific mission center.
+
+## Hoosier County Road Department
+Let us consider the Hoosier County Road Department whose mission is to maintain the county's roads (see [Hoosier County Road Department video](https://youtu.be/zWtrF5ZAddU)). All personnel work full time and 225 days per year. The personnel maintaining the roads cost \$74,000 per employee per year. That amount includes the salary and fringe benefits. There are two types of roads in the county, i.e., gravel roads (80 miles) and paved roads (185 miles). The state reimburses the county with \$6,250 and \$10,200 per mile of gravel road and paved road, maintained. Below is a summary of the activity and cost information that was put was compiled.
+
+|                                  | Gravel   | Paved     | Total      |
+|----------------------------------|---------:|----------:|-----------:|
+| Supplies expenditures            | \$41,000 | \$180,000 | \$221,000  |
+| Miles Repaired                   | 80       | 185       | 265        |
+| Cost per Mile                    | \$513    | \$973     |            |
+| Personnel (FTE)                  | 4        | 5         | 9          |
+| State reimbursement per mile     | \$6,250  | \$10,200  |            |
+| Productivity (miles/person/year) | 20       | 37        |            |
+| Maintenance employee salary      | \$74,000 | \$74,000  |            |
+| Director's salary                |          |           | \$96,000   |
+| Assistant's salary               |          |           | \$61,000   |
+| Equipment lease: Rate/month      | \$6,250  | \$9,750   |            |
+| Equipment lease: Rate/mile       | \$725    | \$1,100   |            |
+| Maintenance facility             |          |           | \$210,000  |
+
+## Break-Even Analysis
+The city department for municipal solid waste (MSW) collection serves about 250,000 households per year who all own one garbage container. The collection fee is \$2 per 96 gallon container. Thus, the revenue in this example would be \$500,000. On the cost side, we have annual fixed cost that are composed of administrative services (\$35,000) and equipment lease (\$85,000). The variable cost per container is composed of a landfill charge (\$1) and equipment operation on collection routes (\$0.40). Suppose that due to inflation, the landfill considers increasing the fee from \$1.00 to \$1.30 per container. The table below calculates the total revenue, fixed cost, variable cost, and total cost and the old and proposed landfill (LF) fee. 
+
+| Item                                       | Current LF Charge | New LF Charge  |
+|--------------------------------------------|------------------:|---------------:|
+| Number of containers                       | 250,000           | 250,000        |
+| Collection Fee                             | \$2               | \$2            |
+| **Revenue**                                | **\$500,000**     | **\$500,000**  |
+| Administration                             | \$35,000          | \$35,000       |
+| Equipment Lease                            | \$85,000          | \$85,000       |
+| **Fixed Cost**                             | **\$120,000**     | **\$120,000**  |
+| Landfill charge                            | \$1.00            | \$1.30         |
+| Equipment operating on collection routes   | \$0.40            | \$0.40         |
+| Total variable costs per unit              | \$1.40            | \$1.70         |
+| **Variable Cost**                          | **\$350,000**     | **\$425,000**  |
+| Total Cost                                 | \$470,000         | \$545,000      |
+| **Surplus/deficit**                        | **\$30,000**      | **\$(45,000)** |
+
+The graph below represents the break even number of containers under the old landfill charge.
+
+```{r,echo=FALSE,warning=FALSE}
 containers          = 0:500
 collectionfee       = 2
 fc_administration   = 35
@@ -37,27 +128,13 @@ ggplot(msw,aes(y=value,x=containers,color=item))+geom_line()+ylab("in 1,000 USD"
      geom_segment(aes(x=200,y=-120,xend=200,yend=1000),color="black",linetype="dashed")
 ```
 
-## Hoosier County Road Department
-Suppose you are the director of the Hoosier County road department. The mission of the department is to maintain the 500 miles of county roads, which are are either paved or gravel. Any new road construction in the county is carried out by the state's Department of Transportation (DOT). Your department's revenue comes from the DOT that will reimburse the county at a fixed rate per mile of road maintained. All employees of your department work full time and on average 225 days per year. All maintenance personnel receives the same salary and fringe benefits, which total $60,000 current employee per year.
+## Personnel Cost versus Non-Personnel Cost
+We make the distinction between personnel and non-personnel cost. Personnel cost are usually the largest single component of a budget and include wages, salaries, and fringe benefits. In general, total salary expenses are defined as $N \times w$ where $N$ represents the number of workers in a given working grade and $w$ represents the wage per worker for said working grade. Whereas non-personnel cost are relatively straightforward to calculate and ultimately result in the cost per unit produced or provided times the number of units, personnel cost need to keep track of the steps (grades) which vary with education, experience, and tenure of each employee. 
 
-The following is a summary of the activity and cost information that was put together for FY 2014.  For simplicity no inflation was assumed in the initial cost analysis for FY 2015.			
-
-Using this information, you have laid out a series of tasks that you need to complete before you can get a handle on the road department budget.
-
-1. Identify the mission centers for the Hoosier County road department and the output measures of those centers.
-2. Determine which costs you can link directly to a mission center and which are indirect.
-3. The next step is to determine how each cost category varies with output by identifying fixed, variable, step, and semi-variable costs.
-4. Using this information calculate appropriate cost rates and develop a unit cost table with each mission center. How large is the deficit compared to the state reimbursement rate?
-5. Assume staff can work up to the maximum productivity rate--by how much does this reduce the deficit?
-6. Do a flexible budget for Heartland County Road Department, assuming that output varies by 20% above and below last year's output level. What happens to unit costs and the deficits? (You can assume that the indirect fixed costs for each mission center remain the same as in part d.)
-7. What would happen to the amount of miles of gravel roads maintained if there was a 20% cut in the budget for gravel roads. (You can assume that the indirect fixed costs for gravel roads remains the same as in part d.)
-8. Determine what would happen to per unit and total deficits if the county dropped maintenance of paved roads. (You can assume that the state department of transportation will take it over.) Does this reduce the deficit per unit and in total?
-9. If a private contractor agreed to take over paving roads for \$7,000 per mile, should the Department accept this contract?
-
-Break even analysis if the county will outsources the cost to a contractor. What is their willingness to pay?
+Budgeting for non-personnel cost can be done by the so-called incremental method, which adjust past cost for inflation, i.e., last years expenditures times (1+inflation rate). Since this method does not account for the possibility of input substitution, the unit cost method can be use that calculates \$ per unit of output (unit costs).
 
 ## Personnel Budget
-To illustrate the preparation of a personnel budget for a police department (PD), assume that you are responsible for the budget construction of O'Neill PD. Given the population size of the district, you need nine patrol cars at any given time. Patrols are 24 hours per day and 365 days per year. For safety reasons, each patrol requires two officers per car. Those officers work eight hour shifts per day on five days per week. All officers receive three weeks of vacation and and sick leave (i.e., two weeks of vacation and one week of sick leave). The salary per police officer is \$61,200 with 30\$ fringe benefits. The estimation of the personnel budget requires four steps:
+To illustrate the preparation of a personnel budget for a police department (PD), assume that you are responsible for the budget construction of Hoosier PD (see [Hoosier Police Department video](https://youtu.be/jSfDmlUY-ok) ). Given the population size of the district, you need nine patrol cars at any given time. Patrols are 24 hours per day and 365 days per year. For safety reasons, each patrol requires two officers per car. Those officers work eight hour shifts per day on five days per week. All officers receive three weeks of vacation and and sick leave (i.e., two weeks of vacation and one week of sick leave). The salary per police officer is \$61,200 with 30\$ fringe benefits. The estimation of the personnel budget requires four steps:
 
 1. **Calculation of personnel hours needed**: 24 hours per day $\times$ 365 days per year $\times$ 2 officers per car $\times$ 9 patrols = 157,680 hours
 2. **Calculation of provided hours per officer**: One officer works 49 weeks (52 minus three weeks) and eight hours per day. Given that the officer works for five days per week, the number provided is 49 weeks $\times$ 5 days per week $\times$ 8 hours per day = 1,960 hours
@@ -65,25 +142,26 @@ To illustrate the preparation of a personnel budget for a police department (PD)
 4. **Salary and fringe benefit costs**: Given the salary of \$61,200, the fringe benefits are an additional \$18,360. Hence the total budget is 81 $\times$ \$79,560 = \$6,444,360.
 
 ## Exercises
-1. (\*\*\*) The manager of a municipal ice rink is concerned that the flow of patrons may not be sufficient to maintain the long-standing policy of keeping the rink on a self-supporting basis. Revenues come mainly from the hourly rental of ice time which is set by the city and skate rental (i.e., a certain share of patrons rent skates). The manager knows the average ice time per patron over the last 3 years. Salaries, scheduled maintenance, and other overhead expenditures are also know these costs do not vary with the number of patrons. Costs that vary with the number of patrons are estimated in $ per patron hour. The manager would like to know the number of patrons required to break-even, i.e., where total revenues equals to total cost. In your Excel file, you have information about the following:
+1. ***MCPTA Break-Even Analysis*** (\*\*\*): The Metro City Public Transportation Authority (MCPTA) is considering expanding its fleet from currently 150 to 200 buses to accommodate growing demand. Each bus has a capacity of 60 passengers. The average cost per bus is \$450 per day and includes fuel, maintenance, depreciation, and the driver's salary. MCPTA charges a flat fare of \$1.50 per ride. Each bus does 10 round trips per day on its route. The buses currently operate at 75\% capacity on average. Thus, each bus has 1,020 per day given those numbers. Overhead is currently \$3.5 million. MCPTA expects that the new expansion would decrease ridership because of the transport network being expanded. However, with this expansion, fixed costs (infrastructure, administrative overhead, etc.) would rise by an additional $30,000 annually. 
+     
+     (a) Calculate the break-even capacity in percent that MCPTA needs in order to cover the new total operating costs with the expanded fleet. Assume buses operate 365 days a year. Show all steps in your calculations, including the new total costs, revenues, and break-even analysis.
+     (b) If MCPTA considers raising the fare to $1.75 per ride, how would this affect the break-even number of daily passengers? Would this new fare reduce the financial risk of the expansion? Explain.
+     (c) Assuming the break-even analysis is marginally viable, discuss other public finance factors that could impact MCPTA’s decision to expand (e.g., subsidies, long-term infrastructure costs, elasticity of demand, social welfare, or environmental benefits). What are your recommendations?
 
-- Hourly rental rate which is expressed in $ per hour per patron
-•	Skate rental which is expressed in $ per pair
-•	Hours spent at ice rink expressed in hours per patron
-•	Share of patrons renting skates, e.g., 0.25 means that 25% of patrons rent their skates 
-•	Overhead expressed in $ per year
-•	Variable Cost expressed in $ per patron
-•	Average number of patrons per year which is the average number of patrons over the last 5 years
+2. ***Municipal Electric Utility Expansion*** (\*\*\*): The City of Hoosier Valley operates its own municipal electric utility (HV Electric) and provides electricity to 100,000 households. The current generation capacity is 500 GWh (gigawatt-hours) per year, and the utility operates at 85\% of its capacity. The utility charges \$0.12 per kWh (kilowatt-hour), and the total annual operating cost (including fixed and variable costs) is \$40 million. The fixed costs, which include infrastructure maintenance, administrative overhead, and long-term debt servicing, account for 60% of the total annual cost. Due to population growth and increasing energy consumption, the city anticipates a 20% increase in demand for electricity over the next 5 years. HV Electric is considering expanding its capacity to 600 GWh by investing in renewable energy sources (solar and wind). The expansion would increase the annual fixed cost 5 million in one-time capital costs, spread equally over the next 5 years, plus an ongoing annual increase of \$3 million in variable operating costs (fuel, labor, maintenance). The city is also considering raising the electricity rate to \$0.14 per kWh to finance the expansion and offset rising costs. The proposed rate increase is expected to reduce overall electricity usage by 3%.
 
-Calculate the following assuming the average number of patrons per year:
+Task 1: Break-Even Analysis for Capacity Expansion
 
-1.	Total revenue from patrons using the ice rink
-2.	Total revenue from skate rental
-3.	Total revenue (ice rink use and skate rental)
-4.	Total variable cost
-5.	Total cost (overhead plus variable cost)
-6.	Profit or loss (total revenue-total cost)
+    Calculate the break-even point for GV Electric’s total costs under the expanded capacity scenario. How many GWh must the utility sell annually to cover all its costs (including the additional operating costs due to expansion)? Include both fixed and variable costs in your analysis.
 
-What is the number of patrons necessary to break even (i.e., to make neither profit not loss). Should the manager be concerned given the current number of users?
+    How does the new break-even sales level compare to the projected electricity demand (including the rate increase impact on demand)? Will the expanded capacity meet or exceed the break-even point?
 
-(\*\*\*) Some NPV questions comparing projects
+Task 2: Sensitivity Analysis on Pricing
+
+    If GV Electric does not raise prices, how much additional electricity must it sell annually to cover the increased costs from the capacity expansion alone? How does this compare to the anticipated 20% increase in demand?
+
+    Analyze the sensitivity of the break-even point to changes in price elasticity of demand. If the demand elasticity is underestimated, and the actual decrease in demand is 5% instead of 3%, what impact does this have on the break-even analysis?
+
+Task 3: Risk and Policy Considerations
+
+Given the sensitivity of the break-even point to pricing and demand, what are the financial risks to GV Electric if they proceed with the expansion under uncertain demand? Discuss how other factors—such as government subsidies for renewable energy, carbon taxes, or potential technological improvements in efficiency—might affect the financial viability of this project. Provide a recommendation based on your analysis.

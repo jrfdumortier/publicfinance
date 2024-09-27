@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>8.6 Football Field: Calculation | Public Finance</title>
+  <meta name="description" content="8.6 Football Field: Calculation | Public Finance" />
+  <meta name="generator" content="bookdown 0.40 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="8.6 Football Field: Calculation | Public Finance" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="8.6 Football Field: Calculation | Public Finance" />
+  
+  
+  
+
+<meta name="author" content="Jerome Dumortier" />
+
+
+<meta name="date" content="2024-09-22" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="football-field-setup.html"/>
+<link rel="next" href="annuity-formula.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Public Finance</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Preface</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="book-overview.html"><a href="book-overview.html"><i class="fa fa-check"></i><b>1.1</b> Book Overview</a></li>
+<li class="chapter" data-level="1.2" data-path="data-sources.html"><a href="data-sources.html"><i class="fa fa-check"></i><b>1.2</b> Data Sources</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>2</b> Introduction</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="federal-government.html"><a href="federal-government.html"><i class="fa fa-check"></i><b>2.1</b> Federal Government</a></li>
+<li class="chapter" data-level="2.2" data-path="state-and-local-government.html"><a href="state-and-local-government.html"><i class="fa fa-check"></i><b>2.2</b> State and Local Government</a></li>
+<li class="chapter" data-level="2.3" data-path="international-perspective.html"><a href="international-perspective.html"><i class="fa fa-check"></i><b>2.3</b> International Perspective</a></li>
+<li class="chapter" data-level="2.4" data-path="efficiency.html"><a href="efficiency.html"><i class="fa fa-check"></i><b>2.4</b> Efficiency</a></li>
+<li class="chapter" data-level="2.5" data-path="role-of-government-in-the-economy.html"><a href="role-of-government-in-the-economy.html"><i class="fa fa-check"></i><b>2.5</b> Role of Government in the Economy</a>
+<ul>
+<li class="chapter" data-level="2.5.1" data-path="role-of-government-in-the-economy.html"><a href="role-of-government-in-the-economy.html#market-failures"><i class="fa fa-check"></i><b>2.5.1</b> Market Failures</a></li>
+<li class="chapter" data-level="2.5.2" data-path="role-of-government-in-the-economy.html"><a href="role-of-government-in-the-economy.html#economic-stabilization"><i class="fa fa-check"></i><b>2.5.2</b> Economic Stabilization</a></li>
+<li class="chapter" data-level="2.5.3" data-path="role-of-government-in-the-economy.html"><a href="role-of-government-in-the-economy.html#redistribution"><i class="fa fa-check"></i><b>2.5.3</b> Redistribution</a></li>
+</ul></li>
+<li class="chapter" data-level="2.6" data-path="methods-of-government-intervention.html"><a href="methods-of-government-intervention.html"><i class="fa fa-check"></i><b>2.6</b> Methods of Government Intervention</a></li>
+<li class="chapter" data-level="2.7" data-path="exercises.html"><a href="exercises.html"><i class="fa fa-check"></i><b>2.7</b> Exercises</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="basics-of-budget-preparation.html"><a href="basics-of-budget-preparation.html"><i class="fa fa-check"></i><b>3</b> Basics of Budget Preparation</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="budget-function-and-purpose.html"><a href="budget-function-and-purpose.html"><i class="fa fa-check"></i><b>3.1</b> Budget Function and Purpose</a></li>
+<li class="chapter" data-level="3.2" data-path="budget-preparation.html"><a href="budget-preparation.html"><i class="fa fa-check"></i><b>3.2</b> Budget Preparation</a>
+<ul>
+<li class="chapter" data-level="3.2.1" data-path="budget-preparation.html"><a href="budget-preparation.html#budget-document"><i class="fa fa-check"></i><b>3.2.1</b> Budget Document</a></li>
+<li class="chapter" data-level="3.2.2" data-path="budget-preparation.html"><a href="budget-preparation.html#detailed-departmental-budgets"><i class="fa fa-check"></i><b>3.2.2</b> Detailed Departmental Budgets</a></li>
+<li class="chapter" data-level="3.2.3" data-path="budget-preparation.html"><a href="budget-preparation.html#budget-examples"><i class="fa fa-check"></i><b>3.2.3</b> Budget Examples</a></li>
+</ul></li>
+<li class="chapter" data-level="3.3" data-path="exercises-1.html"><a href="exercises-1.html"><i class="fa fa-check"></i><b>3.3</b> Exercises</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="budgeting-in-the-united-states.html"><a href="budgeting-in-the-united-states.html"><i class="fa fa-check"></i><b>4</b> Budgeting in the United States</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="budget-function-classification.html"><a href="budget-function-classification.html"><i class="fa fa-check"></i><b>4.1</b> Budget Function Classification</a></li>
+<li class="chapter" data-level="4.2" data-path="federal-budget-process-and-major-institutions.html"><a href="federal-budget-process-and-major-institutions.html"><i class="fa fa-check"></i><b>4.2</b> Federal Budget Process and Major Institutions</a></li>
+<li class="chapter" data-level="4.3" data-path="key-federal-budget-laws.html"><a href="key-federal-budget-laws.html"><i class="fa fa-check"></i><b>4.3</b> Key Federal Budget Laws</a></li>
+<li class="chapter" data-level="4.4" data-path="federal-budget-cycle.html"><a href="federal-budget-cycle.html"><i class="fa fa-check"></i><b>4.4</b> Federal Budget Cycle</a>
+<ul>
+<li class="chapter" data-level="4.4.1" data-path="federal-budget-cycle.html"><a href="federal-budget-cycle.html#presidents-budget-request"><i class="fa fa-check"></i><b>4.4.1</b> President’s Budget Request</a></li>
+<li class="chapter" data-level="4.4.2" data-path="federal-budget-cycle.html"><a href="federal-budget-cycle.html#congressional-budget-resolution"><i class="fa fa-check"></i><b>4.4.2</b> Congressional Budget Resolution</a></li>
+<li class="chapter" data-level="4.4.3" data-path="federal-budget-cycle.html"><a href="federal-budget-cycle.html#appropriation-bills"><i class="fa fa-check"></i><b>4.4.3</b> Appropriation Bills</a></li>
+</ul></li>
+<li class="chapter" data-level="4.5" data-path="types-of-budget-authority.html"><a href="types-of-budget-authority.html"><i class="fa fa-check"></i><b>4.5</b> Types of Budget Authority</a></li>
+<li class="chapter" data-level="4.6" data-path="main-social-insurance-programs.html"><a href="main-social-insurance-programs.html"><i class="fa fa-check"></i><b>4.6</b> Main Social Insurance Programs</a>
+<ul>
+<li class="chapter" data-level="4.6.1" data-path="main-social-insurance-programs.html"><a href="main-social-insurance-programs.html#medicare"><i class="fa fa-check"></i><b>4.6.1</b> Medicare</a></li>
+<li class="chapter" data-level="4.6.2" data-path="main-social-insurance-programs.html"><a href="main-social-insurance-programs.html#medicaid"><i class="fa fa-check"></i><b>4.6.2</b> Medicaid</a></li>
+<li class="chapter" data-level="4.6.3" data-path="main-social-insurance-programs.html"><a href="main-social-insurance-programs.html#problems-with-social-insurance-financing"><i class="fa fa-check"></i><b>4.6.3</b> Problems with Social Insurance Financing</a></li>
+</ul></li>
+<li class="chapter" data-level="4.7" data-path="federal-debt.html"><a href="federal-debt.html"><i class="fa fa-check"></i><b>4.7</b> Federal Debt</a></li>
+<li class="chapter" data-level="4.8" data-path="exercises-2.html"><a href="exercises-2.html"><i class="fa fa-check"></i><b>4.8</b> Exercises</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="budget-methods-and-format.html"><a href="budget-methods-and-format.html"><i class="fa fa-check"></i><b>5</b> Budget Methods and Format</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="budget-philosophy.html"><a href="budget-philosophy.html"><i class="fa fa-check"></i><b>5.1</b> Budget Philosophy</a></li>
+<li class="chapter" data-level="5.2" data-path="budget-classification.html"><a href="budget-classification.html"><i class="fa fa-check"></i><b>5.2</b> Budget Classification</a></li>
+<li class="chapter" data-level="5.3" data-path="budget-types.html"><a href="budget-types.html"><i class="fa fa-check"></i><b>5.3</b> Budget Types</a>
+<ul>
+<li class="chapter" data-level="5.3.1" data-path="budget-types.html"><a href="budget-types.html#line-item-budget"><i class="fa fa-check"></i><b>5.3.1</b> Line Item Budget</a></li>
+<li class="chapter" data-level="5.3.2" data-path="budget-types.html"><a href="budget-types.html#program-budget"><i class="fa fa-check"></i><b>5.3.2</b> Program Budget</a></li>
+<li class="chapter" data-level="5.3.3" data-path="budget-types.html"><a href="budget-types.html#performance-budget"><i class="fa fa-check"></i><b>5.3.3</b> Performance Budget</a></li>
+</ul></li>
+<li class="chapter" data-level="5.4" data-path="zero-based-budget.html"><a href="zero-based-budget.html"><i class="fa fa-check"></i><b>5.4</b> Zero-Based Budget</a></li>
+<li class="chapter" data-level="5.5" data-path="advantages-and-disadvantages.html"><a href="advantages-and-disadvantages.html"><i class="fa fa-check"></i><b>5.5</b> Advantages and Disadvantages</a></li>
+<li class="chapter" data-level="5.6" data-path="exercises-3.html"><a href="exercises-3.html"><i class="fa fa-check"></i><b>5.6</b> Exercises</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="cost-accounting-and-analysis.html"><a href="cost-accounting-and-analysis.html"><i class="fa fa-check"></i><b>6</b> Cost Accounting and Analysis</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="cost-accounting.html"><a href="cost-accounting.html"><i class="fa fa-check"></i><b>6.1</b> Cost Accounting</a></li>
+<li class="chapter" data-level="6.2" data-path="cost-accounting-steps.html"><a href="cost-accounting-steps.html"><i class="fa fa-check"></i><b>6.2</b> Cost Accounting Steps</a></li>
+<li class="chapter" data-level="6.3" data-path="hoosier-county-road-department.html"><a href="hoosier-county-road-department.html"><i class="fa fa-check"></i><b>6.3</b> Hoosier County Road Department</a></li>
+<li class="chapter" data-level="6.4" data-path="overview.html"><a href="overview.html"><i class="fa fa-check"></i><b>6.4</b> Overview</a></li>
+<li class="chapter" data-level="6.5" data-path="workload.html"><a href="workload.html"><i class="fa fa-check"></i><b>6.5</b> Workload</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="break-even-analysis.html"><a href="break-even-analysis.html"><i class="fa fa-check"></i><b>7</b> Break-Even Analysis</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="garbage-collection-setup.html"><a href="garbage-collection-setup.html"><i class="fa fa-check"></i><b>7.1</b> Garbage Collection: Setup</a></li>
+<li class="chapter" data-level="7.2" data-path="break-even-graph.html"><a href="break-even-graph.html"><i class="fa fa-check"></i><b>7.2</b> Break-Even Graph</a></li>
+<li class="chapter" data-level="7.3" data-path="step-7-develop-key-rates.html"><a href="step-7-develop-key-rates.html"><i class="fa fa-check"></i><b>7.3</b> Step 7: Develop key rates</a></li>
+<li class="chapter" data-level="7.4" data-path="step-7-develop-key-rates-1.html"><a href="step-7-develop-key-rates-1.html"><i class="fa fa-check"></i><b>7.4</b> Step 7: Develop Key Rates</a></li>
+<li class="chapter" data-level="7.5" data-path="budgeting-of-non-personnel-cost.html"><a href="budgeting-of-non-personnel-cost.html"><i class="fa fa-check"></i><b>7.5</b> Budgeting of Non-Personnel Cost</a></li>
+<li class="chapter" data-level="7.6" data-path="first-step.html"><a href="first-step.html"><i class="fa fa-check"></i><b>7.6</b> First Step</a></li>
+<li class="chapter" data-level="7.7" data-path="key-cost-concepts-i.html"><a href="key-cost-concepts-i.html"><i class="fa fa-check"></i><b>7.7</b> Key Cost Concepts I</a></li>
+<li class="chapter" data-level="7.8" data-path="personnel-cost-versus-non-personnel-cost.html"><a href="personnel-cost-versus-non-personnel-cost.html"><i class="fa fa-check"></i><b>7.8</b> Personnel Cost versus Non-Personnel Cost</a></li>
+<li class="chapter" data-level="7.9" data-path="personnel-cost-versus-non-personnel-cost-1.html"><a href="personnel-cost-versus-non-personnel-cost-1.html"><i class="fa fa-check"></i><b>7.9</b> Personnel Cost versus Non-Personnel Cost</a></li>
+<li class="chapter" data-level="7.10" data-path="break-even-analysis-municipal-solid-waste-msw-collection.html"><a href="break-even-analysis-municipal-solid-waste-msw-collection.html"><i class="fa fa-check"></i><b>7.10</b> Break-Even Analysis: Municipal Solid Waste (MSW) Collection</a></li>
+<li class="chapter" data-level="7.11" data-path="hoosier-county-road-department-1.html"><a href="hoosier-county-road-department-1.html"><i class="fa fa-check"></i><b>7.11</b> Hoosier County Road Department</a></li>
+<li class="chapter" data-level="7.12" data-path="personnel-budget.html"><a href="personnel-budget.html"><i class="fa fa-check"></i><b>7.12</b> Personnel Budget</a></li>
+<li class="chapter" data-level="7.13" data-path="exercises-4.html"><a href="exercises-4.html"><i class="fa fa-check"></i><b>7.13</b> Exercises</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="capital-budgeting.html"><a href="capital-budgeting.html"><i class="fa fa-check"></i><b>8</b> Capital Budgeting</a>
+<ul>
+<li class="chapter" data-level="8.1" data-path="capital-assets-and-expenditure.html"><a href="capital-assets-and-expenditure.html"><i class="fa fa-check"></i><b>8.1</b> Capital Assets and Expenditure</a></li>
+<li class="chapter" data-level="8.2" data-path="capital-budgeting-process.html"><a href="capital-budgeting-process.html"><i class="fa fa-check"></i><b>8.2</b> Capital Budgeting Process</a>
+<ul>
+<li class="chapter" data-level="8.2.1" data-path="capital-budgeting-process.html"><a href="capital-budgeting-process.html#inventory-of-capital-assets-and-future-needs"><i class="fa fa-check"></i><b>8.2.1</b> Inventory of Capital Assets and Future Needs</a></li>
+<li class="chapter" data-level="8.2.2" data-path="capital-budgeting-process.html"><a href="capital-budgeting-process.html#project-evaluation-and-selection"><i class="fa fa-check"></i><b>8.2.2</b> Project Evaluation and Selection</a></li>
+<li class="chapter" data-level="8.2.3" data-path="capital-budgeting-process.html"><a href="capital-budgeting-process.html#financing-plan-and-long-term-financial-analysis"><i class="fa fa-check"></i><b>8.2.3</b> Financing Plan and Long-Term Financial Analysis</a></li>
+<li class="chapter" data-level="8.2.4" data-path="capital-budgeting-process.html"><a href="capital-budgeting-process.html#financial-analysis-over-capital-asset-lifetime"><i class="fa fa-check"></i><b>8.2.4</b> Financial Analysis over Capital Asset Lifetime</a></li>
+</ul></li>
+<li class="chapter" data-level="8.3" data-path="leasing-and-debt-options.html"><a href="leasing-and-debt-options.html"><i class="fa fa-check"></i><b>8.3</b> Leasing and Debt Options</a></li>
+<li class="chapter" data-level="8.4" data-path="net-present-value.html"><a href="net-present-value.html"><i class="fa fa-check"></i><b>8.4</b> Net Present Value</a></li>
+<li class="chapter" data-level="8.5" data-path="football-field-setup.html"><a href="football-field-setup.html"><i class="fa fa-check"></i><b>8.5</b> Football Field: Setup</a></li>
+<li class="chapter" data-level="8.6" data-path="football-field-calculation.html"><a href="football-field-calculation.html"><i class="fa fa-check"></i><b>8.6</b> Football Field: Calculation</a></li>
+<li class="chapter" data-level="8.7" data-path="annuity-formula.html"><a href="annuity-formula.html"><i class="fa fa-check"></i><b>8.7</b> Annuity Formula</a></li>
+<li class="chapter" data-level="8.8" data-path="internal-rate-of-return.html"><a href="internal-rate-of-return.html"><i class="fa fa-check"></i><b>8.8</b> Internal Rate of Return</a></li>
+<li class="chapter" data-level="8.9" data-path="annualize-capital-costs.html"><a href="annualize-capital-costs.html"><i class="fa fa-check"></i><b>8.9</b> Annualize Capital Costs</a></li>
+<li class="chapter" data-level="8.10" data-path="cost-benefit-analysis-cba.html"><a href="cost-benefit-analysis-cba.html"><i class="fa fa-check"></i><b>8.10</b> Cost Benefit Analysis (CBA)</a></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="case-studies.html"><a href="case-studies.html"><i class="fa fa-check"></i><b>9</b> Case Studies</a>
+<ul>
+<li class="chapter" data-level="9.1" data-path="farm-to-table-4-all.html"><a href="farm-to-table-4-all.html"><i class="fa fa-check"></i><b>9.1</b> Farm-to-Table 4 All</a></li>
+<li class="chapter" data-level="9.2" data-path="state-tax-refrom.html"><a href="state-tax-refrom.html"><i class="fa fa-check"></i><b>9.2</b> State Tax Refrom</a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Public Finance</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="football-field-calculation" class="section level2 hasAnchor" number="8.6">
+<h2><span class="header-section-number">8.6</span> Football Field: Calculation<a href="football-field-calculation.html#football-field-calculation" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<table>
+<thead>
+<tr class="header">
+<th align="right">Year</th>
+<th align="right">Cost</th>
+<th align="right">DF</th>
+<th align="right">PV</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="right">0</td>
+<td align="right">200</td>
+<td align="right">1.000000</td>
+<td align="right">200.00000</td>
+</tr>
+<tr class="even">
+<td align="right">1</td>
+<td align="right">20</td>
+<td align="right">1.050000</td>
+<td align="right">19.04762</td>
+</tr>
+<tr class="odd">
+<td align="right">2</td>
+<td align="right">50</td>
+<td align="right">1.102500</td>
+<td align="right">45.35147</td>
+</tr>
+<tr class="even">
+<td align="right">3</td>
+<td align="right">20</td>
+<td align="right">1.157625</td>
+<td align="right">17.27675</td>
+</tr>
+<tr class="odd">
+<td align="right">4</td>
+<td align="right">50</td>
+<td align="right">1.215506</td>
+<td align="right">41.13512</td>
+</tr>
+<tr class="even">
+<td align="right">5</td>
+<td align="right">20</td>
+<td align="right">1.276282</td>
+<td align="right">15.67052</td>
+</tr>
+<tr class="odd">
+<td align="right">6</td>
+<td align="right">50</td>
+<td align="right">1.340096</td>
+<td align="right">37.31077</td>
+</tr>
+<tr class="even">
+<td align="right">7</td>
+<td align="right">20</td>
+<td align="right">1.407100</td>
+<td align="right">14.21363</td>
+</tr>
+<tr class="odd">
+<td align="right">8</td>
+<td align="right">50</td>
+<td align="right">1.477455</td>
+<td align="right">33.84197</td>
+</tr>
+<tr class="even">
+<td align="right">9</td>
+<td align="right">20</td>
+<td align="right">1.551328</td>
+<td align="right">12.89218</td>
+</tr>
+<tr class="odd">
+<td align="right">10</td>
+<td align="right">50</td>
+<td align="right">1.628895</td>
+<td align="right">30.69566</td>
+</tr>
+</tbody>
+</table>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="football-field-setup.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="annuity-formula.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/jrfdumortier/publicfinance/edit/main/capitalbudgeting.rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": "https://github.com/jrfdumortier/publicfinance/blob/main/capitalbudgeting.rmd",
+"text": null
+},
+"download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>

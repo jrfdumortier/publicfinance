@@ -1,10 +1,264 @@
 # Budgeting in the United States
-There is a YouTube video and slides associated with this chapter:
+The following topics are covered in this chapter:
+
+- Budget function classification
+- Federal budget process and major institutions 
+- Federal budget laws
+- Federal budget cycle
+- Types of budget authority
+- Main social insurance programs
+
+There are several additional resources (i.e., YouTube video, slides, and an infographic):
 
 - Budgeting in the United States: [Video](https://youtu.be/bV7ngmXHi3E?si=UYESGlB54m3YZQEz) and [Slides](https://github.com/jrfdumortier/slidespublicfinance/blob/main/BudgetingUnitedStates.pdf)
 - [Federal Government Budget Infographic](https://github.com/jrfdumortier/slidespublicfinance/blob/main/FederalBudgetInfographic.pdf)
+- [Budget Function Classification](https://www.gao.gov/products/aimd-98-67)
+- [A Glossary of Terms Used in the Federal Budget Process](https://www.gao.gov/products/gao-05-734sp)
 
+## Budget Function Classification
+The federal budget is categorized around functions, which have the following purpose ([GAO, 1998](https://www.gao.gov/products/aimd-98-67)):
+
+> ...categorize federal spending according to the purpose or mission of government...
+
+Budget functions are not administrative departments. That is, one function can be associated with multiple departments such as national defense is in the Department of Defense (DOD) and the Department of Energy (among others). It is also possible to have one department and multiple functions. For example, the DOD is responsible for national security and natural resources and environment (given the large area of land occupied by military bases). The structure of the budget resolution is around 20 functions of which 17 are labeled as broad areas of national need and three are labeled as miscellaneous (e.g., interest payments on federal debt). Examples:
+
+- ***Community and Regional Development***: (1) Community development, (2) area and regional development, and (3) disaster relief and insurance
+- ***Energy***: (1) Energy supply, (2) energy conservation, (3) emergency energy preparedness, and (4) energy information, policy, and regulation
+- ***General Science, Space and Technology***: (1) General science and basic research and (2) space flight, research, and supporting activities
+
+## Federal Budget Process and Major Institutions
+There are many institutions that are involved in the federal budget process. The main executive branch office is the Office of Management and Budget (OMB), which was mentioned previously as a major data source. Legislative branch offices (i.e., those reporting to Congress) are the following: Congressional Budget Office (CBO), Government Accountability Office (GAO), and Congressional Research Service (CRS). Let us present those institution in more detail:
+
+**Office of Management and Budget (OMB):** The OMB is responsible for the construction of the President's budget. It is (1) setting the funding priorities, (2) evaluates the effectiveness of agency programs, policies, and procedures, and (3) assess competing funding demands among agencies. The OMB submits the President's annual budget and supporting materials to Congress. It supervises and coordinates the administration's procurement, financial management, information, and regulatory policies. The OMB is also tasked with improving the administrative management and developing performance measures. And lastly, it ensures consistency of agency reports, rules, testimony, and proposed legislation with the President's budget and administration policies and priorities.
+
+**Congressional Budget Office (CBO):** The CBO provides nonpartisan budgetary information and analyses to Congress and its committees. In addition, it is tasked with the following:
+
+- Annual five-year economic forecast
+- Review of President's annual budget submission
+- Budget baseline projections
+- Preparation of financial reports
+- Evaluation of spending and revenue options for reducing budget deficit
+
+## Key Federal Budget Laws
+There are some key laws associated with federal budgeting in the United States. Before we present those key laws, let us present some terminology used:
+
+- *Impoundment* refers to the decision of the President to withdraw funds.
+- *Rescission* is the proposal by the President to withdraw funds. It requires a majority vote of approval by Congress within 45 days.
+- *Deferrals* are *"...temporary delays in the release of funds for obligation."* The maximum delay is until the end of the fiscal year. Like the rescission, a deferral requires approval by Congress as well.
+
+More information on rescissions and deferrals can be found in [Judicial Review of Rescissions and Deferrals Under the Impoundment Control Act](https://crsreports.congress.gov/product/pdf/LSB/LSB10132).
+
+**Constitution (Article 1, Section 9):**
+
+> No Money shall be drawn from the Treasury, but in consequence of appropriations made by law; and a regular statement and account of the receipts and expenditures of all public money shall be published from time to time.
+
+**Anti-Deficiency Act (earliest version 1870):** The Anti-Deficiency Act prohibits departments to spend more than appropriated by Congress.
+
+**Budget and Accounting Act of 1921:** The [Budget and Accounting Act of 1921](https://fraser.stlouisfed.org/title/budget-accounting-act-1921-5858) created the Bureau of Budget (which is now called OMB) and the GAO. It set the start of the fiscal year to July 1 (which is now October 1). In addition, it established a national budget system and independent audits of government accounts. 
+
+**Congressional Budget and Impoundment Control Act of 1974:** The [Congressional Budget and Impoundment Control Act of 1974](https://fraser.stlouisfed.org/title/congressional-budget-impoundment-control-act-1974-6320) established budget committees in both the House and Senate,as well as created the Congressional Budget Office (CBO). These committees and the CBO were tasked with enhancing the legislative branch's ability to analyze, oversee, and manage federal fiscal policies.
+
+The Act required the President's budget to include a functional classification, which we have mentioned previously, to organize federal spending by purpose (e.g., defense, education, healthcare). The Act also replaced the practice of impoundment---where the President could withhold spending of funds appropriated by Congress---with rescission and deferral. Finally, the Act shifted the start of the fiscal year from July 1 to October 1.
+
+**Gramm-Rudman-Hollings Act:** Also known as [Balanced Budget and Emergency Deficit Control Act of 1985](https://www.congress.gov/bill/99th-congress/house-joint-resolution/372) established deficit targets to balance the federal budget by 1991. The mechansim to meet the target was called sequestration ("cancellation of budgetary resources"). It triggers automatic spending cuts if total discretionary appropriations exceed budget spending thresholds. It affects all departments and programs by an equal percentage. The original version was ruled unconstitutional by the Supreme Court because it violates *the Constitution's command that Congress play no direct role in the execution of the laws.*
+
+**Budget Enforcement Act (BEA):** The BEA was part of the [Omnibus Budget Reconciliation Act of 1990](https://www.congress.gov/bill/101st-congress/house-bill/5835/text). It is a replacement of the Balanced Budget and Emergency Deficit Control Act of 1987 (previous version from 1985) and establishes upper limits on discretionary spending. The Act expired in 2002. The BEA institutionalized so-called (pay-as-you-go) PAYGO rules as a way to manage the federal deficit by requiring offsets for any new spending or tax cuts, making it a central part of fiscal discipline in the 1990s. PAYGO requires that any new legislation affecting mandatory spending or tax revenue must not increase the federal deficit. Specifically, if Congress enacts a law that either increases entitlement spending or decreases revenues (such as through tax cuts), the cost must be offset by either cuts to other mandatory spending programs or by increases in revenue (e.g., through tax hikes). This means that any new spending initiatives or tax reductions must be "paid for" to ensure fiscal discipline and prevent adding to the national debt. Put differently, it required policy changes to be deficit-neutral or deficit-reducing.
+
+Statutory Pay-As-You-Go Act of 2010 ("PAYGO")
+
+- Prevention of new tax cuts or entitlement spending legislation from increasing deficits
+
+Budget Control Act of 2011
+
+- Reintroduction of discretionary spending limits with sequestration
+- Balanced budget amendment
+
+Bipartisan Budget Acts of 2013 and 2015
+
+- Relaxation of upper limits imposed by Budget Control Act 2011 due to excessive restrictiveness 
+        
 ## Federal Budget Cycle
+The federal budget cycle follows a structured timetable beginning with the submission of the President's budget no later than the first Monday in February. Six weeks later, the Congressional budget committees report their budget estimates.
+
+Key dates in the process include April 15, by which Congress must complete its budget resolution, and May 15, when the House begins considering appropriations bills. By June 15, reconciliation should be completed, and the House is expected to finalize appropriations by June 30. On July 15, the President submits a mid-session budget review, and the fiscal year officially starts on October 1.
+
+### President's Budget Request
+The President's budget request is developed by the Office of Management and Budget (OMB) based on submissions from federal agencies. It begins with an outline of the President's overall fiscal policies, detailing expected spending, tax revenues, and projections of deficits or surplus spending.
+
+The budget also provides an outline of the President's priorities for federal programs over the next five years, highlighting areas such as defense, agriculture, and education. Additionally, it includes recommendations for changes in spending and tax policies to align with the administration's goals. More information can be found:
+
+More information: 
+
+- [U.S. Federal Budget Process 101](https://www.youtube.com/watch?v=v67UoLRuH_c)
+- [The Executive Budget Process Timetable](https://crsreports.congress.gov/product/pdf/R/R47088)
+        
+### Congressional Budget Resolution
+The CBO explains the Congressional Budget Resolution as follows:
+
+> ...a blueprint to guide Congressional action on budget-related legislation over the course of the year. It does not provide funding for federal programs or change tax law; rather, it sets overall spending and revenue targets, sometimes for as many as 10 years. A budget resolution is not a law, because it is not signed by the President; it takes effect if approved by both Houses of Congress.
+
+The Congressional Budget Resolutions set spending ceilings for 20 budget functions and include revenue estimates. The budget resolution is drafted by the [House](https://budget.house.gov/) and [Senate](https://www.budget.senate.gov/) budget committees, followed by floor votes where amendments are passed by majority vote. Any differences between the House and Senate are resolved in conference committees, and the resolution cannot be filibustered.
+
+The resolution is expected to pass by April 1, but if delayed or not passed, the previous year's resolution remains in effect. Budget resolutions are enforced by allowing House and Senate members to block legislation that violates the resolution, although this can be waived by a simple majority in the House or 60 votes in the Senate.
+
+Budget reconciliation is used to enforce spending cuts or tax increases specified in the resolution, with reconciliation directives providing detailed instructions for achieving these fiscal targets by a set deadline.
+
+### Appropriation Bills
+Annual appropriations are necessary for discretionary (but not mandatory) funding. Those appropriation bills become law with the President's signature. The appropriation bills are drafted by the appropriation committees (i.e., [Senate](https://www.appropriations.senate.gov) and [House](appropriations.house.gov)). In the past, the on-time passage of all appropriation bills before the start of the Federal fiscal year has be difficult (see [Congress has long struggled to pass spending bills on time](https://www.pewresearch.org/short-reads/2023/09/13/congress-has-long-struggled-to-pass-spending-bills-on-time/) from the Pew Research Center). Since 1977 (the first year of the current system), only four years (1977, 1989, 1995, and 1997) had all appropriation bills passed on time. Often, so-called omnibus bills are passed meaning all appropriation bills are packed into one bill. The [Appropriations Status Table](https://crsreports.congress.gov/AppropriationsStatusTable) shows the progress of the current bills. 
+
+
+Example of an appropriation bill
+
+- [S.3109 - Department of Homeland Security Appropriations Act, 2019](https://www.congress.gov/bill/115th-congress/senate-bill/3109)
+
+
+
+Appropriation Accounts
+Appropriation accounts serve as a key framework for expenditure control, reflecting Congress's "power of the purse" as outlined in the U.S. Constitution (Article I, Section 9). These accounts are the primary mechanism through which Congress allocates funds to specific programs and are essential for agencies in preparing budget requests. They function as the basic units for internal control within agencies, ensuring spending remains within the limits set by Congress. Appropriation accounts also provide the foundation for reporting and auditing processes.
+        
+[Appropriations and Budget Resources](https://www.congress.gov/resources/display/content/Appropriations+and+Budget)
+
+Departments to Accounts
+Departments to Bureaus
+
+- Subdivision of departments into bureaus (main organizational units) 
+- Various appropriation accounts by bureau
+- Determination of account funding by Congress
+
+Bureaus to Accounts
+
+- Subdivision of bureaus into accounts by operations
+- Level for budget determination by Congress of the Department of Interior
+
+## Types of Budget Authority
+Budget authority provided by law is the authority to enter into obligations resulting in immediate or future outlays involving federal government funds. There are multiple forms of budget authority:
+        
+Forms of budget authority
+        
+**Appropriations:** Appropriation provides funds for the upcoming year as result of the legislative phase of the budget process. Appropriation acts as a statute providing authorization for federal agencies to incur obligations and make payments for specified purposes. This is the most common mean of providing budget authority.
+     
+**Authority to borrow:** This budget authority provided by law allows the borrowing of funds. 
+**Contract authority:** Authority provided by law to enter into contracts
+
+Entitlements 
+For programs not covered by the appropriation acts
+
+- Not required to go through appropriation process
+- Spending determined by formula/eligibility requirements (mandatory spending)
+
+     - Examples: Medicare, social security, veteran's benefits
+
+- Eligibility criteria established by law
+
+Appropriation
+Regular
+
+- Annual appropriation
+- Multi-year Appropriation
+- Advance appropriation
+- No year appropriation
+- Permanent
+
+Continuing Resolution and Supplemental Appropriation
+Continuing resolution: Based on spending formula from previous year, which has drawbacks
+
+- Hinder development of new programs in response to changing operating conditions due to restricting operations to previous years level
+
+Supplemental appropriation: Emergency or ordinary
+
+- Requirement of an unforeseen change in operating conditions, e.g., 9/11, financial crisis, COVID-19
+- Cost shortfall from previous years appropriations due incorrect projections, e.g., underestimation of medical needs for Veterans affairs
+
+Discretionary and Mandatory Spending
+Discretionary spending
+
+- Flows through the annual appropriation process with possibility for annual spending adjustments by Congress
+- Decreased from approximately 74\% of total outlays in 1962 to 26\% in 2022
+
+Mandatory spending
+
+- Not part of regular appropriations process
+- Control of spending by changing formula to avoid "auto pilot spending"
+
+Means-tested versus non-means test
+
+- Means-tested: Assistance depends on economic status of recipient
+- Non-means tested: Assistance is based on demographic or other eligibility, not economic status
+
+CBO: [Outlook for the Budget and the Economy
+](https://www.cbo.gov/topics/budget/outlook-budget-and-economy Latest CBO Budget Outlook) 
+
+Mandatory Spending over Time
+```{r,echo=FALSE}
+df                  = aggregate(omb$value,FUN=sum,by=list(omb$category,omb$year),na.rm=TRUE)
+colnames(df)        = c("category","year","value")
+dftotal             = aggregate(omb$value,FUN=sum,by=list(omb$year),na.rm=TRUE)
+colnames(dftotal)   = c("year","value")
+mandatory           = subset(df,category=="Mandatory")
+mandatory           = merge(mandatory,dftotal,by=c("year"))
+mandatory$share     = mandatory$value.x/mandatory$value.y
+ggplot(mandatory,aes(x=year,y=share*100))+geom_line()+theme_bw()+ylim(0,100)+
+     theme(legend.position="bottom",axis.title.x=element_blank())+
+     ylab("Percent of Total Spending")
+```
+
+## Main Social Insurance Programs
+The three main social insurance programs in the U.S. are (1) Old-Age, Survivors, and Disability Insurance, (2) Medicare, and (3) Medicaid. 
+
+**Old-Age, Survivors, and Disability Insurance (OASDI):** This social insurance program is better known under the term Social Security. It is comprised of two trust funds, i.e., Old-Age and Survivors Insurance (OASI) and Disability Insurance (DI). OASI is for retired workers and their dependents as well as the survivors of deceased workers. DI is for disabled workers and and their depedents. Both funds are financed by earmarked payroll taxes ([Annual Report](https://www.ssa.gov/oact/trsum/))
+
+### Medicare
+Medicare is a federal health insurance program primarily for individuals aged 65 and older, as well as certain younger people with disabilities. It consists of several parts: Part A covers hospital and inpatient services, Part B covers outpatient medical care, Part C (Medicare Advantage) offers an alternative to traditional Medicare through private plans, and Part D provides prescription drug coverage. Medicare is funded through a combination of payroll taxes, premiums, and general federal revenues.
+
+### Medicaid
+Medicaid is a joint federal and state program that provides medical care for low-income individuals. Unlike Medicare, it does not have a trust fund and is financed through general federal and state funds. For every dollar a state spends on Medicaid, the federal government provides at least $1 in matching funds, with higher matching rates for poorer states. On average, the federal government covers about 57% of Medicaid costs across all states.
+        
+### Problems with  Social Insurance Financing
+Until mid-1980s, handled as "pay-as-you-go"
+
+- Premiums collected this year covered benefits paid this year
+
+Problem: Falling ratio of workers to beneficiaries, i.e., benefits payout exceeding payments
+
+- Reasons: Low birthrates, retirement of baby boomers, low death rates
+- 5 workers for each recipient in 1960 and 2 to 1 by 2030
+- Increase in health care costs
+
+Possible solution: Actuarial Funding
+
+- Pay into the fund during working years
+- Receive principal plus interest upon retirement
+
+CBO Report (February 1996): [Mandatory Spending Control Mechanisms](https://www.cbo.gov/publication/14874)
+        
+Population Age 65 and over
+```{r,echo=FALSE,fig.height=3,fig.width=5}
+ggplot(percentover65,aes(x=year,y=Percent,color=country))+geom_line()+theme_bw()+
+     theme(legend.position="bottom",axis.title.x=element_blank(),
+           legend.title=element_blank())+ylab("% of Total Population")+ylim(0,50)
+```
+
+Actuarial Funding for Social Insurance Programs
+Establishment of trust funds
+
+- Dedication of payments to fund (payroll taxes) during individual's working life
+- Investment of funds in secure investment vehicles (e.g., U.S. government securities)
+- Use of fund's proceeds (i.e., contributions plus interest earnings) for benefit coverage during retirement
+
+Application
+
+- Possible for Social Security and Medicare: Predictable cycle of work following retirement
+- Not possible for Medicaid: No predictable cycle of prosperity and poverty
+        
+## Federal Debt
+Problems associated with federal debt
+
+- Threat to long-term economic growth due to resources taken out of the capital market and not allocated to productive use (e.g., loans to firms)
+- Payments to foreign investors
+- Constrains response to important issues (e.g., financial crisis, COVID-19)
+- Potential for inflation in the case of debt monetization (unlikely in countries with strong institutions)
+
+Federal Budget Cycle
 In general, the federal budget cycle involves four steps:
 
 1. Executive preparation
@@ -24,7 +278,7 @@ Other concepts to know:
 - Federal deficit: Consequences
 - Political, economic, and demographic factors contributing to the change in spending and the federal budget deficit
 
-## Current Services Baseline
+Current Services Baseline
 Current Services Estimate (see CBPP [The Current Services Baseline: A Tool for Understanding Budget Choices](https://www.cbpp.org/research/state-budget-and-tax/the-current-services-baseline-a-tool-for-understanding-budget-choices))
 
 - Baseline or benchmark *"reflecting this year’s enacted policies and programs for each year in the future"*
@@ -33,13 +287,14 @@ Current Services Estimate (see CBPP [The Current Services Baseline: A Tool for U
 Submission of President's annual budget and supporting materials to Congress
 
 ## Exercises
+https://www.cbo.gov/publication/58981
 
-1. ***Agency Budget III*** (\*\*): Use the following federal agencies for this exercise: Fish and Wildlife Service, Forest Service, Bureau of Land Management, Bureau of Reclamation, National Oceanic and Atmospheric Administration, U.S. Geological Survey, Army Corps of Engineers, Environmental Protection Agency, and U.S. Coast Guard. You will be able to locate the answers in the Budget of the United States Government, available through the OMB website.
+1. ***Agency Budget III*** (\*\*): Use one of the following federal agencies for this exercise: Fish and Wildlife Service, Forest Service, Bureau of Land Management, Bureau of Reclamation, National Oceanic and Atmospheric Administration, U.S. Geological Survey, Army Corps of Engineers, Environmental Protection Agency, and U.S. Coast Guard. You will be able to locate the answers in the Budget of the United States Government, available through the OMB website.
 
      a. Determine where each agency lies in the administrative structure of the federal government. Is it in an executive department or is it an independent agency?
-     b. Determine which of the appropriation subcommittees has jurisdiction over each agency's budget request.
-     c. Determine where each agency's operations fall in the functional classification of the budget.
-     d. Pick one agency and, for a recent budget year, determine (1) the budget authority and outlays proposed for the agency, and (2) the actual outlays and budget authority for the agency in that year.
+     b. Determine which of the appropriation subcommittees has jurisdiction over the agency's budget request.
+     c. Determine where the agency's operations fall in the functional classification of the budget.
+     d. For a recent budget year, determine (1) the budget authority and outlays proposed for the agency, and (2) the actual outlays and budget authority for the agency in that year.
 
 2. ***Federal Budget Deficit*** (\*\*\*): Read the August 2018 report from the Congressional Budget Office (CBO) which is titled [The Deficit Reductions Necessary to Meet Various Targets for Federal Debt](https://www.cbo.gov/publication/54181). Note that the table of content indicates a "Summary" which contains most of the answers to the following questions:
 
