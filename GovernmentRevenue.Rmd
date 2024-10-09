@@ -1,126 +1,182 @@
 # Introduction to Government Revenue
+This chapter introduces the fourth, and most extensive, part of this book and shifts the focus from government expenditures to revenues. There are [slides](https://github.com/jrfdumortier/slidespublicfinance/blob/main/CostAccountingAnalysis.pdf) and a [video](https://youtu.be/hRJke0bA8TQ?si=Y83WYO1zY10u2Wkp) associated with this chapter. The following topics are covered:
 
-Overview
+- Overview of federal, state, and local revenue over time
+- Tax terminology
+- Tax incidence
+- Tax evaluation criteria
+- Tax collection steps
 
-- Taxes have a significant effect on the private economy
-- Equity and efficiency effects of different taxes
-- Do low-income taxpayers bear a disproportionately high burden of a certain tax? 
-- What impact does a particular tax have on consumer and business decisions?
+Additional information from the Congressional Budget Office (CBO) can be found on their webpage of [Major Recurring Reports](https://www.cbo.gov/about/products/major-recurring-reports). Those reports list statistics related to taxation and household income in the United States. In addition, the Internal Revenue Service (IRS) compiles statistics as well at [Tax Statistics](https://www.irs.gov/statistics).
 
-Federal revenue
+## Introduction
+Raising revenue through taxation reallocates scarce resources from the private to the public sector. The revenue enables the funding of services and infrastructure. How the revenue is collected and distributed affects economic outcomes as well as various socioeconomic groups. Tax revenue is redistributed back into the economy, supporting public services, social programs, and investments in national infrastructure. Government revenue does not solely come from taxes but can also include other sources such as payments for services (e.g., purchasing a stamp from the U.S. Postal Service), or fees such as for annual vehicle registration (at the state-level). Income tax is a more traditional form of taxation but is only one of several ways governments can finance their activities. Other activities besides the one mentioned are privatization of government assets or services and debt financing, each carrying distinct economic and social implications.
 
-- Primarily from personal and corporate income taxes and the payroll tax (financing social security).
-- No federal sales or property taxes.
-- Most famous excise tax: Gasoline tax
+At the federal level, revenue primarily comes from personal and corporate income taxes, along with payroll taxes that finance social security. The federal government does not impose sales or property taxes, but a well-known consumption tax are gasoline and diesel taxes.
 
-State
+```{r,echo=FALSE,fig.cap="Tax Revenue Distribution at the Federal Level"}
+df        = na.omit(ombreceipts)
+df        = subset(df,item!="Other")
+ggplot(df,aes(x=year,y=value,color=item))+geom_line()+ylab("% of GDP")+
+     theme_bw()+theme(axis.title.x=element_blank(),legend.title=element_blank(),
+                      panel.grid.major=element_blank(),panel.grid.minor=element_blank(),
+                      legend.position="bottom")
+```
 
-- Sales and excise taxes
-- Personal income tax
+States generally rely on sales and excise taxes as well as personal income taxes for their revenue as illustrated in the graph below. Note that transfers between governments (i.e., federal, state, and local) are intergovernmental transfers and are important sources of revenue for both state and local governments.
 
-Local
+```{r,echo=FALSE,fig.cap="Revenue at the State Level"}
+df        = subset(slrev,entity=="State")
+ggplot(df,aes(x=year,y=value,color=item))+geom_line()+ylab("% of Total Revenue")+
+     theme_bw()+theme(axis.title.x=element_blank(),legend.title=element_blank(),
+                      panel.grid.major=element_blank(),panel.grid.minor=element_blank(),
+                      legend.position="bottom")
+```
 
-- Property and general sales tax, user fees, state and federal aids
+Local governments, on the other hand, primarily generate revenue through property taxes, general sales taxes, user fees, and support from state and federal aid (i.e., intergovernmental transfers).
+
+```{r,echo=FALSE,fig.cap="Revenue at the Local Level"}
+df        = subset(slrev,entity=="Local")
+ggplot(df,aes(x=year,y=value,color=item))+geom_line()+ylab("% of Total Revenue")+
+     theme_bw()+theme(axis.title.x=element_blank(),legend.title=element_blank(),
+                      panel.grid.major=element_blank(),panel.grid.minor=element_blank(),
+                      legend.position="bottom")
+```
+
+## Tax Terminology
+Taxes are compulsory payments associated with certain activities (e.g., earning income, owning property, purchasing goods). They reduce an individuals' ability to allocate resources. Tax policy seeks to achieve that transfer of resources with the least possible economic and/or social harm. Taxes are neither a price for (direct) services received nor a voluntary contribution. 
+
+In his book *The Wealth of Nations*, Adam Smith (1776) establishes the following tax maxims:
+
+- **Equity:** The subject of every state ought to contribute towards the support of the government, as nearly as possible, in proportion to their respective abilities; that is, in proportion to the revenue which they respectively enjoy under the protection of the state.
+- **Certainty:** The tax which each individual is bound to pay ought to be certain and not arbitrary. The time of payment, the manner of payment, the quantity to be paid, ought all to be clear and plain 
+to the contributor, and to every other person.
+- **Convenience:** Every tax ought to be levied at the time or in the manner, in which it is most likely to be convenient for the contributor to pay it.
+- **Economy:** Every tax ought to be so contrived as both to take out and to keep out of the pockets of the people as little as possible, over and above what it brings into the public treasury of the state.
+
+The following sections cover three important tax aspects: (1) Tax base and tax trigger, (2) Tax rate, and (3) Tax incidence.
+
+### Tax Base and Tax Trigger
+The tax base refers to the item or economic activity on which a tax is imposed. Common examples of tax bases include income, wealth, and consumption. These form the foundation on which various tax systems are built, allowing governments to collect revenue based on these defined economic activities or assets. Taxation can be categorized as either general or selective. A general tax applies to the entire tax base without any exclusions or deductions. In contrast, a selective tax targets only a specific portion of the base, focusing on particular goods, services, or activities. Indiana sales tax is an example of a selective tax. According to the Sales Tax Information Bulletin 29 (August 2023) by the Indiana Department of Revenue, we have the following: 
+
+> Generally, the sale of food and food ingredients for human consumption is exempt from Indiana sales tax. Primarily, the exemption is limited to the sale of food and food ingredients commonly referred to as "grocery" food.
+
+The tax trigger is the event or activity that gives rise to the tax liability. This can be determined by the actions of taxpayers, such as earning income or making purchases. Alternatively, the tax trigger can be set by the government, as in the case of property taxes, where the ownership of property creates the tax obligation.
+
+The measurement of the tax base and the determination of tax liability are critical processes in taxation. These involve assessing the size or value of the tax base (e.g., determining the amount of income, wealth, or consumption subject to tax) and calculating the corresponding tax liability based on the established tax rates and rules.
+
+### Tax Rates
+Tax rate refers to the rate at which the tax base is taxed. In general, the tax rate applied to the tax base determines how much tax is owed. Let us look at income taxes as an example.
+
+The tax base is income, which is adjusted for exclusions, deductions, exemptions, and credits. The next chapter covers the exact mechanics of those items The tax trigger is engaging in an activity that generates income. The tax rate typically follows a graduated schedule, where different portions of income are taxed at varying rates. That is, a graduated schedule involves marginal tax rates that apply to the last dollar of income earned. There is a distinction between the average, marginal, and effective tax rate. 
+
+The average tax rate is the total tax collected divided by the dollar value of the tax base, giving an overall sense of the taxpayer’s burden. The marginal tax rate is the change in taxes collected divided by the change in the value of the tax base, showing how much additional tax is paid on the next unit of income. The effective tax rate is the tax collected divided by a measure of ability to pay, such as total income or wealth. This rate is useful in evaluating how taxes impact individuals or entities relative to their overall financial position.
+
+The effective tax rate is often used as an indicator to differentiate between progressive, proportional, and regressive tax systems. For example, in a progressive tax system, the effective tax rate increases with income. In contrast, the effective tax rate remains constant in a proportional tax system, and it decreases with income in a regressive tax system. In the income tax table below, the average and effective tax rates are identical.
+
+|                      | A         | B         | C          |
+|----------------------|----------:|----------:|-----------:|
+| Income               | \$10,000  | \$40,000  | \$100,000  |
+| **Proportional tax** |           |           |            |
+| Tax amount           | \$1,000   | \$4,000   | \$10,000   |
+| Effective tax        | 10.0\%    | 10.0\%    | 10.0\%     |
+| **Progressive tax**  |           |           |            |
+| Tax amount           | \$1,000   | \$5,000   | $20,000    |
+| Effective tax        | 10.0\%    | 12.5\%    | 20.0\%     |
+| **Regressive tax**   |           |           |            |
+| Tax amount           | \$1,000   | \$3,000   | $6,000     |
+| Effective tax        | 10.0\%    | 7.5\%     | 6.0\%      |
+
+Next, consider the following marginal tax rate table. We are going to use this table for the tax calculations that follow.
+
+
+| Over       | But not above | Over        | But not above | Tax Rate |
+|:----------:|:-------------:|:-----------:|:-------------:|:--------:|
+| **Single** |               | **Married** |               |          |
+| \$-        | \$9,525       | \$-         | \$19,050      | 10\%     |
+| \$9,526    | \$38,700      | \$19,051    | \$77,400      | 12\%     |
+| \$38,701   | \$82,500      | \$77,401    | \$165,000     | 22\%     |
+| \$82,501   | \$157,500     | \$165,001   | \$315,000     | 24\%     |
+| \$157,501  | \$200,000     | \$315,001   | \$400,000     | 32\%     |
+| \$200,001  | \$500,000     | \$400,001   | \$600,000     | 35\%     |
+| \$500,001  |               | $600,001    |               | 37\%     |
+
+Let us consider the following situation of a married couple with household income of \$137,000. Note that in the U.S., households pay income taxes and not individuals. Based on the above marginal tax rate table, the tax liability is calculated as follows:
+$$19050 \cdot 0.1+(77400-19050) \cdot 0.12 + (137000-77400) \cdot 0.22= 22019$$
+The tax liability amounts to \$22,019 and the marginal tax rate it 22\%. The average tax rate is 16\% (i.e., \$22,019 divided $137,000).
+
+```{r,echo=FALSE,fig.cap="Marginal versus Effective Rate"}
+incometax           = function(x,flag){ # where x represents income
+                         x    = data.frame(income=x,liability=NA)
+                         for(i in 1:nrow(x)){
+                              x$liability[i] = sum(diff(c(0,pmin(x$income[i],brackets)))*rates)}
+                         x$rate    = x$liability/x$income
+                         if(flag=="Amount"){
+                              return(as.numeric(x$liability))
+                         } else if(flag=="Rate"){
+                              return(as.numeric(x$rate))}}
+brackets            = c(19050,77400,165000,315000,400000,600000,Inf)
+rates               = c(0.10,0.12,0.22,0.24,0.32,0.35,0.37)
+ggplot()+xlim(c(1,1000000))+geom_function(fun=incometax,args=list(flag="Rate"))+theme_bw()+
+     ylab("Average Tax Rate")+xlab("Income")
+```
+
+## Tax Incidence
+Tax incidence refers to the person or entity that ultimately pays the tax. This can differ from who is legally responsible for submitting the tax to the government. For example, a property tax on rental properties may be legally paid by the landlord but the economic burden falls on tenants through higher rent. Similarly, payroll taxes might be paid by the employer, but the burden could shift to employees through lower wages. The legal or statutory incidence refers to the party that is legally obligated to remit the tax. For example, employers are responsible for remitting payroll taxes, while property owners are required to pay property taxes. Economic incidence is the actual distribution of the tax burden, which may not align with the legal incidence. It refers to who ultimately bears the economic burden of the tax after market adjustments, such as price changes. For a consumption tax, the distribution of the tax burden depends on the relative elasticity of supply and demand. If the demand is more inelastic than supply, consumers will bear more of the tax burden. Conversely, if supply is more inelastic than demand, producers will bear a greater share of the burden.
 
 ## Tax Evaluation Criteria
+Taxes have a significant effect on the private economy and households. Key considerations include equity and efficiency of different taxes. For example, policymakers must assess whether certain taxes place a disproportionate high burden on low-income taxpayers. Additionally, they must consider the impact that taxes have on consumer and business decisions. Tax evaluation involves five criteria to assess the effectiveness and fairness of the tax system: (1) Economic efficiency, (2) Equity, (3) Adequacy, (4) Feasibility, and (5) Transparency. Feasibility can be further divided into administrative and political feasibility. 
 
-## Efficiency
+### Economic Efficiency
+Economic efficiency in taxation is related to market equilibria, which represent points where consumer and producer surplus (with social welfare as the sum of the two) is maximized. In an efficient market, goods are produced according to consumer preferences, at the lowest cost, and distributed based on willingness-to-pay. However, taxes can cause deviations from this equilibrium, potentially reducing efficiency. Instances of market failure represent exceptions to this principle, where taxes might address restore efficiency such as the case of a corrective tax on externalities.
 
-- Economic efficiency is achieved when there is no way to redistribute the resources of a society in order to increase the welfare of at least one more citizen without making others worse off. 
+Let us consider the example of a sales tax on bread. From a consumer perspective, the introduction of a sales tax on bread leads to substitution away from bread towards alternatives such as rice and potatoes. Those are less desirable by consumers because otherwise, they would have purchased them before in higher quantities. From a producer perspective, the taxes changes the after-tax price (price received by the producer versus price paid by the consumer) of bread. In addition to the reduction in demand, producers will be worse off as well. If producers and consumers did not react to a tax, there would not be an efficiency loss. 
 
-- Example: sales tax on bread
-
-     - Consumers: Introduction of a sales tax on bread leads to substitution away from bread towards alternatives such as rice and potatoes. Inferior to bread because otherwise consumers would have purchased them before. 
-     - Producers: Change in the after-tac price (price received by the producer versus price paid by the consumer) of bread. In addition to the reduction in demand, producers will be worse off as well. 
-
-- If producers and consumers did not react to a tax, there would not be an efficiency loss. 
-
-Questions to consider:
+The questions, which need to be consider are usually the following:
 
 - What economic decisions will this tax change? All modern taxes cause some change in economic behavior.
 - How much will consumers and producers change their behavior in response to this tax?
 
-     - Which do you think consumers are going to be more responsive to, a tax increase on gasoline or pizza? The answer to the second question thus will depend on whether there are good alternatives or substitutes to the goods which are taxed. The more good substitutes there are, the more the efficiency loss from a tax.
-
-•	Income versus substitution effect: 
-o	Suppose coffee costs \$3/cup, tea costs \$2/cup, and a bagel costs \$2, and that you have \$24 in income. Also assume that you prefer coffee over tea, but you also want to have a bagel every morning.
-o	With these preferences, you buy a coffee and bagel four days of the week, and tea and bagel on one day of the week. So, 4 coffee and 1 tea.
-o	Suppose now that a $1 per unit tax is placed on coffee. Now you have to buy 2 coffee and 3 tea.
-o	There are two forces at work here: The added tax means you have less money to spend on coffee and tea. This is called the income effect. The tax also means that coffee is now relatively more expensive than tea. Before the tax, one coffee cost 1.5 tea. Whereas after the tax, one coffee costs 2 teas. This will cause you to substitute away from coffee toward tea; i.e., substitution effect.
-•	Income effect is similar to a transfer
-o	You lose, but the gov’t gains
-o	So society hasn’t lost anything
-o	Is this true? Suppose gov’t wastes the tax revenue?
-o	Substitution effect is the source of the efficiency cost of taxation
-•	Every tax generally has two types of burden:
-o	Tax burden 
-o	Excess burden
-o	Total tax burden= tax burden + excess burden	
-	Excess burden is another way of saying efficiency cost of taxation.
-	Excess burden also called deadweight loss
-•	Discuss difference between 
-o	accounting relationship; R=t*B
-economic relationship; R=t*B(t)	
-
-Efficiency
-•	Economic efficiency is achieved when there is no way to redistribute the resources of a society in order to increase the welfare of at least one more citizen without making others worse off
-•	Example of a sales tax on bread
-o	Consumers: Introduction of a sales tax on bread leads to substitution away from bread towards alternatives such as rice and potatoes. Inferior to bread because otherwise consumers would have purchased them before. 
-o	Producers: Change in the after-tac price (price received by the producer versus price paid by the consumer) of bread. In addition to the reduction in demand, producers will be worse off as well. 
-•	If producers and consumers did not react to a tax, there would not be an efficiency loss. 
-•	Questions to consider:
-o	What economic decisions will this tax change? All modern taxes cause some change in economic behavior.
-o	How much will consumers and producers change their behavior in response to this tax?
-	Which do you think consumers are going to be more responsive to, a tax increase on gasoline or pizza? The answer to the second question thus will depend on whether there are good alternatives or substitutes to the goods which are taxed. The more good substitutes there are, the more the efficiency loss from a tax.
-
+The answer to the second question depends on whether there are good alternatives or substitutes to the good which is taxed. The more substitutes there are, the more the efficiency loss from a tax.
 
 ### Equity
-Benefits principle
-An equitable tax system is one in which each taxpayer contributes in line with the amount of benefits they receive from the service provided.
-Example 1: Fuel taxes
-Example 2: Family with two children should be a higher property tax (which is in part used for education) than a family with one child. 
-Advantage: Conservation of public resources
-Disadvantage: 
-o	General tax such as income cannot be linked to specific service
-o	Does not redistribute income and would probably encourage governments to collect revenue in the form of user fees for many basic services
-Benefits principle has been used as a justification for local user fees for services such as water, sewer, garbage, etc.
-Ability-to-pay principle
-Horizontal equity: Same ability to pay should pay equally
-o	Income as an easy measure for ability to pay but other factors that might influence “ability to pay” include wealth, number of children, medical expenses (from varying health conditions), and lifetime earning potential, among others.
-Vertical equity: Different abilities to pay should pay differently
-o	Effective tax rate
-o	Effective tax rates by income class can be plotted to determine if a tax is progressive. A progressive tax is one where the effective tax rate goes up as income increases. A proportional tax is where the ETR stays the same. And for a regressive tax, the ETR goes down as income increases.
-o	Determining vertical equity  involves asking two questions:
-Who pays the tax? (Tax Incidence) (see below)
-How does the tax affect income distribution? (see below)
-Determining the tax incidence:
-In economics you will examine the concept of tax incidence using supply and demand curves. In this class, we will focus on intuitive explanations of this concept. Let us say that bread costs $1.00 per loaf and the sales tax rate is 10 cents per loaf. Producers of bread will have to pay 10 cents to the government for every loaf of bread they sell. Of course, producers will attempt to pass on this tax increase in the form of higher prices, raising bread prices initially to $1.10 per loaf. If consumers have poor substitutes for bread, they may react little to this tax, and instead absorb the price increase. In this case, consumers will “bear the full burden” of the tax in the form of higher prices and have less income to spend on other commodities. However, we would expect that at least some consumers will react by substituting other grain products for bread. By reducing their consumption of bread, they are causing a glut in the bread market – bread remains unsold at present prices. What happens when there is a glut? Producers begin to lower their price. Assume that bread producers have to lower the price to $1.06 per loaf to sell all the bread. Since they also have to pay a tax of $0.10 per loaf to the government, the price they receive after tax is now $0.96. So the price they receive has dropped by 4 cents. In this case the 10 cent/loaf tax is paid 60% by consumers in the form of higher prices and 40% by producers in the form of lower “after-tax” prices they receive.
-Determining the effects on income distribution
-Which income groups are affected by the tax?
-E.g. tax on bread: Bread as a necessity and thus, likely high share of income is spent on bread by low-income consumers. Other example, think about fuel taxes, income, and fuel efficiency. We would expect that producers or stockholders in bread companies are likely to be middle to upper income. This would imply that the portion of the bread tax paid by producers is likely to be progressive.
+Usually, there are multiple objectives from imposing taxes. Equity in taxation focuses on fairness issues while achieving those objectives. Tax structures often incorporate equity considerations, though these can involve trade-offs (e.g., among various socioeconomic groups) or lead to unintended consequences. Two main standards of equity are the ability-to-pay principle and the benefits principle.
 
-### Adequacy 
-Refers to how much revenue can be generated at reasonable tax rates. Generally, it is desirable to find taxes with a broad base, such as the income, sales or property taxes, since a lot of revenue can be generated from the tax at reasonable rates when the tax base is broad. The interest in reasonable tax rates arises for two reasons:
+The ability-to-pay principle states that tax payments should be based on a person's financial capacity, often measured by income or wealth. Within this framework, there are two notions.
 
-1. It is politically unpopular and horizontally inequitable to tax one segment of the economy much higher than other segments. Using our bread tax as an example, if the state of New York tried to raise most of its revenue from a bread tax, this would unduly burden consumers and producers of bread; and
-2. Raising tax rates may actually lead to the case where total tax revenue goes down as tax rate increases cause more and more people to make choices that allow them to avoid the tax.
+Horizontal equity for which individuals with the same ability-to-pay should pay the same effective tax rate. Income as an easy measure for ability to pay but other factors that might influence “ability-to-pay” include wealth, number of children, medical expenses (from varying health conditions), and lifetime earning potential, among others. 
 
-### Stability
-Since it is difficult for governments to make dramatic changes in their expenditure programs, public officials ideally would like revenue sources that are stable.
+And vertical equity for which individuals with different abilities to pay should face different effective tax rates. It addresses how the effective tax rate evolves with income. As mentioned previously, a tax system can be progressive (i.e., rate increasing with income), regressive (i.e., rate decreasing with income), or proportional (i.e., rate constant with income). 
 
-Example: Sales tax on gasoline
+An equitable tax system is one in which each taxpayer contributes in line with the amount of benefits they receive from the service provided. The benefits principle posits that the cost of a government-provided good or service should be paid by the taxpayers who benefit from it. Payments are proportional to the benefits received. For example, a family with two children should pay a higher property tax (which is in part used for education) than a family with one child. Those could also be (more or less) proportional to the damage caused. Consider fuel taxes for example that are dedicated to road maintenance. The higher the weight on an axle, the more damage is caused to the road. Thus, fuel taxes based on the amount of fuel consumed, affects people with lower fuel efficiency more. That lower fuel efficiency is usually caused by heavier vehicles that results in more road damage. Arguments in favor of this principle suggest it aligns with intuitive fairness and encourages conservation of public services. However, it faces challenges in application, as few taxes strictly adhere to this principle, especially for public goods. Moreover, individuals less able to pay may still deserve access to public services. In addition, general taxes such as on income cannot be linked to specific services. Taxes based on the benefits principle do not redistribute income and would probably encourage governments to collect revenue in the form of user fees for many basic services. Benefit principle has been used as a justification for local user fees for services such as water, sewer, garbage, etc.
 
-Definition: stability is measured as the change in tax revenue in a given year over the tax revenue of the previous year.
+### Adequacy
+Adequacy in a tax system refers to its ability to generate sufficient revenue at reasonable rates. Broad-based taxes, like those on income or sales, are preferable as they can raise substantial revenue with lower rates. Revenue fluctuations, such as those tied to gasoline prices, affect the adequacy of tax systems. Reasonable tax rates are crucial for two reasons:
 
-For example, public officials would be alarmed if the property tax revenue fluctuated by 20% every year. It would be very difficult to come up with firm budgets, and the government may be forced to borrow or cut back on services if there was a significant drop in revenue. As you may have guessed there may be a tradeoff between the stability of tax and its elasticity. An elastic tax is one which is responsive to changes in its tax base. However, this implies that tax revenue will not only go up with the tax base, it will go down when the tax base shrinks. In other words, an elastic tax may also be an unstable tax. Ideally, you want to find a tax which grows with its base (elastic) and where the tax base itself experiences stable growth.
+1. It's unfair and unpopular to tax one sector disproportionately, as seen in the hypothetical case of New York raising most of its revenue from a bread tax, which would burden consumers and producers.
+2. Increasing tax rates too much can reduce total revenue as people find ways to avoid the tax.
+
+Governments prefer stable revenue sources, meaning minimal fluctuations year over year. For example, a 20% annual swing in property tax revenue would complicate budgeting and might force borrowing or service cuts. However, there’s a trade-off between stability and elasticity. An elastic tax, which responds to changes in its base, can result in unstable revenue when the base shrinks. Ideally, taxes should grow with a stable tax base.
+
+### Feasibility
+Administrative feasibility relates to the ease of tax collection. This includes administrative costs, or the effort required by the government to collect taxes, and compliance costs, which represent the effort taxpayers must exert to meet their tax obligations. Political feasibility focuses on the public’s tolerance of taxes. Factors like tax intolerance (the rejection of new taxes), sticker shock (negative reactions to significant tax increases), and reasonableness (the perceived fairness of taxes relative to the value received) play crucial roles. Additionally, visibility affects tax popularity; lower visibility taxes are less likely to face opposition. Exportation, or the perception that outsiders contribute to the tax burden, can increase the acceptance of taxes within a jurisdiction.
+
+## Tax Collection Steps
+The collection of taxes---or more accurately, the entire tax system---involves several steps:
+
+1. Compilation and maintenance of taxpayers information
+2. Declaration or assessment (tabulation of taxable activity)
+3. Revenue and taxpayer accounting
+4. Delinquency control, compliance, and collections
+5. Audits
+
+The compilation and maintenance of taxpayer information involve tracking identifiers such as social security numbers, taxpayer identification numbers, and parcel numbers for properties such as homes. This information is important to manage tax-related activities and ensuring accurate records for each taxpayer. The declaration or assessment process refers to the tabulation of taxable activities. For the income tax case, this includes sources like miscellaneous income, interest income, dividends, and distributions besides the main source of income. 
+
+Revenue and taxpayer accounting is a critical step where payments must be deposited, recorded, and properly distributed. After taxpayers submit their returns, the relevant information must be posted and made accessible to taxpayers for review. Delinquency control, compliance, and collections ensure that taxpayers meet their obligations. Active compliance requires taxpayers to understand their responsibilities, with accessible resources available to assist them in meeting legal requirements. Audits are conducted to ensure that taxpayers comply with tax laws. This process helps detect and address discrepancies, ensuring proper taxation and collection. 
 
 ## Exercises
 
-(***) In the Homework 4 folder on Canvas, you find the following files :
-1.	State Tax Collection.xlsx which contains the tax revenue by state and year for various taxes. Note that for the questions below, only use the columns that start with a T such as T01, T09, etc. The columns starting with a C are aggregate revenues based on the columns starting with a T. For example, the sum of T10, T11, T12, T13, T14, T15, T16, and T19 is equal to C109.  
-2.	State Tax Collection.pdf which contains explanatory notes on the Excel file. Note that the Excel file is relatively self-explanatory and you should consult the file just in case of any issues. 
+1. ***State Tax Revenue*** (\*\*\*): Download the following files: [State Tax Collection (Comma Separated Value File)](https://github.com/jrfdumortier/publicfinance/blob/main/StateTaxCollection.csv) and [State Tax Collection (U.S. Census PDF)](https://www2.census.gov/govs/pubs/classification/tax-revenue-classification-manual.pdf). The first file contains the tax revenue by state and year for various taxes in real and nominal terms. The PDF-file contains explanatory notes on the Excel file (although the content of the Excel file is relatively self-explanatory). Select a state of your choice (not Indiana) and answer the following questions:
 
-Please answer the following questions:
-1.	What are the three major tax revenue sources used by your assigned state government in the most recent year? Hint: For each tax, calculate tax revenue as a share of total tax revenue. Select the three taxes with the largest shares.
-2.	Use the three major tax revenue sources you identified in part 1 above to answer the following questions
-3.	How rapidly have these taxes grown between 1994 and the most recent year? What may explain the trends you observe? Hint: Calculate the simple year-to-year growth rate for each. Plot a graph of the growth rates against time between 1994 and the most recent year.
+     a. What are the three major tax revenue sources used by your state government in the most recent year? Hint: For each tax, calculate tax revenue as a share of total tax revenue. Select the three taxes with the largest shares.
+     b. Use the three major tax revenue sources you identified in part (a) to answer the following questions: How rapidly have those taxes grown between 1994 and the most recent year? What may explain the trends you observe? Hint: Calculate the simple year-to-year growth rate for each. Plot a graph of the growth rates against time between 1994 and the most recent year.

@@ -19,7 +19,7 @@ A budget is a plan to allocate public resources and there is no policy without a
 Budgets drive public policy with multiple and often conflicting objectives (e.g., empty reservoir for flood control versus full reservoir for recreation). There is also no standard measure of objectives. For example measuring a reduction in traffic fatalities is much simpler than gains from cleaner rivers. Consider two examples that fullfil multiple objectives:
 
 1. Subsidizing school lunches both feed children and creates income support.
-2. Needle exchanges for drug users reduce the public health risk of HIV infections as well as [lifetime treatment cost, which is estimated to be around $379,668.](https://www.cdc.gov/hiv/programresources/guidance/costeffectiveness/index.html)).
+2. Needle exchanges for drug users reduce the public health risk of HIV infections as well as [lifetime treatment cost, which is estimated to be around $379,668](https://www.cdc.gov/hiv/programresources/guidance/costeffectiveness/index.html)).
 
 **Place-based** versus **people-based** resource allocation
 

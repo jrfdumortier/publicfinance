@@ -1,51 +1,135 @@
 # Income Taxes
-This chapter covers income as a tax base. There is a YouTube video and slides associated with this chapter:
+There are three prominent tax bases: Income, consumption, and property. Whereas this chapter presents income taxation, the subsequent chapters cover consumption and property taxes. Note that those taxes are levied mostly at the state and local level since there is neither a sales nor a property tax at the federal level. Keep in mind that with respect to U.S. income taxes, households are taxed and not individuals. The topics covered are (1) Income definition, (2) Income tax components, (3) Evaluation of income tax, (4) Income taxation at the state level, and (5) Corporate income tax. There are also [slides](https://github.com/jrfdumortier/slidespublicfinance/blob/main/IncomeTaxes.pdf) and a [YouTube video](https://youtu.be/DJgiLuHViOk) associated with this chapter.
 
-- [Income Taxes - Video](https://youtu.be/DJgiLuHViOk)
-- [Income Taxes - Slides](https://github.com/jrfdumortier/slidespublicfinance/blob/main/IncomeTaxes.pdf) 
+Income taxes are one of the most visible and significant forms of taxation for both federal and state governments, typically structured as a progressive tax. They also serve as an important revenue source for local governments, largely through federal and state aid. Changes in federal income tax policies, such as exemptions or deductions, are often automatically implemented at the state level, impacting state and local revenues. Payroll taxes---another key component---fund Social Security, Medicare, and unemployment compensation.
 
-## Overview
-There are three prominent tax bases: Income, consumption, and property. Whereas this chapter presents income taxation, the subsequent chapters cover consumption and property taxes. Note that those taxes are levied mostly at the state and local level since there is neither a sales nor a property tax at the federal level. Keep in mind that with respect to income taxes in the United States, households are taxed and not individuals.  
+Prior to 1913, the federal government raised revenue from taxation of goods, i.e., imported products and excise taxes. At the state and local levels, revenue was raised through poll and property taxes. The 16th Amendment from 1909 states the following:
 
-Let us first cover some arguments in favor of and income taxation. On one hand, the income taxation fulfills the tax evaluation criteria of equity since it measures ability to pay. The tax can also be adjusted to the circumstances of the individual household. In addition, the income tax is also adequate with regard to tax yield. That is, if households have increasing incomes (i.e., due to economic growth), government revenue increases as well. On the other hand, income taxation has some adverse economic effects since it discourages savings and investment of households since those returns are taxed. Some argue that there is also little association between income taxation and the good and services provided by the government. There is also the argument that the individual income tax is complicated and not very transparent. 
+> The Congress shall have power to lay and collect taxes on incomes, from whatever source derived, without apportionment among the several States, and without regard to any census or enumeration.
 
-## Haig-Simons Definition
-The Haig-Simons definition of income that it is equal to the value of consumption plus the change in net wealth during the year. This is similar to the economic definition of income as the sum of consumption and savings. Sometimes savings are referred to as net savings because the term can also be negative (i.e., representing a decrease in savings). 
+In 1913, the income tax collection obtained tax returns from less than 1\% of the population and the tax rate was 1\% (See [16th Amendment to the U.S. Constitution: Federal Income Tax (1913)](https://www.archives.gov/milestone-documents/16th-amendment)). The figure below is based on [IRS Individual Statistical Tables by Size of Adjusted Gross Income 2020](https://www.irs.gov/statistics/soi-tax-stats-individual-statistical-tables-by-size-of-adjusted-gross-income)
 
+```{r, echo=FALSE}
+df        = subset(soi,item=="All Returns: Number of Returns" & income != "All returns")
+df$value  = df$value/1000000
+df$order  = 1:nrow(df)
+df$income = factor(df$income,levels=df$income)
+ggplot(df,aes(y=income,x=value))+geom_bar(stat="identity",fill="steelblue")+theme_minimal()+
+     theme(axis.title.y=element_blank())+xlab("Number of Returns (in Million)")
+```
 
+Let us first cover some arguments in favor of and income taxation. On one hand, the income taxation fulfills the tax evaluation criteria of equity since it measures ability to pay. The tax can also be adjusted to the circumstances of the individual household. In addition, the income tax is also adequate with regard to tax yield. That is, if households have increasing incomes (i.e., due to economic growth), government revenue increases as well. The tax base is also very broad allowing for higher amounts of revenue at socially acceptable rates. On the other hand, income taxation has some adverse economic effects since it discourages savings and investment of households because those returns are taxed. Some argue that there is also little association between income taxation and the good and services provided by the government. There is also the argument that the individual income tax is complicated and not very transparent. 
 
-	Example of purchasing book: The sales tax on the book does not discriminate based on the purchasing power of the buyer. What is the counter argument here? (Richer person may purchase more books). 
+## Income Definition
+The Haig-Simons definition of income states that it is equal to the value of consumption plus the change in net wealth during the year. This is similar to the economic definition of income as the sum of consumption and savings. Sometimes savings are referred to as net savings because the term can also be negative (i.e., representing a decrease in savings). 
+$$\text{Income} = \text{Consumption} + \Delta \text{Net Wealth}$$ 
 
-o	Some argue that consumption may be the much measure
+In the ideal case stated by Haig-Simons (1938), taxing should be based on a comprehensive measure of income. However, this is not always achievable. Income taxes currently include wages and salaries, rents, interest income, dividends, realized capital gains. Excluded income sources are fringe benefits (to earned income), gifts, imputed income (e.g., farmer consuming crop), accrued capital gains (i.e., unrealized). In addtion, interest on state and local government debt is excluded. This exclusion allows governments to borrow below market rates (e.g., 5.2\% versus 8\% if 35\% marginal tax rate). To see the differences between the Haig-Simons definition and the current tax system, consider the following cases. 
 
-## Components of 
-•	Components:	
-o	Income: 
-	Wages, salaries, interest, stock dividends, rents, etc.
-o	Adjustments: 
-	Alimony payments, job-related moves, Individual Retirement Account (IRA), retirement contributions, student loan interest deduction, deductions to reduce the private provision of health insurance
-	It is not sensible to assist individuals because of their poverty and then tax away part of that assistance. (this relates to low income)
-	Note that unemployment compensation is fully taxable. 
-	No tax on state and local debt allows governments to tax below market rates. Make the 35% marginal tax rate, 5.2% (non taxable), 8% (taxable)
-	Net proceeds excluded from AGI
-•	Interest received from state and local bonds
-•	Transfer payments such as welfare, social security, food stamps, fringe benefits from employers, income from savings placed on life insurance, gifts, and inheritances
-•	Unrealized capital gains and imputed income
-o	Personal deductions (itemized deductions): Standard or Itemized
-	Three types of spending for itemized personal deduction:
-•	Outside the control of the household  
-o	Medical and dental expenses above a certain percentage of AGI
-o	State, local, and property taxes
-•	Categories where private spending should be encouraged:
-o	Charitable contributions
-o	Interests paid on home mortgages
-•	Other (skip)
-o	Note that if you are in a category with a higher marginal tax rate, you have the incentive to invest more in tax reducing (legal) activities. This reduces the progressivity of the system.
-•	The required readings are:
-o	Mikesell – Income Taxes.pdf
+Case 1: Cullen owns stock that increased by \$10,000 but he did not sell.
 
-## Exercises
-1. ***Federal Income Tax Calculation*** (\*\*\*): Consider the following marginal tax table for a married couple
+- Haig-Simons definition: Income
+- Current tax system: Unrealized capital gains
+
+Case 2: Dena lives in a house she owns and consumes its services
+
+- Haig-Simons definition: Consumption of housing service and hence, part of income
+- Current tax system: No tax and thus providing incentives to purchase assets producing non-cash returns to the owner
+
+Case 3: Kenna inherits \$50,000 from her aunt
+
+- Haig-Simons definition: Increase in net wealth
+- Current tax system: Not income since aunt paid gift/inheritance tax
+
+## Income Tax Components
+The process of determining taxable income begins with total (gross) income, which is then reduced by adjustments to calculate Adjusted Gross Income (AGI). From AGI, taxable income is derived by subtracting either itemized or standard deductions, as well as personal exemptions (although these are suspended until 2025). The resulting taxable income is then used to calculate the tax liability based on applicable tax rates and tax brackets. At the end, tax credits are directly reduced from the tax liability. AGI serves as a key measure of an individual's overall tax-bearing capacity, reflecting their financial ability to shoulder tax obligations. 
+
+**Adjustments:** There are a variety of adjustments made to the gross income. First, we have retirement contributions, e.g., Individual Retirement Account (IRA), that are designed to encourage individuals to save for retirement by offering tax advantages. Transfer payments, such as food stamps, are generally not taxed to avoid unnecessary financial transactions. That is, the government wants to avoid providing assistance to low-income households only to tax that same assistance at a later point. However, unemployment benefits are an exceptions since those are fully taxable. Assistance not targeted at low-income households (e.g., Social Security benefits for higher-income individuals) may also be subject to taxation. Other adjustments to taxable income include alimony, expenses related to job-related moves, student loan interest, and self-employed health insurance payments, which are tax-deductible since corporate health benefits are not taxed. Additionally, unrealized capital gains, employer-provided fringe benefits, gifts, and inheritances (to a certain degree) are generally exempt from taxation. Interest received from state and local government bonds is also typically exempt from federal income tax.
+
+**Deductions:** Certain expenditures that fall outside a household's control may qualify for tax deductions. These include medical and dental expenses exceeding 7.5% of AGI, losses from casualty or theft above 10% of AGI, and state or local income and property taxes. Other expenditures are encouraged by the federal government through tax incentives that reduce their after-tax cost. Charitable contributions and home mortgage interest on first and second homes are examples of such incentivized actions. Additionally, certain job-related expenses can be deducted, such as costs for education, union dues, work uniforms, and occupational taxes. These deductions help lower the financial burden of maintaining or advancing a career.
+
+**Personal Exemptions:** Personal exemptions, traditionally a flat amount for each person in a household, provided adjustments based on family size, helping to remove low-income families from the tax system by reducing their taxable income. However, personal exemptions have been suspended until 2025. Deductions and exemptions are designed to adjust taxpayers' ability to pay based on their specific circumstances. By tailoring tax obligations to individual situations, these provisions enhance both horizontal equity (ensuring those with similar abilities to pay are taxed similarly) and vertical equity (ensuring those with different abilities to pay are taxed at appropriate rates).
+
+**Tax Credits:** A tax credit serves as a direct deduction from an individual's tax liability, reducing the amount of tax owed dollar-for-dollar. Tax credits are often used to stimulate private activities and encourage specific behaviors. For example, credits are offered to promote home energy conservation, support child care expenses, and provide financial relief for low-income workers through the Earned Income Tax Credit (EITC). The EITC, in particular, offers a decreasing percentage of earned income as income rises, helping to alleviate the tax burden for those with lower earnings.
+
+**Tax Rates:** The average tax rate (ATR) is calculated by dividing the total tax by taxable income. It represents the overall percentage of income paid in taxes and is always lower than the marginal tax rate, which applies only to the last dollar of income earned. The effective tax rate (ETR) is calculated by dividing the total tax by Adjusted Gross Income (AGI), providing a broader measure of tax burden relative to all income sources. The effective tax rate is always below the average tax rate, as it includes deductions and adjustments that reduce taxable income.
+
+## Income Tax Evaluation
+Income taxation introduces a potential distortion in the choice between work and leisure, as it taxes income but not leisure. This could discourage work, as individuals may opt for more leisure time rather than earning additional income that will be taxed.
+
+Similarly, the tax system affects the balance between savings and consumption. Savings, particularly interest income, are taxed twice—once when the income is earned and again when the interest is received—while consumption is taxed only once. This structure may encourage people to reduce savings and shift their investments towards real estate or other assets that offer tax advantages over financial investments.
+
+The efficiency of the income tax system also diminishes as marginal tax rates increase. Higher marginal rates can lead to greater efficiency losses, as they create stronger disincentives to earn additional income. This creates a trade-off between achieving greater tax progressiveness and maintaining economic efficiency. Additionally, some deductions and exemptions, while promoting horizontal equity, can further reduce efficiency by distorting individual financial decisions.
+
+### New Jersey Millionaires Tax
+*"This paper examines the migration response to a millionaire tax in New Jersey, which raised its income tax rate on top earners by 2.6 percentage points to 8.97 percent, one of the highest tax rates in the country. [\dots], we estimate the migration response of millionaires to the rate increase, [\dots]. The results indicate little responsiveness, with semi-elasticities generally below 0.1. Tax-induced migration is estimated to be higher among people of retirement age, people living on investment income rather than wages, and people who work (and pay tax) entirely in-state. The tax is estimated to raise \$1 billion per year and modestly reduce income inequality."*
+
+Young and Varner (2011) [Millionaire Migration and State Taxation of Top Incomes: Evidence from a Natural Experiment](https://www.jstor.org/stable/41862569) National Tax Journal 64(2), 255-284.
+
+### Equity, Adequacy, and Elasticity
+
+In terms of equity, income taxation is adjusted to account for taxpayers' ability to pay. Horizontal equity is improved by deductions for medical and dental expenses, as well as state and local taxes, ensuring that taxpayers with similar financial circumstances are treated fairly. However, certain provisions, such as the home mortgage interest deduction, can favor homeowners over renters, creating an imbalance in horizontal equity.
+
+Vertical equity, which focuses on the fairness of tax burdens across different income levels, is sometimes compromised by deductions and loopholes that reduce the overall progressiveness of the tax system. These provisions can allow higher-income individuals to reduce their tax liability disproportionately.
+
+In terms of adequacy, income tax is considered a broad-based tax, meaning it has a large tax base and provides substantial revenue, making it a reliable source of funding for government operations.
+
+The elasticity of income tax is tied directly to personal income, meaning tax revenues tend to rise with increasing incomes. However, there is also the potential for bracket creep, where inflation pushes taxpayers into higher tax brackets without an increase in real income, distorting the tax burden.
+
+### Bracket Creep and Indexation
+
+In the setup, a taxpayer with a current income of $100,000 falls into the 28% federal income tax bracket. The marginal tax rate increases to 30% for income above $102,000. 
+
+Bracket creep occurs when inflation leads to a salary increase, in this case by 3%, raising the taxpayer's income to $103,000. Despite the increase in nominal income, the taxpayer’s real purchasing power remains unchanged. However, the higher income pushes them into a higher tax bracket, resulting in a greater tax liability without an actual improvement in their financial situation.
+
+To eliminate bracket creep, tax systems use indexation, which adjusts marginal tax brackets in line with inflation, ensuring that taxpayers do not face higher tax rates simply due to inflationary increases in nominal income.
+
+**Feasibility:** Income taxation is generally feasible due to its ease of administration for the government. Identifying taxpayers is manageable, and the assessment and collection of taxes are streamlined through payroll deduction (withholding), either by individuals or their employers. The government's primary administrative costs are related to enforcing tax laws and conducting sample audits to ensure compliance.
+
+However, income taxation also imposes significant compliance costs on taxpayers. These costs arise from the effort required to file tax returns, understand tax laws, and keep up with any changes or updates in the tax system.
+
+## Income Taxation at the State Level
+There are various systems of how income taxes are levied at the state level. In a first case, state income tax can be a percentage of the federal tax liability. In that case, revenue is sensitive to changes in the federal tax code. In a second case, the state tax base is equal to the federal taxable income but uses different tax rates. This system is sensitive to changes in the federal base but not the federal rates. In a third case, the state income tax base equals the federal AGI but uses different deductions, credits, and rates. This system has reduced revenue sensitivity as it relates to federal changes. And finally, state tax base and rates are unrelated to the federal taxes. This results in the state income tax system being completely disconnected from the federal system and associated changes. IN reality many states use a flat tax rate, e.g., 3.23\% of Adjusted Gross Income in Indiana. 
+
+Income taxation at the federal and state level are characterized by some system of deductibility. Let $s$ and $f$ be the federal and state tax rate, respectively. And let $x_s$ and $x_f$ denote federal and state tax liability, respectively. For the following cases, assume that the taxable income is $M=60,000$, the federal tax rate is $f=0.25$, and the state tax rate is $s=0.05$.
+
+In the case of reciprocal deductibility, we have the following formulas:
+
+- State tax liability
+$$x_s=\frac{s-s \cdot f}{1-s \cdot f} \cdot M$$
+
+- Federal tax liability
+$$x_f=\frac{f-s \cdot f}{1-s \cdot f} \cdot M$$
+
+Given the above example numbers, the state liability is calculated as follows:
+$$x_s=\frac{s-s \cdot f}{1-s \cdot f} \cdot M \Rightarrow \frac{0.05-0.05 \cdot 0.25}{1-0.05 \cdot 0.25} \cdot 60,000 = 2,279$$
+
+And the federal liability is expressed as follows:
+$$x_f=\frac{f-s \cdot f}{1-s \cdot f} \cdot M \Rightarrow \frac{0.25-0.05 \cdot 0.25}{1-0.05 \cdot 0.25} \cdot 60,000 = 14,430$$
+
+Thus, the total tax liability is \$16,709 and the average tax rate is $16,709/60,000=0.2785$. In the case of deductibility, we have the following for the state tax liability: 
+$$s \cdot M \Rightarrow 0.05 \cdot 60,000 = 3,000$$
+
+And for the federal tax liability:
+$$f \cdot M \Rightarrow 0.25 \cdot 60,000 = 15,000$$
+
+Thus, the total tax liability is \$18,000 and the average tax rate is $18,000/60,000=0.3$. In the case of state deductability from the federal tax liability, we have the state liability:
+$$s \cdot M \Rightarrow 0.05 \cdot 60,000 = 3,000$$
+
+And for the federal tax liability:
+$$f \cdot (1-s) \cdot M \Rightarrow 0.25 \cdot (1-0.05) \cdot 60,000 = 14,250$$
+
+Thus, the total tax liability is \$17,250 and the average tax rate is $17,250/60,000=0.2875$.
+
+## Corporate Income Tax
+Corporate income tax applies to entities such as C Corporations, while S Corporations are considered pass-through entities, meaning their income is taxed at the individual level rather than the corporate level. The corporate income tax base are the net earnings of incorporated businesses. The tax base includes retained earnings and dividends. The cost of earning income and interest payments on debt are tax deductible.
+
+One of the key advantages of corporate income tax is that it allows for the taxation of out-of-state owners for the services consumed within a particular state. It also ensures that retained earnings, which would not be taxed under personal income tax, are captured within the tax system. This adds to the progressiveness of the overall tax structure, as corporations generally have higher incomes.
+
+However, there are also disadvantages. Corporate income tax can have a negative effect on savings and investments and reduce the after-tax returns potentially discouraging these activities. It can also distort financing decisions, favoring debt financing over equity because interest payments on debt are tax deductible, while equity financing is not. Additionally, there is an issue of double taxation with dividends, as they are taxed once at the corporate level and again when distributed to shareholders.
+
+## Exercises 
+1. ***Federal Income Tax Calculation*** (\*\*): Consider the marginal tax table for a married couple below. The household currently makes \$160,000. What is the marginal and average tax rate? The spouse in the household is likely getting promoted, which raises their household income to \$175,000. A friend of the family suggests that the promotion will decrease their after-tax income since they are going to be in a higher tax breacket. Is that friend correct? Why or why not?
 
      |     Over |   Below | Tax Rate |
      |---------:|--------:|---------:|
@@ -57,41 +141,26 @@ o	Mikesell – Income Taxes.pdf
      |  400,001 | 600,000 |      35% |
      |  600,001 |         |      37% |
 
+2. ***State Income Tax*** (\*\*): A state income tax requires households with income of \$20,000 or less to pay no taxes. With a household income of above \$20,000, a tax of 10\% applies to the part of the income exceeding \$20,000. For the questions below, explain each of your answers and provide examples to justify your conclusions.
 
-1. (\*\*\*) A proposed state income tax would require individuals with income of \$15,000 or less to pay no tax and those with incomes above \$15,000 to pay a tax of 10 percent only on the part of their income tax that exceeds $15,000. 
-a.	Could an individual pay an average tax rate of 7.5 percent under this system?
-b.	Could an individual pay an average tax rate of 10 percent under this system?
-c.	What average and marginal tax rates would individuals with these income levels face: $10,000, $20,000, $40,000, and $150,000?
-d.	Explain each of your answers and provide examples to justify your conclusions.
+a. Could an individual pay an average tax rate of 7.5\% under this system?
+b. Could an individual pay an average tax rate of 10\% percent under this system?
+c. What average and marginal tax rates would individuals with these income levels face: \$10,000, \$20,000, \$40,000, and \$150,000?
 
-2. (\*\*) Dena is in the 10% federal income tax bracket and wants to invest $8,000 in interest-earning assets. Cullen is in the 35% bracket and wants to invest $15,000. The current rate on a typical high-quality tax-exempt municipal bond is 5% and on a similar quality corporate bond is 6.5%.
-You are the financial adviser to both. Which investment would you recommend to each individual?
+3. ***Interest-Bearing Assets and Taxes*** (\*\*): Dena is in the 10\% federal income tax bracket and wants to invest \$8,000 in interest-earning assets. Cullen is in the 35\% bracket and wants to invest \$15,000. The current rate on a typical high-quality tax-exempt municipal bond is 5\% and on a similar quality corporate bond is 6.5\%. You are the financial adviser to both. Which investment would you recommend to each individual?
 
-3. (***)
-| Category                         |   Value |
-|----------------------------------|--------:|
-| Salaries                         | 65,000  |
-| Interest income, corporate bonds |  1,000  |
-| Interest income, municipal bonds |  1,500  |
-| State and local income taxes     |    800  |
-| Real estate taxes                |    750  |
-| General sales taxes              |    750  |
-| Home mortgage interest           |  3,350  |
-| Credit card interest             |    500  |
-| Cash contributions to charities  |    250  |
-| Interest on education loans      |    500  |
-| Hospital and doctor expenses     |  1,500  | 
+4. ***Personal Exemptions and Adjustments*** (\*\*): Personal exemptions are suspended until 2025 and this exercise is designed to compare the situation pre- and post- the new tax legislation. In 2017, the standard deduction was \$12,700. The personal exemption was \$4,050 per person. In 2018, the standard deduction was \$24,000. Personal exemptions were $0. For both years, find the respective tax brackets for joint filings and, based on the key financial parameters of the household below, compute the following : (1) Adjusted gross income, (2) Taxable income, (3) Average tax rate, (4) Effective tax rate, and (5) Marginal tax rate. In which year is the family better off? Please support your answers with numbers.
 
-In class, we have seen that the personal exemptions are suspended until 2025. What I want you to do in this exercise is to compare the situation pre- and post- the new tax legislation. Do not worry about inflation for this exercise.
-•	In 2017, the standard deduction was $12,700. The personal exemption was $4,050 per person.
-•	In 2018, the standard deduction was $24,000. Personal exemptions were $0.
-
-For both years, find the respective tax brackets for joint filings and compute the following:
-1.	Adjusted gross income
-2.	Taxable income
-3.	Average tax rate
-4.	Effective tax rate
-5.	Marginal tax rate
-
-In which year is the family better off? Please support your answers with numbers. 
-
+     | Category                         |   Value |
+     |----------------------------------|--------:|
+     | Salaries                         | 65,000  |
+     | Interest income, corporate bonds |  1,000  |
+     | Interest income, municipal bonds |  1,500  |
+     | State and local income taxes     |    800  |
+     | Real estate taxes                |    750  |
+     | General sales taxes              |    750  |
+     | Home mortgage interest           |  3,350  |
+     | Credit card interest             |    500  |
+     | Cash contributions to charities  |    250  |
+     | Interest on education loans      |    500  |
+     | Hospital and doctor expenses     |  1,500  | 

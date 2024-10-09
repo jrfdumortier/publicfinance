@@ -6,6 +6,7 @@ view: https://github.com/jrfdumortier/publicfinance/blob/main/%s
 rmd_files: ["index.rmd","introduction.rmd","basicbudgetpreparation.rmd",
             "budgetingunitedstates.rmd","budgetmethodsformat.rmd",
             "costaccountinganalysis.rmd","capitalbudgeting.rmd",
+            "governmentrevenue.rmd","incometaxes.rmd",
             "casestudies.rmd"]
 language:
   ui:
