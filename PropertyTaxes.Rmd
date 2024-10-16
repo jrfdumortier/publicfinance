@@ -1,40 +1,300 @@
 # Property Taxes
+A tax on the market value of privately owned property is called a property tax. In this chapter, we define what property taxes are and outline the administrative steps to collect them. An important difference compared to the previous taxes is that the government sets the tax base and the tax rate. Hence, we first cover property value determination and assessment and then the tax rate setting. The final sections of this chapter cover various measures related to equity and policy as well as the evaluation (e.g., equity, efficiency). There are also [slides](https://github.com/jrfdumortier/slidespublicfinance/blob/main/PropertyTaxes.pdf) and a [YouTube video](https://youtu.be/ZZvEzGUxf1M?si=TeWLgd2PbJkwwJKj) associated with this chapter.
 
-Property Taxes
-What triggers the tax?
-•	Real property: Land, improvements (house)
-•	Exemption for some types of Real property
-o	Public property, burial grounds, places of religious worship
-o	Education institutions, public charities, nonprofit hospitals
-o	Must be owned and used for intended purpose to be exempted
-Tax base:
-•	The base is the market value of the property
-•	Measuring base requires
-o	Identifying ownership of property
-o	Identify use of property
-o	Identifying changes to property
-•	These three can be hard to determine
-o	How to identify ownership and changes (e.g., to buildings)?
-•	Determine Market value:
-o	Generally done at the local level but done at the state level in some states
-o	Not an easy task; value must be legally defensible if subject to appeal
-•	Value is usually based on market value, which assumes 
-o	Non-forced sale between willing buyer and willing seller
-o	Markets have adequate time to function
-o	Full information about parcel of property that is for sale
-•	Generally defensible since there are actual transactions available for comparison
-•	Assessment methods:
-o	Assessment on sale: reassessment takes place when property is sold
-	California, Florida and Michigan
-	Deedless sales to avoid adjustment in tax liability
-o	Comparable sales approach:
-	Residential properties
-	Using large amounts of market transaction data
-o	Cost approach
-	For industrial (and utility) properties: calculate the reproduction or replacement cost
-•	Understand the two different tax relief measures, i.e., homestead exemption and circuit breaker. 
-•	The required readings are:
-o	Chapter 13 The Property Tax.pdf
+Property taxes are theoretically taxes on wealth (e.g., real estate, personal property). The inclusion of all property is administratively and politically not feasible. Thus, it is usually limited to agricultural land, commercial and industrial property, and residential homes. Some properties are exempt (e.g., public properties, cemeteries, churches, colleges, nonprofit hospitals) as long as those are used for the intended purpose. Property taxes are the most important tax used by U.S. local governments (Source: [U.S. Census 2021 State & Local Government Finance Historical Datasets and Tables](https://www.census.gov/data/datasets/2021/econ/local/public-use-datasets.html)) and represent 72.5% of local tax revenue and are the economic basis for local autonomy.
+
+## Administrative Steps
+The key administrative steps for property taxes begin with registration, which involves identifying the properties that are subject to taxation based on ownership. Next is the assessment, where the property’s value is quantified to establish the tax base, and the tax rate is determined. This step is particularly challenging in the context of property taxes and differs from other forms of taxation in that both the tax base and the tax rate are set by the government. There is often a trade-off between setting the tax base and the tax rate. Finally, the collection step involves the mailing of tax bills to property owners and the processing of the receipts once the taxes are paid.
+
+## Property Value Determination
+The goal of property value assessment is to provide an accurate and up-to-date estimate of the market value for each property. The accuracy of these assessments directly impacts the (perceived) fairness of property taxes. Achieving higher accuracy typically involves more frequent and regular assessments, ideally on an annual basis. There are three types of property values:
+
+1. **Market value** assumes full information and properly functioning markets.
+2. **Appraised value**, determined by a professional appraiser, is relevant in the sale process and for mortgage lending purposes.
+3. **Assessed value**, used for property tax purposes, is often set by policy as a fraction (i.e., between 0 and 1) of the market value and may differ significantly from both market and appraised values. Property value assessments are typically conducted at the local level, rarely at the state level.
+
+While market and appraised values are defensible due to their basis in actual transactions, assessed values are primarily determined by tax policy. 
+
+There are three main methods used to assess property values: (1) Comparable sales approach, (2) Cost approach, and (3) Income approach. The comparable sales approach is frequently used for residential properties by leveraging market transaction data. Since there is a sufficient number of transactions per year, statistical methods insure a fairly accurate property value determination. The cost approach, more suitable for industrial and utility properties, involves determining either the reproduction cost (the cost to construct an identical property) or the replacement cost (the cost to build a similar property using modern technology). Of course, this may be more difficult if you consider for example the value of a unique facility such as an ethanol plant. The income approach is commonly used for income-generating properties, such as apartment complexes. The approach determines the annual profit from the property and uses the net present value (NPV) to determine its current value. The present value of the property is then found by dividing the net income by the discount rate. This assumes the revenue is received in perpetuity. Let us consider the following example: 
+
+- A 10-unit apartment complex that rents for \$1,500 per month.
+- The expense rate as a percent of income is 54\%.
+- The vacancy rate is 6\%.
+- The discount rate used for the NPV calculation is 5\%.
+
+Given those information, the calculations are as follows:
+
+- Gross income: $\$1,500 \cdot 10 \cdot 12 \cdot (1-0.06)=\$169,200$
+- Expenses: $\$169,200 \cdot 0.54= \$91,368$
+- Net income per year: $\$169,200-\$91,368= \$71,832$
+- Present value: $\$71,832/0.05= \$1,436,640$
+
+The assessment ratio is the assessed value as percentage of the market value. The ratio is set by state finance laws to differentiate classes of property, i.e., residential, agricultural, commercial, and industrial. There are lower rates for residential properties than for commercial and industrial property. The assessed value equals assessment ratio ($AR$) times market value ($MV$), i.e.,
+$$AV = AR \cdot MV$$
+
+The rationales for property classifications are the perception of fairness and slow urban sprawl by taxing farm property at lower rates.
+
+The final remaining questions is with regard to the frequency of property value assessment. There are four primary types of assessment cycles used for property taxes. In the cyclical assessment approach, all properties are assessed during the designated assessment year. Once a property is assessed, its value remains unchanged until the next scheduled assessment, unless significant changes are made to the property that would warrant a reassessment. In a segmental assessment, only a fraction of all properties are reassessed each year. For example, one-third of all properties might be assessed every three years. In the annual assessment, the process is made possible by advancements in technology. In this approach, each characteristic of a property is assigned a value, and these values are adjusted based on market trends in the jurisdiction. Finally, under assessment on sale, a property is reassessed when it is sold. This method can lead to significant inequities, both horizontally (between similar properties) and vertically (across different property values), as properties that do not change ownership may not be reassessed for many years.
+
+## Property Tax Rates
+The setting of the property tax rate occurs as part of the annual budget process. The rate is determined by the following formula:
+
+$$r = \frac{E-NPR}{AV}$$
+
+where \( r \) represents the tax rate, \( E \) is the budget expenditure, \( NPR \) stands for non-property tax revenue, and \( AV \) is the assessed value. By setting property tax rates during the budgeting process, officials are able to balance the budget and avoid borrowing. However, fluctuations in tax rates might lead to political unpopularity of the tax.
+
+In terms of terminology, the mill rate refers to the property tax rate expressed in mills, meaning one dollar of tax for every one thousand dollars of assessed value. The relationship between the mill rate (\( m \)) and the tax rate (\( r \)) is given by:
+
+$$r = \frac{m}{1000}$$
+
+For example, if the mill rate is \( m = 7 \), then the tax rate is:
+
+$$r = 0.007 = 0.7\%$$
+
+When it comes to tax revenue, the notation used includes \( TR \) for tax revenue and \( AV \) for assessed values. Tax revenue can be calculated based on the tax rate \( r \) with the formula:
+
+$$TR = AV \cdot r$$
+
+Alternatively, it can be calculated using the mill rate \( m \) with the formula:
+
+$$TR = \frac{AV}{1000} \cdot m$$
+
+In this illustration, we consider taxable real property valued at \$220 million with an assessment ratio of 0.5. Exemptions reduce the assessed value by \$3 million, and the total budget amounts to \$3.5 million, with non-property tax revenue contributing \$0.75 million.
+
+To calculate the statutory tax rate:
+
+The gross assessed value is:
+
+$$220 \, \text{million} \times 50\% = 110 \, \text{million}$$
+
+The net assessed value is:
+
+$$110 \, \text{million} – 3 \, \text{million} = 107 \, \text{million}$$
+
+The statutory tax rate is calculated as:
+
+$$r = \frac{3.5 - 0.75}{107} = 0.0257$$
+
+This corresponds to a mill rate of:
+
+$$m = 25.7$$
+
+## Public Services and Rate Setting
+We mentioned before that property taxes are an important source for local government funding. In this section, we determine how property tax rates are set by linking them to expenditures. In this example, we have six parcels (labeled A through F) and four public services: (1) Two school districts, (2) three Waste water treatment districts, (3) two fire districts, and (4) three library districts. The graph below illustrate the distribution of school district across the parcels. The number in parenthesis is the assessed value.
+
+```{r,echo=FALSE,fig.cap="Example Distribution of Assessed Values and School District"}
+library(ggplot2)
+parceldata = data.frame(Parcel=c("A ($100)","B ($50)","C ($200)","D ($150)","E ($200)","F ($100)"),
+                        x=c(1,2,3,1,2,3),y=c(2,2,2,1,1,1),
+                        SchoolDistrict = c("School District 2","School District 2",
+                                           "School District 2","School District 1",
+                                           "School District 1","School District 1"))
+ggplot(parceldata,aes(x=x,y=y,fill=SchoolDistrict))+geom_tile(width=0.9,height=0.9,color="black")+
+     geom_text(aes(label=Parcel),color="white",size=5)+
+     scale_fill_manual(values=c("School District 2"="darkgreen","School District 1"="darkblue"))+
+     theme_void()+coord_fixed()+labs(fill="School District")+
+     theme(legend.title=element_blank(),legend.position="bottom")
+```
+
+The parcel allocation and expenditures can be summarized as follows in a table:
+
+| ID  | Public Service         | Parcels | Expenditure | Tax Base | Millage |
+|----:|:-----------------------|:-------:|------------:|---------:|--------:|
+| 1   | School District 1      | A+B+C   | 20          | 350      | 0.0571  |
+| 2   | School District 2      | D+E+F   | 10          | 450      | 0.0222  |
+| 3   | Waste Water District 1 | A+D     | 5           | 250      | 0.0200  |
+| 4   | Waste Water District 2 | B+E     | 5           | 250      | 0.0200  |
+| 5   | Waste Water District 3 | C+F     | 5           | 300      | 0.0167  |
+| 6   | Fire District 1        | A+B+D+E | 40          | 500      | 0.0800  |
+| 7   | Fire District 2        | C+F     | 20          | 300      | 0.0667  |
+| 8   | Library 1              | B+D+E+F | 60          | 500      | 0.1200  |
+| 9   | Library 2              | A       | 10          | 100      | 0.1000  |
+| 10  | Library 3              | C       | 10          | 200      | 0.0500  |
+
+And thus, the rate by parcel is as follows:
+
+| Parcel | Value | School | Waste | Fire | Library | Millage | Tax Bill |
+|--------|-------|--------|-------|------|---------|--------:|---------:|
+| A      | 100   | 1      | 1     | 1    | 2       | 0.2571  | 25.71    |
+| B      | 50    | 1      | 2     | 1    | 1       | 0.2771  | 13.86    |
+| C      | 200   | 1      | 3     | 2    | 3       | 0.1905  | 38.10    |
+| D      | 150   | 2      | 1     | 1    | 1       | 0.2422  | 36.33    |
+| E      | 200   | 2      | 2     | 1    | 1       | 0.2422  | 48.44    |
+| F      | 100   | 2      | 3     | 2    | 1       | 0.2256  | 22.56    |
+
+
+## Technical Aspects of Property Taxes
+Equity-relatedmetrics measure dispersion of assessed values and the degree of tax progressiveness. Two commonly used measures are the coefficient of dispersion (COD) and the price-related differential (PRD).
+
+Property tax relief policies aimed at enhancing equity include the homestead exemption, which reduces the taxable value of a primary residence, and the circuit breaker, which provides tax relief based on income, particularly for lower-income households.
+
+### Coefficicent of Dispersion (COD)
+The coefficient of dispersion (COD) serves as a measure of the dispersion of assessed values and horizontal equity. It reflects the average deviation around the median assessment ratio as a percentage of the median. This measure indicates how closely assessed values are clustered around the median, with less variation being a positive sign. In terms of interpretation, a smaller COD is generally viewed as positive. The acceptable range for COD is typically 10% to 15% for residential properties and 15% to 20% for commercial properties.
+
+| Property               | A        | B        | C         |
+|------------------------|---------:|---------:|----------:|
+| Market value           | \$40,000 | \$60,000 | \$100,000 |
+| Assessed value         | \$25,000 | \$30,000 | \$40,000  |
+| Assessment ratio       | 0.625    | 0.500    | 0.400     |
+| Difference from median | 0.125    | 0.000    | 0.100     |
+
+Calculations
+
+- Median assessment ratio: 0.5 (median of 0.4, 0.5, and 0.625)
+- Average difference from median: $(0.125+0+0.01)/3=0.075$
+- COD: $0.075/0.5=0.15$
+- Average of assessment ratios are 15\% from the median
+
+### Price Related Differential (PRD)
+The PRD is a measurement of tax progressiveness
+
+- $PRD=1$: Proportional tax
+- $PRD>1$: Regressive tax (i.e., under-assessment of high value parcels relative to low value parcels)
+- $PRD<1$: Progressive tax (i.e., over-assessment of high value parcels relative to low value parcels)
+
+Equation
+$$PRD = \frac{1/N \cdot \sum_i A_i/M_i}{\sum_i A_i/ \sum_i M_i}$$
+where
+
+- $A_i$: Assessed value of property $i$
+- $M_i$: Market value of property $i$
+
+Let us conside the example with five properties as presented in the table below.
+
+| Market Value | Progressive            | Regressive            |
+|--------------|------------------------|-----------------------|
+| \$50,000     | \$35,000 (0.70)         | \$47,500 (0.95)       |
+| \$75,000     | \$60,000 (0.80)         | \$67,500 (0.90)       |
+| \$100,000    | \$85,000 (0.85)         | \$85,000 (0.85)       |
+| \$150,000    | \$135,000 (0.90)        | \$120,000 (0.80)      |
+| \$250,000    | \$237,500 (0.95)        | \$175,000 (0.70)      |
+| **PRD**      | **0.95**                | **1.061**             |
+
+
+### Homestead Exemption: Overview
+Homestead exemption: Absolute reduction in taxable property values (e.g., \$30,000).
+
+- Subtraction of exemption from assessed value to calculate tax
+- Lower home value $\Rightarrow$ Higher percent reduction in taxes
+- Application to owner-occupied housing only (not renters)
+
+Advantages
+
+- Provision of tax relief and improved vertical equity for lower to middle income homeowners
+
+Disadvantages
+
+- Not helpful to renters who are often lower income households
+- Not helpful to cities with large portion of renters
+
+|                           | Property A | Property B |
+|---------------------------|------------|------------|
+| Market value               | \$100,000  | \$500,000  |
+| Assessment ratio           | 70%        | 70%        |
+| Assessed value             | \$70,000   | \$350,000  |
+| Exemption                  | \$30,000   | \$30,000   |
+| Taxed value                | \$40,000   | \$320,000  |
+| Tax rate                   | 4%         | 4%         |
+| Tax without exemption      | \$2,800    | \$14,000   |
+| Tax with exemption         | \$1,600    | \$12,800   |
+| Real rate without exemption| 2.80%      | 2.80%      |
+| Real rate with exemption   | 1.60%      | 2.60%      |
+
+
+### Circuit Breaker
+Characteristics
+
+- Provides rebate/credit on state income tax for high property taxes.
+- Neither lowers property tax bill nor directly affects local tax revenue.
+- Can be applied to both, homeowners and renters, and is usually means-tested.
+
+Circuit breaker structure
+$$R=p \cdot (PT-k \cdot I)$$
+where 
+
+- $R$: Tax credit
+- $p$: Percentage specified by law and usually declining with income after a threshold
+- $PT$: Property tax paid (estimate for renters)
+- $k \cdot I$: Excessive tax burden specified as percent ($k$) of income ($I$)
+
+Simple example: Tax credit of 50% on excess burden if property taxes larger than 5% of income
+
+- Income: \$30,000
+- Property tax: \$2,000
+- Income tax credit: $R=50\% \cdot (\$2,000-5\% \cdot \$30,000)=\$250$
+
+More complex example
+
+- Tax credit limit: \$1,200
+- Credit reduction (i.e., reduction in $p$): 10 percentage points for every \$5,000 over $30,000 of income
+- $k=4%=0.04$
+
+More Complex EXample
+```{r, echo=FALSE}
+creditlimit         = 1200
+k                   = 0.04
+funcb               = function(PT,p,I){
+                         out = rep(NA,length(p))
+                         for(i in 1:length(p)){
+                              out[i] = max(min(creditlimit,p[i]*(PT-k*I[i])),0)}
+                         return(out)}
+df                  = data.frame(income=seq(0,80000,5000))
+df$p                = 1-(df$income-30000)/5000*0.1
+df$p[which(df$p>1)] = 1
+temp                = df
+temp$scenario       = "PT=$1,000"
+temp$credit         = funcb(1000,temp$p,temp$income)
+result              = temp
+temp$scenario       = "PT=$2,500"
+temp$credit         = funcb(2500,temp$p,temp$income)
+result              = rbind(result,temp)
+temp$scenario       = "PT=$5,000"
+temp$credit         = funcb(5000,temp$p,temp$income)
+result              = rbind(result,temp)
+ggplot(result,aes(x=income,y=credit,color=scenario))+geom_line()+theme_bw()+
+     ylab("Income Tax Credit")+
+     theme(legend.title=element_blank(),axis.title.x=element_blank(),legend.position="bottom")
+```
+
+The circuit breaker system offers several advantages and one notable disadvantage. One of the key advantages is that property tax relief can be specifically targeted to lower and middle-income homeowners and renters, making it an effective tool for addressing equity concerns. Additionally, the benefit can decrease as income increases, allowing for a more tailored approach to providing relief based on financial need.
+
+However, a significant disadvantage of the circuit breaker system is that households can only benefit if they file income tax returns. This limitation may exclude some eligible households that do not file, thereby reducing the reach of the program.
+
+## Evaluation Criteria
+In evaluating property taxes from an equity perspective, effective tax rates serve as an important measure of tax burden relative to the ability to pay. Two possible approaches can be used: one involves calculating taxes divided by income, and the other divides taxes by market value.
+
+Horizontal equity refers to the principle that individuals or properties with the same ability to pay should be taxed equally. However, horizontal inequities can arise due to inaccurate assessment values. Even with accurate assessments, horizontal inequities may still occur if the measure of ability to pay is based on income rather than property value.
+
+Vertical equity, on the other hand, addresses how tax burdens differ based on different levels of ability to pay. For residential properties, the tax burden typically falls on the homeowner. In the case of rental and business properties, the tax burden may be borne by landlords, tenants, owners, employees, or customers, depending on the prevailing market conditions.
+
+|                         | Family A | Family B | Family C  |
+|-------------------------|----------|----------|-----------|
+| Household size           | 8        | 2        | 2         |
+| Income                   | 80,000   | 30,000   | 80,000    |
+| Adjustment factor        | 1.32     | 0.80     | 0.80      |
+| Adjusted income          | 60,606   | 37,500   | 100,000   |
+| Assessed value           | 250,000  | 100,000  | 250,000   |
+| Tax rate                 | 2%       | 2%       | 2%        |
+| Taxes liability          | 5,000    | 2,000    | 5,000     |
+| ETR (Adjusted income)    | 8.25%    | 5.33%    | 5.00%     |
+
+
+Source: [Adjustment factors](https://www.huduser.gov/portal/datasets/il/fmr99/sect82.html)  
+
+In evaluating the efficiency of property taxes, key questions center around whether the tax distorts economic decisions and the extent of these distortions. 
+
+The distortion of economic decisions can affect various areas. It can influence consumption decisions, particularly the choice between housing and other goods. It may also impact investment decisions, such as how much individuals or businesses invest in real estate. Additionally, business production decisions could be altered by the tax, affecting how businesses allocate resources. Finally, property taxes can influence location decisions for both individuals and firms, as tax rates may lead them to choose one location over another.
+
+Adequacy in property tax evaluation focuses on the variations in revenue-raising capacity across different jurisdictions. These variations can be attributed to differences in wealth, with wealthier areas having a higher capacity to generate revenue. The presence of large industries can further increase a jurisdiction's ability to raise revenue. On the other hand, exemptions can undermine the capacity to generate revenue by reducing the taxable base.
+
+Elasticity refers to the potential for increasing tax revenue as incomes grow, without altering the tax base or the tax rate. This depends on the relationship between income growth, the market value of homes, and the method used for property assessments. A more elastic system can adapt to economic growth, ensuring that revenue increases naturally as the economy expands.
+
+
+Feasibility in property tax systems is often influenced by the complexity of property assessment, which is considered the most challenging aspect. There is a trade-off between achieving horizontal equity and managing administrative costs. While property taxes are generally politically feasible, they are highly visible to taxpayers because they are often paid in a lump sum, either annually or semi-annually. Elected officials may hesitate to raise commercial property tax rates out of concern that higher taxes could drive businesses out of the area.
+
+In terms of stability, property taxes benefit from a broad tax base, which typically experiences little fluctuation over time. However, fluctuations in tax revenue can occur due to changes in property assessments, making assessment practices a key factor in the overall stability of the property tax system.
+
+
 
 ## Exercises
 

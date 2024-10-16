@@ -1,16 +1,144 @@
 # Consumption Taxes
+This chapter covers consumption taxes, which can be divided into two board categories:
 
-Consumption Taxes
-•	Various consumption taxes	
-o	General sales tax (like in Indiana) and in many states: Tax levied on all consumption items. Certain items are excluded such as food and services. 
-o	Excise tax: Tax on a specific commodity, e.g., tobacco, alcohol, gasoline, diesel. 
-•	Taxes differentiated by stage of production (e.g., resource supply, manufacturers, wholesale, retail
-•	Retail tax (e.g., sales tax) is implemented at the last stage
-•	Value-added tax (VAT) is implemented at each stage and only the value-added is taxes. 
-•	Understand the advantages of the VAT tax
-o	Multiple actors along the stages of production are reporting the tax payment to the government in order to get reimbursed. 
-o	Since the VAT is a self-enforcing tax (due to the reporting at multiple stages), tax rates are significantly higher (15% and above) than under a general sales tax. 
-•	On the exam, there will probably be a question about sales tax and its effect on income distribution similar to the questions 1 and 2 on the last homework. Again, no calculations will be required but the ability to interpret the effects. 
+1. General sales taxes: Generally speaking, those taxes cover all consumption goods with few exceptions (e.g., food). In the United States, retail sales taxes are widely used, whereas in the European Union, the value-added tax (VAT) is more common.
+2. Excise tax: Those taxes apply to specific goods and can take various forms depending on the purpose of the tax.
+
+We will cover the definition of the tax base as well as the applicable tax rates. An example of tax rates can be found through resources like the [Federation of Tax Administrators: Tax Rates](https://taxadmin.org/tax-rates-new/). Finally, the evaluation of sales taxes involves assessing their effectiveness and implications in the broader economic context.
+
+There are also [slides](https://github.com/jrfdumortier/slidespublicfinance/blob/main/ConsumptionTaxes.pdf) and a [YouTube video](https://youtu.be/kGVytbqK2h4?si=GjI8JcSGCwT77nCz) associated with this chapter.
+
+## Consumption Tax Definition
+The relationship between consumption, income, and savings is straightforward: Consumption equals individual income minus personal savings. An ideal (theoretical) consumption tax would broad and applied to all consumption. However, such a tax would be challenging to identify, collect, and enforce, making it impractical from a financial administration perspective.
+
+In reality, consumption taxes tend to be narrower in scope as they are typically limited to certain goods or services. These taxes can be collected at various stages of production, including the resource supply stage (such as mining or farming), during manufacturing, at the wholesale level, or at the point of retail.
+
+There are various types of consumption taxes, each differing in how and when they are applied throughout the production process. A single-stage tax is applied at one point in the process. Examples of this include the retail sales tax, which is imposed at the point of sale to consumers, and the manufacturers tax, which can discourage production or prompt businesses to shift production to other states to avoid the tax.
+
+A multi-stage tax, by contrast, applies to multiple points in the production process. The turnover or gross receipts tax is an example where a tax is levied on sales at each stage, leading to cascading effects as the tax accumulates through the production chain. The value-added tax (VAT) is also a multi-stage tax but is non-cascading, i.e., the tax is based on the value added at each stage, preventing the overall tax burden from increasing with each transaction.
+
+Excise taxes, which are typically imposed on a single commodity, are generally single-stage taxes. They apply specifically to one type of product, such as gasoline or tobacco, and are collected at one point in the production or distribution process.
+
+More on the [History of Taxes](https://taxfoundation.org/taxedu/educational-resources/primer-history-of-taxes/) can be found on the website of the Tax Foundation.
+
+Let us next look at the difference between a retail and a wholesale tax. In this setup, the wholesale price of a product is \$10, while the retail price is \$20, which represents a 100\% markup over the wholesale price. Under a retail sales tax of 10\%, the price paid by the consumer would be \$22. This amount includes \$20 for the item itself and \$2 as the sales tax. The government would collect \$2 in revenue from the retail sales tax. Alternatively, if a wholesale tax of 10\% is applied instead, the price at the wholesale level would be \$11, which includes the \$10 item price and \$1 in wholesale tax. With a 100\% markup applied to this wholesale price, the price to the consumer would still be \$22. However, in this case, the government would collect only \$1 in revenue from the wholesale tax. Note that this is a simplified example assuming that the producer can shift the entire tax burden to the consumer, an assumption which is unlikely to be true.
+
+The tax base for consumption taxes varies depending on the type of tax. In the case of general sales taxes, the aim is to tax all personal consumption at a uniform rate. However, due to equity concerns, certain types of goods, such as food or energy, are often subject to reduced rates or are entirely exempt from taxation. Excise taxes, which target specific commodities, can differ significantly depending on the product being taxed. For instance, federal and state fuel taxes are higher than a plastic bag tax, reflecting variations in the nature and perceived societal cost of the goods being taxed.
+
+A notable development in the tax landscape came with the U.S. Supreme Court's ruling on June 21, 2018, in the case of South Dakota v. Wayfair, Inc, et al. (see [Supreme Court Ruling](https://www.supremecourt.gov/opinions/17pdf/17-494_j4el.pdf)). This decision had a significant impact on the collection of sales taxes by online retailers, allowing states to require sellers to collect and remit sales taxes even if the seller does not have a physical presence in the state. This ruling addressed the growing issue of tax compliance in the digital economy.
+
+## General Sales Tax
+A general sales tax serves as an alternative to income and other taxes to finance government operations. The broad base is one of the advantages because it allows for high revenue generation at a low tax rate. A general sales tax implicitly taxes wealth because wealthier people consume more. This can also promote economic growth by discouraging consumption and encouraging savings.
+
+The collection of a general sales tax can take different forms. A retail sales tax is imposed only at the final stage of production or distribution. It is commonly used by U.S. state and local governments, as well as in Canadian provinces. On the other hand, the value-added tax (VAT) applies to every transaction along the production and distribution chain. Each purchaser, except for the final consumer, can claim a refund on the tax through credits. The VAT is a requirement for membership in the European Union and is also used in countries like China, Russia, and several in Latin America. A VAT tax is so-called self-enforcing (more details about this later), which leads to the ability to impose higher tax rates. For further details on [why the VAT is considered administratively superior to a retail sales tax](https://www.taxpolicycenter.org/briefing-book/why-vat-administratively-superior-retail-sales-tax), a useful resource is available from the Tax Policy Center.
+
+## Retail Sales Tax
+In the U.S., retail sales taxes typically exclude goods used in production for reasons related to economic efficiency, equity, and the promotion of economic growth. The exclusion is meant to prevent the tax from being applied to intermediate goods, which could otherwise lead to a cascading effect and increase production costs. The standards for these exclusions usually involve two criteria: (1) The good must either be a component or physical ingredient of the final product or (2) it must be directly used in the production process.
+
+Sales taxes in the U.S. are often composed of state, local, and special rates. For example, in New York City, the total sales tax is a combination of a 4\% state tax, a 4.5\% city tax, and a 0.375\% surcharge for the Metropolitan Commuter Transportation District ([Source](https://www.nyc.gov/site/finance/taxes/business-nys-sales-tax.page)). Resources like the Tax Foundation's data portal provide detailed information on state and local sales tax rates across the country ([Data Portal](https://taxfoundation.org/data/state-tax/)). Sales taxes are not levied in Alaska, Delaware, Montana, New Hampshire, and Oregon.
+
+```{r, echo=FALSE,fig.cap="Sales Tax Revenue at State and Local Level"}
+df        = subset(slrev,item=="Sales")
+ggplot(df,aes(x=year,y=value*100,color=entity))+geom_line()+ylim(0,40)+theme_bw()+
+     ylab("% of General Revenue")+
+     theme(legend.title=element_blank(),axis.title.x=element_blank(),legend.position="bottom")
+```
+
+Retail sales tax can be either general or selective. A general tax applies to all transactions except for certain exemptions, whereas a selective tax targets only specific, enumerated transactions, such as a lodging tax that applies only to hotel stays. The way rates are applied can also differ, with two primary types: specific and ad-valorem. A specific, or unit tax, is applied based on the number of physical units bought or sold, such as a tax of \$0.20 per gallon of gasoline. In contrast, an ad-valorem tax is levied based on the value of the transaction. For example, a lodging tax might be 10% of the total hotel bill, meaning the tax amount fluctuates according to the price paid for the service.
+
+## Value-Added Taxes (VAT)
+The mechanism of a value-added tax (VAT) involves applying the tax to the value added at each stage of production and distribution. Businesses charge VAT on their sales and subtract the VAT they have paid on their purchases when remitting the tax to the government. This system ensures that taxes are collected only on the added value at each stage, thereby eliminating the issue of cascading taxes that can occur when businesses pay sales tax on items they use in their operations, such as equipment, which they do not resell.
+
+There are different types of VAT, each differing in how the tax is calculated. The credit invoice method involves businesses applying the VAT to their sales, issuing invoices that show the VAT charged, and using these invoices to claim credits for VAT paid on their purchases. The subtraction method calculates VAT by subtracting the total value of purchases from the total value of sales, applying the tax to the difference. The addition method involves calculating the VAT by summing up all the income generated from labor and capital in the production process and then applying the tax to this total.
+
+
+Credit Invoice vs. Subtraction Method
+
+|                    | Farmer | Miller | Baker | Total tax |
+|--------------------|--------|--------|-------|-----------|
+| **Prices charged**  |        |        |       |           |
+| No tax              | 300    | 700    | 1000  | 0         |
+| Sales tax           | 300    | 700    | 1100  | 100       |
+| VAT                 | 330    | 770    | 1100  |           |
+| **Credit invoice method** |  |        |       |           |
+| Tax liability       | 30     | 70     | 100   | 200       |
+| Tax credit          | 0      | 30     | 70    | 100       |
+| **Subtraction method** |    |        |       |           |
+| Tax liability       | 30     | 40     | 30    | 100       |
+
+
+Source: [Tax Policy Center: How would a VAT be collected?](https://www.taxpolicycenter.org/briefing-book/how-would-vat-be-collected)
+
+In the credit invoice approach, VAT is computed by charging it on all taxable purchases made by both businesses and consumers. Sales invoices reflect the VAT collected from customers, while purchase invoices from other businesses show the VAT that was paid. At the end of the reporting period, businesses either remit the excess VAT they have collected to the tax authority or request a VAT refund if they have paid more VAT than they collected. This approach requires two main types of records: sales invoices and purchase invoices.
+
+The subtraction and addition methods offer alternative approaches to calculating VAT. In the subtraction method, businesses track VAT paid and collected on a sale-by-sale and purchase-by-purchase basis. The total sales for the period are reduced by the total taxable purchases, resulting in the value added by the business. VAT is then paid on this value.
+
+The addition method uses the value added by the business as the tax base. This includes wages paid, certain taxes paid, and owner profit. The VAT rate is applied to the taxpayer's inputs, such as labor and profit, rather than to their purchases. This method generates the same tax revenue as other methods.
+
+For example, a business with sales of $200,000, materials costing $125,000, and wages totaling $50,000 would use the addition method to calculate VAT. The VAT would be applied to $75,000, which is the difference between sales and material costs ($200,000 - $125,000). Alternatively, under another interpretation of the addition method, the VAT would be calculated on $75,000, which consists of $50,000 in wages and $25,000 in profits.
+
+| Stage       | Sales | Value added | Sales Tax | VAT  | Turnover Tax | Manufacturer Tax |
+|-------------|-------|-------------|-----------|------|--------------|------------------|
+| **Tax Rates**  |       |             | 5%        | 5%   | 2.11%        | 4.44%            |
+| **Farmer**     | 100   | 100         |           | 5.00 | 2.11         |                  |
+| **Miller**     | 150   | 50          |           | 2.50 | 3.16         | 6.67             |
+| **Baker**      | 300   | 150         |           | 7.50 | 6.32         | 13.33            |
+| **Retailer**   | 400   | 100         | 20.00     | 5.00 | 8.42         |                  |
+| **Total Tax**  |       |             | 20.00     | 20.00| 20.00        | 20.00            |
+
+The value-added tax (VAT) offers several advantages, particularly in terms of reducing tax evasion and improving compliance. It is considered a self-enforcing tax because businesses are required to document receipts at every stage of production. This creates a paper trail that ensures taxes are paid at each step, making it difficult to evade the tax. In contrast, retail sales taxes often provide more incentive for cheating, particularly when rates exceed 10%, as implementation tends to be less successful.
+
+Another advantage of the VAT is that it helps level the playing field between foreign and domestic products. Some countries choose to exempt domestic taxes from goods sold internationally, ensuring that exported goods are not unfairly taxed when competing in global markets. This approach can encourage international trade by removing the burden of domestic taxes on exports.
+
+## Excise Taxes
+Excise taxes are often implemented for several key reasons. One major rationale is the discouragement of consumption, particularly for products deemed harmful, such as alcohol or tobacco, which are subject to sin taxes. Another purpose is the internalization of externalities, where the tax is used to account for the social costs of certain activities, such as pollution, as seen with a gas guzzler's tax. Excise taxes can also serve as an approximation for benefit charges, ensuring that those who use or benefit from certain goods or services pay for their associated costs. Additionally, excise taxes can help increase vertical equity by placing a heavier tax burden on luxury goods, which are typically purchased by wealthier individuals. In some cases, they allow the tax burden to be exported to non-residents, particularly with taxes levied on goods used by tourists.
+
+There are several types of excise taxes, including selective taxes that target specific goods or services, sumptuary taxes (or sin taxes) aimed at discouraging consumption of harmful products, benefit-based taxes that are tied to specific services or benefits, and regulatory or environmental taxes designed to influence behavior in favor of better environmental or social outcomes.
+
+Tax Policy Center: [What are the major federal excise taxes, and how much money do they raise?](https://www.taxpolicycenter.org/briefing-book/what-are-major-federal-excise-taxes-and-how-much-money-do-they-raise)
+
+## Selective Excise Taxes
+Luxury tax
+
+- Redistribution of government cost to high-income individuals and households
+
+Example: [Luxury and Fuel-Inefficient Vehicle Surcharge](https://www.nj.gov/treasury/taxation/luxury.shtml) in New Jersey
+
+- *"The NJ Motor Vehicle Commission (MVC) imposes a one-time 0.4% Luxury and Fuel-Inefficient Vehicle Surcharge on ownership of new passenger automobiles with a sales price or lease price of at least $45,000, or a fuel efficiency rating of less than 19 miles per gallon. The NJ Division of Taxation does not administer this fee. Dealers are to file and pay the fee to MVC on a quarterly basis through the Division of Revenue and Enterprise Services."*
+
+Federal level: Omnibus Budget Reconciliation Act of 1990 (since repealed)
+
+- Luxury tax on planes, yachts, furs, and jewelry
+
+## Sumptuary Excise Taxes (Sin Taxes)
+Discourages excess consumption of items thought to be unhealthy or unsafe for consumers and/or the public
+
+- Most common: Taxes on tobacco and alcohol
+
+Inelastic demand (in general)
+
+- New York Times: [To Reduce the Cost of Teenage Temptation, Why Not Just Raise the Price of Sin?](https://www.nytimes.com/2005/07/25/business/to-reduce-the-cost-of-teenage-temptation-why-not-just-raise-the.html)
+
+Tax Foundation: [How Hard Do Distilled Spirits Taxes Bite in Your State?](https://taxfoundation.org/data/all/state/state-distilled-spirits-taxes-2023/)
+
+Benefit-based excise taxes are charges associated with a public good, designed to finance and maintain that good. They essentially represent the price paid for access to or usage of a public service. A common example is fuel taxes, which fund the Highway Trust Fund through federal gasoline and diesel taxes. In this system, the more an individual uses the public good (in this case, the highways), the more tax revenue is generated. Fuel taxes also offer a cost-efficient means of administration and collection compared to alternatives like tolls.
+
+However, there are issues with fuel taxes. These taxes are often set at a specific dollar amount per gallon and are not indexed to inflation, which can erode their value over time and reduce their effectiveness as a funding mechanism.
+
+Regulatory or environmental excises aim to internalize the externalities imposed on society, such as pollution. By imposing these taxes, governments seek to raise awareness among buyers and sellers of the social costs associated with certain behaviors or goods. An example of this is the gas guzzler tax, which discourages the purchase of fuel-inefficient vehicles. These taxes can also promote the improvement of resource-use efficiency, encouraging more environmentally sustainable practices.
+
+## Sales Tax Evaluation
+The evaluation of sales taxes can be approached using three main criteria: efficiency, equity, and adequacy.
+
+In terms of efficiency, it is important to assess which economic decisions will be changed or distorted by the tax and the magnitude of these distortions. One major issue is the distortion of relative prices, where the availability of substitutes for taxed goods can lead producers and consumers to favor low- or no-tax items. In cases of negative externalities, taxes can restore efficiency by internalizing the external costs. For general sales taxes, the tax incidence on consumers or producers depends on the elasticity of supply and demand. When it comes to excise taxes, the burden on consumers is greater when there are few substitutes for the taxed item, whereas the burden shifts toward producers if there are readily available substitutes.
+
+Regarding equity, general sales taxes tend to be regressive because low-income households spend a larger portion of their income on consumption items. This means they bear a relatively higher burden, though exemptions for necessities like food or energy can help address this issue. For excise taxes, there are also concerns about vertical equity, as low-income households spend a higher percentage of their income on goods like energy, cigarettes, and alcohol. However, some excise taxes, such as gasoline taxes, may be justified under the benefits principle, where users of certain public goods, such as roads, are taxed in proportion to their use.
+
+In terms of adequacy, general sales taxes can generate significant revenue, but the effectiveness of this is often undermined by exemptions, which reduce the overall tax base and limit revenue-raising capacity at reasonable rates. For excise taxes, the ability to raise revenue also depends on the availability of substitutes and the overall demand for the taxed goods.
+
+For further details on who bears the burden of federal excise taxes, the Tax Policy Center provides valuable insights.
+
+- [Who bears the burden of federal excise taxes?](https://www.taxpolicycenter.org/briefing-book/who-bears-burden-federal-excise-taxes)
 
 ## Exercises
 

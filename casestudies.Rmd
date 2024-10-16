@@ -25,7 +25,7 @@ The three founders asked you to keep the budget flexible to assess the effects o
 2. Decrease in the number of meals served to 250 due to higher prices and consumers decreasing their restaurant visits. 
 
 ## State Tax Refrom
-You were just elected state governor. The central promise of your election campaign was to reform the state's tax system to make it more progressive. There are ten households in your state and each spends their money on three items: Gasoline, food, and other goods. There are large variations of income and spending patterns across the three categories in your state. Let $M$ represent the income of the household. The prices for gasoline, food, and other goods are $P_{GAS}$, $P_{FOOD}$, $P_{OTHER}$, respectively. The quantity demanded (i.e., Q_{GAS}, Q_{Food}, and Q_{OTHER}) of each households depends on the demand parameters $\alpha_{GAS}$, $\alpha_{FOOD}$, and $\alpha_{OTHER}$. The demand functions can be written as follows.
+You were just elected state governor. The central promise of your election campaign was to reform the state's tax system to make it more progressive. There are ten households in your state and each spends their money on three items: Gasoline, food, and other goods. There are large variations of income and spending patterns across the three categories in your state. Let $M$ represent the income of the household. The prices for gasoline, food, and other goods are $P_{GAS}$, $P_{FOOD}$, $P_{OTHER}$, respectively. The quantity demanded (i.e., $Q_{GAS}$, $Q_{Food}$, and $Q_{OTHER}$) of each households depends on the demand parameters $\alpha_{GAS}$, $\alpha_{FOOD}$, and $\alpha_{OTHER}$. The demand functions can be written as follows.
 $$Q_{GAS}=\frac{\alpha_{GAS}}{\alpha_{GAS}+\alpha_{FOOD}+\alpha_{OTHER}}\cdot \frac{M}{P_{GAS}}$$
 $$Q_{FOOD}=\frac{\alpha_{FOOD}}{\alpha_{GAS}+\alpha_{FOOD}+\alpha_{OTHER}}\cdot \frac{M}{P_{FOOD}}$$
 $$Q_{OTHER}=\frac{\alpha_{OTHER}}{\alpha_{GAS}+\alpha_{FOOD}+\alpha_{OTHER}}\cdot \frac{M}{P_{OTHER}}$$
@@ -47,6 +47,3 @@ There are certain constraints associated with all those scenarios.
 - The revenue generated across all four tax revenue streams cannot decrease. That is, the state is providing services that are paid for by the tax revenue. 
 
 Since you are a politician and are already thinking about re-election, the case study should include the number of people who are better and worse off under the various regimes. The write-up of the case study should evaluate the baseline and three scenarios in terms of progressiveness of the tax as well as impact on the households compared to the baseline. Evaluate the advantages and disadvantages of all scenarios.
-
-
-
