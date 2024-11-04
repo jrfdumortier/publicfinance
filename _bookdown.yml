@@ -7,7 +7,7 @@ rmd_files: ["index.rmd","introduction.rmd","basicbudgetpreparation.rmd",
             "budgetingunitedstates.rmd","budgetmethodsformat.rmd",
             "costaccountinganalysis.rmd","capitalbudgeting.rmd",
             "governmentrevenue.rmd","incometaxes.rmd","consumptiontaxes.rmd",
-            "propertytaxes.rmd","casestudies.rmd"]
+            "propertytaxes.rmd","otherrevenuesources.rmd","casestudies.rmd"]
 language:
   ui:
     chapter_name: ""

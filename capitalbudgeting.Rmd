@@ -8,7 +8,7 @@ Capital budgeting is the planning process for the acquisition of large capital a
 4. Net present value
 5. Cost benefit analysis
 
-There are also a YouTube [video](https://youtu.be/aC51T8UI-Cw?si=9UMkqwM6DmwmJRQA) and [slides](https://github.com/jrfdumortier/slidespublicfinance/blob/main/CapitalBudgeting.pdf) associated with this chapter
+There are also a YouTube [video](https://youtu.be/aC51T8UI-Cw?si=9UMkqwM6DmwmJRQA) and [slides](https://github.com/jrfdumortier/slidespublicfinance/blob/main/CapitalBudgeting.pdf) associated with this chapter.
 
 ## Capital Assets and Expenditures
 From an economic viewpoint, capital assets have a useful life of more than one year whereas from an accounting perspective, capital assets have a purchase price above a certain dollar amount. Capital assets are inputs in the production process of private goods (e.g., manufacturing facility) and public goods (e.g., schools, hospitals, fire stations, infrastructure). 

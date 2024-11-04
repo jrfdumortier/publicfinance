@@ -4,18 +4,18 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>12.2 State Tax Refrom | Public Finance</title>
-  <meta name="description" content="12.2 State Tax Refrom | Public Finance" />
+  <title>13.2 State Tax Refrom | Public Finance</title>
+  <meta name="description" content="13.2 State Tax Refrom | Public Finance" />
   <meta name="generator" content="bookdown 0.40 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="12.2 State Tax Refrom | Public Finance" />
+  <meta property="og:title" content="13.2 State Tax Refrom | Public Finance" />
   <meta property="og:type" content="book" />
   
   
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="12.2 State Tax Refrom | Public Finance" />
+  <meta name="twitter:title" content="13.2 State Tax Refrom | Public Finance" />
   
   
   
@@ -23,7 +23,7 @@
 <meta name="author" content="Jerome Dumortier" />
 
 
-<meta name="date" content="2024-10-16" />
+<meta name="date" content="2024-11-04" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -228,10 +228,20 @@
 <li class="chapter" data-level="11.6" data-path="evaluation-criteria.html"><a href="evaluation-criteria.html"><i class="fa fa-check"></i><b>11.6</b> Evaluation Criteria</a></li>
 <li class="chapter" data-level="11.7" data-path="exercises-9.html"><a href="exercises-9.html"><i class="fa fa-check"></i><b>11.7</b> Exercises</a></li>
 </ul></li>
-<li class="chapter" data-level="12" data-path="case-studies.html"><a href="case-studies.html"><i class="fa fa-check"></i><b>12</b> Case Studies</a>
+<li class="chapter" data-level="12" data-path="other-revenue-sources.html"><a href="other-revenue-sources.html"><i class="fa fa-check"></i><b>12</b> Other Revenue Sources</a>
 <ul>
-<li class="chapter" data-level="12.1" data-path="farm-to-table-4-all.html"><a href="farm-to-table-4-all.html"><i class="fa fa-check"></i><b>12.1</b> Farm-to-Table 4 All</a></li>
-<li class="chapter" data-level="12.2" data-path="state-tax-refrom.html"><a href="state-tax-refrom.html"><i class="fa fa-check"></i><b>12.2</b> State Tax Refrom</a></li>
+<li class="chapter" data-level="12.1" data-path="user-charges.html"><a href="user-charges.html"><i class="fa fa-check"></i><b>12.1</b> User Charges</a></li>
+<li class="chapter" data-level="12.2" data-path="design-considerations-for-user-charges.html"><a href="design-considerations-for-user-charges.html"><i class="fa fa-check"></i><b>12.2</b> Design Considerations for User Charges</a>
+<ul>
+<li class="chapter" data-level="12.2.1" data-path="design-considerations-for-user-charges.html"><a href="design-considerations-for-user-charges.html#price-discrimination-and-user-charges"><i class="fa fa-check"></i><b>12.2.1</b> Price Discrimination and User Charges</a></li>
+</ul></li>
+<li class="chapter" data-level="12.3" data-path="evaluation-of-user-charges.html"><a href="evaluation-of-user-charges.html"><i class="fa fa-check"></i><b>12.3</b> Evaluation of User Charges</a></li>
+<li class="chapter" data-level="12.4" data-path="license-fees.html"><a href="license-fees.html"><i class="fa fa-check"></i><b>12.4</b> License Fees</a></li>
+</ul></li>
+<li class="chapter" data-level="13" data-path="case-studies.html"><a href="case-studies.html"><i class="fa fa-check"></i><b>13</b> Case Studies</a>
+<ul>
+<li class="chapter" data-level="13.1" data-path="farm-to-table-4-all.html"><a href="farm-to-table-4-all.html"><i class="fa fa-check"></i><b>13.1</b> Farm-to-Table 4 All</a></li>
+<li class="chapter" data-level="13.2" data-path="state-tax-refrom.html"><a href="state-tax-refrom.html"><i class="fa fa-check"></i><b>13.2</b> State Tax Refrom</a></li>
 </ul></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
@@ -252,8 +262,8 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="state-tax-refrom" class="section level2 hasAnchor" number="12.2">
-<h2><span class="header-section-number">12.2</span> State Tax Refrom<a href="state-tax-refrom.html#state-tax-refrom" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="state-tax-refrom" class="section level2 hasAnchor" number="13.2">
+<h2><span class="header-section-number">13.2</span> State Tax Refrom<a href="state-tax-refrom.html#state-tax-refrom" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>You were just elected state governor. The central promise of your election campaign was to reform the state’s tax system to make it more progressive. There are ten households in your state and each spends their money on three items: Gasoline, food, and other goods. There are large variations of income and spending patterns across the three categories in your state. Let <span class="math inline">\(M\)</span> represent the income of the household. The prices for gasoline, food, and other goods are <span class="math inline">\(P_{GAS}\)</span>, <span class="math inline">\(P_{FOOD}\)</span>, <span class="math inline">\(P_{OTHER}\)</span>, respectively. The quantity demanded (i.e., <span class="math inline">\(Q_{GAS}\)</span>, <span class="math inline">\(Q_{Food}\)</span>, and <span class="math inline">\(Q_{OTHER}\)</span>) of each households depends on the demand parameters <span class="math inline">\(\alpha_{GAS}\)</span>, <span class="math inline">\(\alpha_{FOOD}\)</span>, and <span class="math inline">\(\alpha_{OTHER}\)</span>. The demand functions can be written as follows.
 <span class="math display">\[Q_{GAS}=\frac{\alpha_{GAS}}{\alpha_{GAS}+\alpha_{FOOD}+\alpha_{OTHER}}\cdot \frac{M}{P_{GAS}}\]</span>
 <span class="math display">\[Q_{FOOD}=\frac{\alpha_{FOOD}}{\alpha_{GAS}+\alpha_{FOOD}+\alpha_{OTHER}}\cdot \frac{M}{P_{FOOD}}\]</span>
