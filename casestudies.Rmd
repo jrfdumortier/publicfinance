@@ -59,6 +59,6 @@ Your scenarios and deliverables are as follows:
 2. Holt's method: Based on the sales tax revenue data, use the Holt's method with baseline parameters of $\alpha=0.3$ and $\beta=0.1$. Include a sensitivity analysis of with respect to those parameters. That is, include two additional forecast in which you (1) decrease and (2) increase both values.
 3. Regression analysis: Based on the sales tax revenue data, the income data, and the coefficients, produce a forecast of the sales tax revenue based on the assumption that income rises by 2\%, 3\%, and 5\% annually.
 
-Produce a table which concisely tabulates the forecasted values given the different methods and scenarios. You should also include a write-up explaining the difference and why one method may be preferred over the others given your data. 
+Produce a table which concisely tabulates the forecasted values given the different methods and scenarios. You should also include a write-up explaining the difference and why one method may be preferred over the others given your data. Your report should also include the a graph showing the historical data and the forecast for each method, preferrably in the same plot.
 
 And lastly, compare your forecast to the actual general sales tax revenue, which are included in the files. How do your forecasts compare to the actual data?
