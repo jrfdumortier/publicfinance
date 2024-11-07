@@ -4,18 +4,18 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>2.5 Role of Government in the Economy | Public Finance</title>
-  <meta name="description" content="2.5 Role of Government in the Economy | Public Finance" />
+  <title>13.3 Sales Tax Forecasting | Public Finance</title>
+  <meta name="description" content="13.3 Sales Tax Forecasting | Public Finance" />
   <meta name="generator" content="bookdown 0.40 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="2.5 Role of Government in the Economy | Public Finance" />
+  <meta property="og:title" content="13.3 Sales Tax Forecasting | Public Finance" />
   <meta property="og:type" content="book" />
   
   
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="2.5 Role of Government in the Economy | Public Finance" />
+  <meta name="twitter:title" content="13.3 Sales Tax Forecasting | Public Finance" />
   
   
   
@@ -30,8 +30,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="efficiency.html"/>
-<link rel="next" href="methods-of-government-intervention.html"/>
+<link rel="prev" href="state-tax-refrom.html"/>
+
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -263,106 +263,29 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="role-of-government-in-the-economy" class="section level2 hasAnchor" number="2.5">
-<h2><span class="header-section-number">2.5</span> Role of Government in the Economy<a href="role-of-government-in-the-economy.html#role-of-government-in-the-economy" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>Public finance is concerned with the role of government in the economy. The field addresses questions such as the following:</p>
-<ul>
-<li>Why and how do governments intervene in the economy?</li>
-<li>What are the economic effects of government intervention?</li>
-</ul>
-<p>Before the next sections cover the answers to those question, we cover the difference between positive and normative economics. Positive economics is the objective analysis of economic outcomes (e.g., the effect of increasing interest rates on the number of mortgage applications). Normative economics includes value judgements of what should be done (e.g., evaluation of various policies to increase education spending to make society better off). Positive economics can inform normative economics. Of course, the boundaries between both concepts are not always clear cut because even positive economics may include some value judgement given the assumptions made. In public finance and public management economics, we often need to make value judgements in an attempt to make society better off.</p>
-<p>Below, we are covering three reasons why governments intervene in the economy:</p>
+<div id="sales-tax-forecasting" class="section level2 hasAnchor" number="13.3">
+<h2><span class="header-section-number">13.3</span> Sales Tax Forecasting<a href="sales-tax-forecasting.html#sales-tax-forecasting" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>It is 2019 and you are working for the state budget agency. Your task is to forecast the general sales tax revenue over the next three year, i.e., 2020–2022. You will be using the historic “General Sales Tax” data from 2001–2019 available in the file <a href="https://github.com/jrfdumortier/publicfinance/blob/main/StateTaxCollection.csv">State Tax Collection</a>. The agency head asked you to produce multiple forecasts using three different methods: (1) Linear trend, (2) Holt’s method, and (3) Simple linear regression based on <a href="https://github.com/jrfdumortier/publicfinance/blob/main/TotalPersonalIncome.csv">total personal income</a> taken from FRED (e.g., <a href="https://fred.stlouisfed.org/series/INOTOT">Total Personal Income in Indiana</a>). The linear regression model is written as follows:
+<span class="math display">\[Revenue = \beta_0 + \beta_1 \cdot Income\]</span>
+A colleague of yours was kind enough to run the simple regression model and made the coefficients for <span class="math inline">\(\beta_0\)</span> and <span class="math inline">\(\beta_1\)</span> available in the file <a href="https://github.com/jrfdumortier/publicfinance/blob/main/salesforecast.csv">salesforecast.csv</a>. For all the analysis, you are going to use nominal values.</p>
+<p>Your scenarios and deliverables are as follows:</p>
 <ol style="list-style-type: decimal">
-<li>Market failures</li>
-<li>Economic stabilization</li>
-<li>Redistribution</li>
+<li>Liner trend forecast: Based on the sales tax revenue data, produce a simple linear trend forecast based on the data 2001–2019.</li>
+<li>Holt’s method: Based on the sales tax revenue data, use the Holt’s method with baseline parameters of <span class="math inline">\(\alpha=0.3\)</span> and <span class="math inline">\(\beta=0.1\)</span>. Include a sensitivity analysis of with respect to those parameters. That is, include two additional forecast in which you (1) decrease and (2) increase both values.</li>
+<li>Regression analysis: Based on the sales tax revenue data, the income data, and the coefficients, produce a forecast of the sales tax revenue based on the assumption that income rises by 2%, 3%, and 5% annually.</li>
 </ol>
-<div id="market-failures" class="section level3 hasAnchor" number="2.5.1">
-<h3><span class="header-section-number">2.5.1</span> Market Failures<a href="role-of-government-in-the-economy.html#market-failures" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>The First Theorem of Welfare Economics can be considered the theoretical basis for the intervention of government in the economy:</p>
-<blockquote>
-<p>If (1) households and firms act perfectly competitively, taking prices as given, (2) there is a full set of markets, and (3) there is perfect information, then a competitive equilibrium is efficient.</p>
-</blockquote>
-<p>The implications of the First Welfare Theorem are that Pareto efficiency can be achieved in a competitive market. A competitive market is usually the benchmark to judge actual market outcomes. The First Welfare Theorem requires the absence of market imperfections such as (1) public goods, (2) externalities, (3) imperfect competition, and (4) asymmetric information. Note that the term “public” refers to a characteristic of a good and not the provider.</p>
-<p>Some characteristics of a perfectly competitive market are that (1) there are many producers and many consumers, (2) free entry and exit into the market exists, and (3) market participants are engaging in price-taking behavior. The price-taking behavior is a direct result of many producers and many consumers. That is, each market participant is aware that no matter what quantity of the product they supply or demand at the individual level, the price does not change. Market imperfections and failures exist and lead to an inefficient allocation of societal resources.</p>
-<p><strong>Public Goods</strong>: As mentioned before, “public” is a reference to characteristics and not the provider of the good. The distinction between various types of goods (e.g., public good versus private good) can be conducted along two dimensions:</p>
-<ul>
-<li><em>Rivalry</em>: Overall consumption of the good is affected by individual consumption.</li>
-<li><em>Excludability</em>: Ability (or lack thereof) to exclude people from consuming the good.</li>
-</ul>
-<p>Consider the following table to distinguish four types of goods along those two dimensions.</p>
-<table>
-<thead>
-<tr class="header">
-<th></th>
-<th align="center">Rival</th>
-<th align="center">Non-Rival</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>Excludable</strong></td>
-<td align="center">Private good</td>
-<td align="center">Club good</td>
-</tr>
-<tr class="even">
-<td><strong>Non-Excludable</strong></td>
-<td align="center">Common good</td>
-<td align="center">Public good</td>
-</tr>
-</tbody>
-</table>
-<p>Here are some examples of the various types of goods</p>
-<ul>
-<li><em>Private goods</em>: Sandwiches, laptops, etc.</li>
-<li><em>Club goods</em> (also known as <em>toll goods</em>): Movies in theaters, toll roads, concerts, etc.</li>
-<li><em>Common goods</em> (also known as <em>common pool resources</em>): Aquifers, fishing grounds, petroleum reserves, etc.</li>
-<li><em>Public goods</em>: National defense, mosquito abatement, pollution control, disease control, lighthouses, GPS, etc.</li>
-</ul>
-<p>Club goods and public goods are under-produced and common goods are over-consumed. The marginal (additional) cost to provide a public good to one more person is zero.</p>
-<p><strong>Externalities</strong>: An externality is a positive or negative effect resulting from a person’s (or entity’s) action without them receiving any compensation or incurring any cost. The distinction is made between a positive and negative externality:</p>
-<ul>
-<li><em>Positive externality</em>: Production of uncompensated benefits received by others (e.g., landscaping, beekeeping, university, research and development). Goods that generate a positive externality are under-produced.</li>
-<li><em>Negative externality</em>: Production of uncompensated cost borne by others (e.g., Gulf of Mexico Hypoxic Zone, cigarettes). Goods that generate a negative externality are over-produced.</li>
-</ul>
-<p>We can examine the history of firefighting to see how a negative externality led to the development of public fire services. A century back, homes purchased (or not) fire insurance from companies. The house was then marked with a mark showing the insurance company. If a house was on fire, the fire services sent had to match the insurance company. That is, if your uninsured neighbor’s house was burning, fire services would not arrive for them.</p>
-<p>There are also pecuniary externalities, which are the result of actions by market participants having an effect on market prices. For example, a sudden increase in home purchases increases the market price making it more expensive for other consumers. But it is also more profitable for homeowners selling and under complete markets, there is a net zero effect. Hence, pecuniary externalities are not considered (from an economic perspective) problematic.</p>
-<p><strong>Imperfect Competition</strong>: The requirements of the First Welfare Theorem regarding perfect competition are many producers and many consumers, free entry and exit into the market, and price-taking behavior. Market structures for which those conditions are violated suffer from an efficiency loss. Those market structures are either a monopoly (one producer) or oligopoly (small number of producers). Market inefficiencies also exist when the number of consumers is small or singular. In that case, the terms oligopsony and monopsony are used. Underproduction of goods occurs in the context of imperfect competition.</p>
-<p><strong>Other Market Failures</strong>: Two other types of market failures are asymmetric information and adverse selection. Asymmetric information refers to a situation in which one party in an interaction (e.g., contract, transaction) has more or better information than the other party. The most common example is the purchase of a used car. In this case, the seller has more information than the buyer. The buyer having more information of the seller can also occur for example in the case of obtaining health insurance. Adverse selection leads to market participation based on asymmetric information (e.g., skydivers purchasing more insurance, bad drivers choosing a lower deductible).</p>
-<p>Moral hazard refers to a change in risk engagement due to presence of insurance. For example, the presence of (subsidized) flood insurance may decrease the hesitation to move to a flood prone area. The premium for federal flood insurance is about 38% of what it should be in a competitive market.</p>
-<p>Two following motivations of governments to intervene in the economy are covered in the next sections:</p>
-<ul>
-<li><strong>Economic stabilization:</strong> Insuring economic growth as well as preventing high unemployment and inflation</li>
-<li><strong>Redistribution:</strong> Transfer payments to ensure a minimum standard of living for all members of society</li>
-</ul>
+<p>Produce a table which concisely tabulates the forecasted values given the different methods and scenarios. You should also include a write-up explaining the difference and why one method may be preferred over the others given your data.</p>
+<p>And lastly, compare your forecast to the actual general sales tax revenue, which are included in the files. How do your forecasts compare to the actual data?</p>
+
 </div>
-<div id="economic-stabilization" class="section level3 hasAnchor" number="2.5.2">
-<h3><span class="header-section-number">2.5.2</span> Economic Stabilization<a href="role-of-government-in-the-economy.html#economic-stabilization" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>A critical function of the government is to stabilize the economy and ensure a low and stable inflation rate as well as low unemployment rate. There are two types of interventions:</p>
-<ul>
-<li><em>Monetary policy</em>: Monetary policy such as setting the interest rate is conducted by the central bank.</li>
-<li><em>Fiscal policy</em>: Fiscal policy—which is one aspect of this book—includes determining taxes and expenditures. It includes the redistribution of income through transfer payments from one entity to another, such as social security or unemployment benefits. Fiscal policy also involves levying taxes on income, corporate profits, and specific items like tobacco and alcohol. These so-called “sin” taxes are designed to alter consumption patterns and reduce the consumption of products resulting in negative externalities.</li>
-</ul>
-<p>No matter what policy intervention is chosen, there is usually a time lag between implementation and policy effects.</p>
-</div>
-<div id="redistribution" class="section level3 hasAnchor" number="2.5.3">
-<h3><span class="header-section-number">2.5.3</span> Redistribution<a href="role-of-government-in-the-economy.html#redistribution" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>The General Social Survey (GSS) in 2022 asked the following question:</p>
-<blockquote>
-<p>We are faced with many problems in this country, none of which can be solved easily or inexpensively. I’m going to name some of these problems, and for each one I’d like you to name some of these problems, and for each one I’d like you to tell me whether you think we’re spending too much money on it, too little money, or about the right amount. Are we spending too much, too little, or about the right amount on welfare?</p>
-</blockquote>
-<p>Respondent were split on the question with answers of “too little” (34.2%), “about right” (34.7%), and “too much” (31.1%). However the range of answers indicate that some redistribution is desired.</p>
-<p>In a market economy, income is distributed to individuals based on their ownership of valuable resources, such as property, skills, and land. However, this distribution is often unequal, as not everyone has equal access to these resources. This creates a motivation for redistribution, driven by both social conscience and the fear of social disorder. Societies may feel a moral obligation to support those with fewer resources, and there is also a practical concern that extreme inequality could lead to instability.</p>
-<p>To address these issues, governments implement income redistribution policies to improve the standard of living for low-income individuals and households. This is typically achieved through progressive taxes, where those with higher incomes pay a larger percentage of their earnings, and through transfer programs that provide financial assistance to those in need. These measures aim to create a more equitable society by reducing the disparities in income and wealth.</p>
-</div>
-</div>
+<!-- </div> -->
             </section>
 
           </div>
         </div>
       </div>
-<a href="efficiency.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="methods-of-government-intervention.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="state-tax-refrom.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -393,7 +316,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/jrfdumortier/publicfinance/edit/main/introduction.rmd",
+"link": "https://github.com/jrfdumortier/publicfinance/edit/main/casestudies.rmd",
 "text": "Edit"
 },
 "history": {
@@ -401,7 +324,7 @@ gitbook.start({
 "text": null
 },
 "view": {
-"link": "https://github.com/jrfdumortier/publicfinance/blob/main/introduction.rmd",
+"link": "https://github.com/jrfdumortier/publicfinance/blob/main/casestudies.rmd",
 "text": null
 },
 "download": null,

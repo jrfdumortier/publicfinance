@@ -47,3 +47,18 @@ There are certain constraints associated with all those scenarios.
 - The revenue generated across all four tax revenue streams cannot decrease. That is, the state is providing services that are paid for by the tax revenue. 
 
 Since you are a politician and are already thinking about re-election, the case study should include the number of people who are better and worse off under the various regimes. The write-up of the case study should evaluate the baseline and three scenarios in terms of progressiveness of the tax as well as impact on the households compared to the baseline. Evaluate the advantages and disadvantages of all scenarios.
+
+## Sales Tax Forecasting
+It is 2019 and you are working for the state budget agency. Your task is to forecast the general sales tax revenue over the next three year, i.e., 2020--2022. You will be using the historic "General Sales Tax" data from 2001--2019 available in the file [State Tax Collection](https://github.com/jrfdumortier/publicfinance/blob/main/StateTaxCollection.csv). The agency head asked you to produce multiple forecasts using three different methods: (1) Linear trend, (2) Holt's method, and (3) Simple linear regression based on [total personal income](https://github.com/jrfdumortier/publicfinance/blob/main/TotalPersonalIncome.csv) taken from FRED (e.g., [Total Personal Income in Indiana](https://fred.stlouisfed.org/series/INOTOT)). The linear regression model is written as follows:
+$$Revenue = \beta_0 + \beta_1 \cdot Income$$
+A colleague of yours was kind enough to run the simple regression model and made the coefficients for $\beta_0$ and $\beta_1$ available in the file [salesforecast.csv](https://github.com/jrfdumortier/publicfinance/blob/main/salesforecast.csv). For all the analysis, you are going to use nominal values.
+
+Your scenarios and deliverables are as follows:
+
+1. Liner trend forecast: Based on the sales tax revenue data, produce a simple linear trend forecast based on the data 2001--2019. 
+2. Holt's method: Based on the sales tax revenue data, use the Holt's method with baseline parameters of $\alpha=0.3$ and $\beta=0.1$. Include a sensitivity analysis of with respect to those parameters. That is, include two additional forecast in which you (1) decrease and (2) increase both values.
+3. Regression analysis: Based on the sales tax revenue data, the income data, and the coefficients, produce a forecast of the sales tax revenue based on the assumption that income rises by 2\%, 3\%, and 5\% annually.
+
+Produce a table which concisely tabulates the forecasted values given the different methods and scenarios. You should also include a write-up explaining the difference and why one method may be preferred over the others given your data. 
+
+And lastly, compare your forecast to the actual general sales tax revenue, which are included in the files. How do your forecasts compare to the actual data?
