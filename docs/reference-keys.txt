@@ -120,6 +120,7 @@ design-considerations-for-user-charges
 price-discrimination-and-user-charges
 evaluation-of-user-charges
 license-fees
+exercises-10
 case-studies
 farm-to-table-4-all
 state-tax-refrom
