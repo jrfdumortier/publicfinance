@@ -7,8 +7,8 @@ load("D:/Teaching/Public Finance/PFGitHub/PublicFinanceData.RData")
 
 This chapter serves as an introduction to budgeting and public finance. We quantify the size of the U.S. government relative to its economy as well as give an international perspective. We show receipt and expenditure trends in the U.S. by bearing in mind that those numbers change every year and can be impacted by major events such as the COVID-19 pandemic. There are YouTube videos and slides associated with this chapter:
 
-- Introduction to Public Finance: [Video](https://youtu.be/DJgiLuHViOk) and [Slides](https://github.com/jrfdumortier/slidespublicfinance/blob/main/Introduction.pdf)
-- Monetary Values over Time: [Video](https://youtu.be/t2bxcZF4pq4) and [Slides](https://github.com/jrfdumortier/slidespublicfinance/blob/main/TimeValueMoney.pdf)
+- Introduction to Public Finance: [Video](https://youtu.be/DJgiLuHViOk) and [Slides](https://github.com/jrfdumortier/slidespublicfinance/raw/main/IntroductionPublicFinance.pdf)
+- Monetary Values over Time: [Video](https://youtu.be/t2bxcZF4pq4)
 - Role of Government in the Economy: [Video](https://youtu.be/W0R9ZmbHb1I) and [Slides](https://github.com/jrfdumortier/slidespublicfinance/blob/main/RoleGovernment.pdf)
 
 ## Federal Government
